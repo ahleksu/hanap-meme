@@ -178,7 +178,7 @@ After you change notes, or after an upgrade that adds fields, run `npm run inges
 
 ## Optional sources
 
-- `sources.example.yaml` lists Tenor and GIPHY search pages for Pinoy topics (for example `pinoy`, `vice-ganda`, `showtime`, `malupiton`, `marites`). Ingest runs these before the Imgflip API, so `--limit` fills with Philippine memes first. Each image's alt text and filename go to the AI as its source title.
+- `sources.example.yaml` lists about 60 Tenor and GIPHY search pages for Pinoy topics across seasons (Pasko, 13th month pay, walang pasok), commute, money, food, family, love and hugot, showbiz, sports, gaming, and music. Each topic is capped at 5 images. Partisan politics is left out on purpose. Ingest runs these before the Imgflip API, so `--limit` fills with Philippine memes first. Each image's alt text and filename go to the AI as its source title.
 - `data/inbox/` takes your own images. A sidecar `<name>.json` can set `source_url`, `original_author`, `rights_status` (`own` or `unverified`), and descriptions.
 - GIPHY: set `GIPHY_API_KEY` in `.env.local` (free key at developers.giphy.com). Ingest then searches the `giphy.queries` list in `sources.yaml` and keeps GIFs animated.
 
@@ -192,6 +192,7 @@ After you change notes, or after an upgrade that adds fields, run `npm run inges
 - Report has no login, by design: anyone can hide a meme at once. The rate limit uses `x-vercel-forwarded-for` on Vercel. On other hosts, put the app behind a proxy that sets `X-Forwarded-For`.
 - `catalog.json` lists active memes only.
 - The rate limit is in memory per server process.
+- Results show at most 2 memes of the same person or show before others, unless the query names that subject. Browsing with no query uses the same rule.
 - The site uses one dark theme.
 
 ## Troubleshooting

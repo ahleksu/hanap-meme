@@ -138,23 +138,42 @@ async function rerank(query: string, candidates: Meme[], limit: number): Promise
     const byId = new Map(candidates.map((m) => [m.id, m]));
     const ranked = (res.output_parsed?.ids ?? []).map((id) => byId.get(id)).filter((m): m is Meme => !!m);
     if (!ranked.length) return null;
-    // Keep candidates the model dropped at the end so the page is never shorter than cosine alone.
+    // Keep candidates the model dropped at the end, in cosine order, so diversify() can still use them.
     const seen = new Set(ranked.map((m) => m.id));
-    return [...ranked, ...candidates.filter((m) => !seen.has(m.id))].slice(0, limit);
+    return [...ranked, ...candidates.filter((m) => !seen.has(m.id))];
   } catch (e) {
     console.warn("[search] rerank skipped:", (e as Error).message);
     return null;
   }
 }
 
+/**
+ * Keeps one subject from flooding a page: after `perSubject` memes of the same person or show, the rest move to
+ * the end. A query that names the subject (for example "vice ganda") is not capped for that subject.
+ */
+export function diversify(memes: Meme[], query = "", perSubject = 2): Meme[] {
+  const q = tokenize(query).join(" ");
+  const seen = new Map<string, number>();
+  const head: Meme[] = [];
+  const tail: Meme[] = [];
+  for (const m of memes) {
+    const key = m.subjects[0]?.toLowerCase();
+    const named = key && q && tokenize(key).every((t) => q.includes(t));
+    const n = key ? (seen.get(key) ?? 0) + 1 : 0;
+    if (key) seen.set(key, n);
+    (key && !named && n > perSubject ? tail : head).push(m);
+  }
+  return [...head, ...tail];
+}
+
 export async function searchMemes(query: string, limit = 12, opts: { rerank?: boolean } = {}): Promise<SearchResult> {
   const memes = await listActive();
   const q = query.trim();
-  if (!q) return { mode: "keyword", memes: memes.slice(0, limit) };
+  if (!q) return { mode: "keyword", memes: diversify(memes).slice(0, limit) };
 
   const vectors = getEmbeddings(memes.map((m) => m.id));
   const qv = vectors.size ? (await embed([q], 5_000))?.[0] : null;
-  if (!qv) return { mode: "keyword", memes: keywordSearch(q, memes, limit) };
+  if (!qv) return { mode: "keyword", memes: diversify(keywordSearch(q, memes, 50), q).slice(0, limit) };
 
   const top = memes
     .filter((m) => vectors.has(m.id))
@@ -164,7 +183,7 @@ export async function searchMemes(query: string, limit = 12, opts: { rerank?: bo
     .map((x) => x.m);
   if (opts.rerank !== false) {
     const ranked = await rerank(q, top, limit);
-    if (ranked) return { mode: "semantic+rerank", memes: ranked };
+    if (ranked) return { mode: "semantic+rerank", memes: diversify(ranked, q).slice(0, limit) };
   }
-  return { mode: "semantic", memes: top.slice(0, limit) };
+  return { mode: "semantic", memes: diversify(top, q).slice(0, limit) };
 }
