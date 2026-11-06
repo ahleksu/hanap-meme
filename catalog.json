@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T11:01:40.754Z",
-  "count": 77,
+  "generated_at": "2026-11-06T11:21:06.500Z",
+  "count": 156,
   "memes": [
     {
       "id": "08003cfa822e",
@@ -107,6 +107,42 @@
       "language": "en"
     },
     {
+      "id": "09223412c3d4",
+      "width": 244,
+      "height": 154,
+      "source_url": "https://tenor.com/search/baha-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:57.589Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang Minion na naka-goggles ang nakanganga, na may malaking text na “BAHAHAHA.” Pang-react ito kapag sobrang nakakatawa ang joke, may kalokohan sa group chat, o may nakakatawang sablay.",
+      "description_en": "A goggle-wearing Minion has its mouth open, with large text reading “BAHAHAHA.” It works as a reaction to a hilarious joke, group chat antics, or a funny mishap.",
+      "ocr_text": "BAHAHAHA",
+      "tags_emotion": [
+        "tawa",
+        "aliw",
+        "saya",
+        "amused",
+        "laughing"
+      ],
+      "tags_situation": [
+        "group chat",
+        "joke",
+        "kalokohan",
+        "funny reaction",
+        "sablay"
+      ],
+      "subjects": [
+        "Minion"
+      ],
+      "references": [
+        "minions"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "09dd77b5bc0a",
       "width": 1024,
       "height": 1024,
@@ -139,6 +175,110 @@
       ],
       "context_note": "Ang Drake Hotline Bling template ay ginagamit sa memes para ipakita ang “ayaw nito, mas gusto iyon” na comparison.",
       "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "0b4bb4849c17",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/seenzone-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:04.822Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cartoon raccoon ang nakatayong malungkot sa ilalim ng caption na “When she leaves you on read.” Pang-react ito kapag sineenzone ka ng crush o ka-chat at naghihintay ka ng reply.",
+      "description_en": "A cartoon raccoon stands looking sad beneath the caption “When she leaves you on read.” It is used when a crush or someone you are chatting with reads your message but does not reply.",
+      "ocr_text": "When she leaves\nyou on read",
+      "tags_emotion": [
+        "lungkot",
+        "sad",
+        "disappointed",
+        "tampo",
+        "rejected"
+      ],
+      "tags_situation": [
+        "seenzone",
+        "chat",
+        "crush",
+        "waiting for a reply",
+        "ghosting"
+      ],
+      "subjects": [
+        "cartoon raccoon"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "0ccfdb7fe026",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/overtime-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:40.543Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang mukhang badtrip na pink na cartoon character ang nakaupo sa harap ng keyboard, nakasandal ang mukha sa kamay. Bagay ito kapag pagod o inis ka na sa trabaho, lalo na kung overtime na naman.",
+      "description_en": "An annoyed-looking pink cartoon character sits at a keyboard with its face resting on one hand. It fits moments when you're tired or fed up with work, especially when you're doing overtime again.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "badtrip",
+        "inis",
+        "pagod",
+        "annoyed",
+        "tired"
+      ],
+      "tags_situation": [
+        "trabaho",
+        "overtime",
+        "office",
+        "computer",
+        "work stress"
+      ],
+      "subjects": [
+        "pink cartoon character"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "0d5b053558e2",
+      "width": 200,
+      "height": 176,
+      "source_url": "https://tenor.com/search/kilig-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:24.012Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na puting cartoon bear ang namumula at nakatakip ang mga kamay sa bibig habang napapalibutan ng pink hearts. Pang-reaction ito kapag kinikilig sa crush, sweet na chat, o nakakakilig na surprise.",
+      "description_en": "A cute white cartoon bear blushes and holds its paws over its mouth while surrounded by pink hearts. It works as a reaction to a crush, a sweet message, or a romantic surprise.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "kilig",
+        "hiya",
+        "giddy",
+        "love",
+        "shy"
+      ],
+      "tags_situation": [
+        "crush",
+        "sweet na chat",
+        "landian",
+        "romantic surprise",
+        "compliment"
+      ],
+      "subjects": [
+        "Milk and Mocha"
+      ],
+      "references": [
+        "milk and mocha"
+      ],
+      "context_note": "Ang Milk and Mocha bear na pinangalanan sa source filename ay bagay na kilig reaction dahil sa pamumula at mga pusong nakapaligid dito.",
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -209,6 +349,171 @@
       "language": "en"
     },
     {
+      "id": "10acc0561849",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/noche-buena-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:32.628Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang nakangiting cartoon Christmas tree na may candy-cane stripes, green boots, at nakataas na mga kamay, sa ilalim ng text na “Rockin' around.” Pang-share ito ng masayang Christmas vibes habang naghahanda sa Noche Buena o nakikinig sa Christmas songs.",
+      "description_en": "A smiling cartoon Christmas tree with candy-cane stripes, green boots, and raised hands appears beneath the text “Rockin' around.” It works for sharing festive cheer while preparing for Christmas Eve dinner or listening to Christmas songs.",
+      "ocr_text": "Rockin' around",
+      "tags_emotion": [
+        "saya",
+        "masigla",
+        "excited",
+        "festive"
+      ],
+      "tags_situation": [
+        "christmas",
+        "noche buena",
+        "christmas eve",
+        "holiday greetings",
+        "christmas songs"
+      ],
+      "subjects": [
+        "cartoon Christmas tree"
+      ],
+      "references": [
+        "rockin' around the christmas tree"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "12984ca21854",
+      "width": 220,
+      "height": 241,
+      "source_url": "https://tenor.com/search/kanin-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:22.938Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang puting rabbit sa loob ng cage ang may bungkos ng dayami sa bibig habang kumakain. Bagay itong reaction kapag gutom na gutom ka, takam sa pagkain, o ayaw mong magpaistorbo habang kumakain.",
+      "description_en": "A white rabbit inside a cage is eating with a bunch of hay sticking out of its mouth. It works as a reaction when you're very hungry, eager for food, or don't want to be disturbed while eating.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "takam",
+        "content"
+      ],
+      "tags_situation": [
+        "kainan",
+        "snack time",
+        "lunch break",
+        "food cravings"
+      ],
+      "subjects": [
+        "rabbit"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "15cf10e1e71f",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/simbang-gabi-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:12.612Z",
+      "rights_status": "unverified",
+      "description_tl": "Plain na mapusyaw na beige ang larawan, walang nakikitang text, tao, o emoji. Puwede itong pang-reaction sa blanko ang isip o walang masabi, pero walang malinaw na meme context.",
+      "description_en": "The image is a plain pale beige square with no visible text, people, or emoji. It could serve as a reaction to having a blank mind or nothing to say, though no clear meme context is visible.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "blanko",
+        "speechless",
+        "walang gana"
+      ],
+      "tags_situation": [
+        "walang masabi",
+        "blank mind",
+        "loading"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "1705890e126a",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/mrt-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:40.997Z",
+      "rights_status": "unverified",
+      "description_tl": "Makukulay na pixel art ng Philippine scenery na may jeepney, bulkan, city buildings, bandila, at malaking araw. Puwedeng gamitin sa posts tungkol sa Pinoy pride, pagbiyahe, o mainit na araw sa Pilipinas.",
+      "description_en": "Colorful pixel art of Philippine scenery featuring a jeepney, a volcano, city buildings, a flag, and a large sun. It can be used for posts about Filipino pride, commuting, or a hot day in the Philippines.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "proud",
+        "makabayan",
+        "nostalgic",
+        "masaya"
+      ],
+      "tags_situation": [
+        "pilipinas",
+        "commute",
+        "jeepney ride",
+        "mainit na panahon",
+        "pinoy pride"
+      ],
+      "subjects": [
+        "jeepney",
+        "Philippine flag",
+        "volcano",
+        "city skyline"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "17dcf8abb0e0",
+      "width": 418,
+      "height": 498,
+      "source_url": "https://tenor.com/search/halo-halo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:40.053Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng halo-halo sa malinaw na cup, may purple na ube ice cream, makukulay na jelly, at kutsarang sumasalok sa ibabaw. Pang-share kapag nagke-crave ng malamig na merienda o gustong magpalamig sa mainit na araw.",
+      "description_en": "A close-up of halo-halo in a clear cup, topped with purple ube ice cream and colorful jelly, with a spoon scooping from the top. Useful for sharing cravings for a cold snack or wanting to cool down on a hot day.",
+      "ocr_text": "Just a Peek",
+      "tags_emotion": [
+        "takaw",
+        "craving",
+        "excited",
+        "saya"
+      ],
+      "tags_situation": [
+        "halo-halo",
+        "merienda",
+        "mainit na panahon",
+        "summer",
+        "food cravings",
+        "panghimagas"
+      ],
+      "subjects": [
+        "halo-halo"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "en"
+    },
+    {
       "id": "18f39bdccf83",
       "width": 640,
       "height": 682,
@@ -235,6 +540,75 @@
       ],
       "subjects": [],
       "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "1a850b15670b",
+      "width": 220,
+      "height": 392,
+      "source_url": "https://tenor.com/search/halo-halo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:49.517Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang mataas na baso ng halo-halo na may purple na ube ice cream at mga topping sa ibabaw. Pang-share kapag mainit ang panahon, nagke-crave ng malamig na panghimagas, o nagyayayang mag-merienda.",
+      "description_en": "A tall glass of halo-halo topped with purple ube ice cream and other toppings. Useful for sharing cravings for a cold dessert on a hot day or inviting someone out for an afternoon snack.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "craving",
+        "natatakam",
+        "gutom",
+        "excited"
+      ],
+      "tags_situation": [
+        "halo-halo",
+        "merienda",
+        "mainit na panahon",
+        "dessert",
+        "summer"
+      ],
+      "subjects": [
+        "halo-halo",
+        "ube ice cream"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "1a8b78ba291a",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/overtime-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:43.616Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang dilaw na stopwatch na may pulang mukha at TikTok logo sa sulok. Puwedeng gamitin kapag nagmamadali, paubos na ang oras, o kailangan ng extra time sa trabaho o exam.",
+      "description_en": "A yellow stopwatch with a red face and a TikTok logo in the corner. Useful for expressing urgency, running out of time, or needing extra time at work or during an exam.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "nagmamadali",
+        "pressured",
+        "kaba",
+        "anxious"
+      ],
+      "tags_situation": [
+        "overtime",
+        "deadline",
+        "extra time",
+        "exam",
+        "time limit"
+      ],
+      "subjects": [
+        "stopwatch"
+      ],
+      "references": [
+        "tiktok"
+      ],
       "context_note": "",
       "format": "reaction",
       "language": "none"
@@ -276,6 +650,67 @@
       "language": "en"
     },
     {
+      "id": "1dc6c7f1dc87",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/barkada-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:18:57.322Z",
+      "rights_status": "unverified",
+      "description_tl": "Limang cute na blue-and-white cartoon penguin ang magkakadikit na parang barkadang nag-group picture. Bagay ito sa usapang tropa, sama-sama sa lakad, o masayang bonding ng buong squad.",
+      "description_en": "Five cute blue-and-white cartoon penguins huddle together like friends posing for a group picture. It fits chats about friends, group outings, or happy bonding with the whole squad.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "lambing",
+        "affectionate"
+      ],
+      "tags_situation": [
+        "barkada",
+        "group picture",
+        "bonding",
+        "group chat",
+        "lakad"
+      ],
+      "subjects": [
+        "cartoon penguins"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "1f7d5722709a",
+      "width": 220,
+      "height": 189,
+      "source_url": "https://tenor.com/search/hugot-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:16.052Z",
+      "rights_status": "unverified",
+      "description_tl": "Blankong puting image na walang nakikitang text o tao. Puwedeng gamitin bilang reaction sa pagka-blanko o walang masabi.",
+      "description_en": "A blank white image with no visible text or people. It could be used as a reaction to drawing a blank or having nothing to say.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "blanko",
+        "speechless",
+        "tulala"
+      ],
+      "tags_situation": [
+        "walang masabi",
+        "blank reaction",
+        "mental block"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "1fd277b2bc9f",
       "width": 220,
       "height": 159,
@@ -301,6 +736,77 @@
       ],
       "subjects": [],
       "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "1fded98caa0a",
+      "width": 498,
+      "height": 498,
+      "source_url": "https://tenor.com/search/pinoy-food-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:52.856Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang bilog na blue-and-white cartoon penguin na may mangga sa ulo ang napapalibutan ng halo-halo, pancit, at isang bucket ng fried chicken, kasama ang text na “BUSOG!” Gamit ito kapag sobrang busog at satisfied pagkatapos ng handaan o food trip.",
+      "description_en": "A round blue-and-white cartoon penguin with a mango on its head is surrounded by halo-halo, pancit, and a bucket of fried chicken beneath the text “BUSOG!” Use it when feeling stuffed and satisfied after a feast or food trip.",
+      "ocr_text": "BUSOG!\nPENGU ASIA",
+      "tags_emotion": [
+        "busog",
+        "satisfied",
+        "masaya",
+        "happy"
+      ],
+      "tags_situation": [
+        "food trip",
+        "handaan",
+        "kainan",
+        "pagkatapos kumain",
+        "pinoy food"
+      ],
+      "subjects": [
+        "Pengu"
+      ],
+      "references": [
+        "pengu",
+        "pudgy penguins"
+      ],
+      "context_note": "Pinoy food-trip ang tema ng Pengu image na ito, gamit ang “BUSOG!” at mga pagkaing halo-halo, pancit, at fried chicken.",
+      "format": "reaction",
+      "language": "tl"
+    },
+    {
+      "id": "213049679be9",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/noche-buena-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:28.561Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na cartoon penguin na may Christmas wreath, Santa hat, at malaking pulang bow ang may caption na “LET’S GET LIT.” Pang-hype ito sa Christmas party o Noche Buena kapag ready ka nang magsaya at maki-party.",
+      "description_en": "A cute cartoon penguin with a Christmas wreath, Santa hat, and large red bow appears with the caption “LET’S GET LIT.” It fits hyping up a Christmas party or Christmas Eve feast when you’re ready to celebrate.",
+      "ocr_text": "LET’S GET LIT",
+      "tags_emotion": [
+        "excited",
+        "masaya",
+        "festive",
+        "hyped"
+      ],
+      "tags_situation": [
+        "christmas",
+        "pasko",
+        "noche buena",
+        "christmas party",
+        "celebration"
+      ],
+      "subjects": [
+        "cartoon penguin"
+      ],
+      "references": [
+        "let's get lit"
+      ],
       "context_note": "",
       "format": "reaction",
       "language": "en"
@@ -339,6 +845,68 @@
       "language": "none"
     },
     {
+      "id": "24ffb99f873f",
+      "width": 220,
+      "height": 146,
+      "source_url": "https://tenor.com/search/edsa-traffic-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:08.732Z",
+      "rights_status": "unverified",
+      "description_tl": "Night shot ng kalsada sa ilalim ng flyover, may light trails ng mga sasakyan at mga building sa background. Puwedeng gamitin sa memes tungkol sa EDSA traffic, late-night commute, o wish mong lightspeed na lang ang biyahe pauwi.",
+      "description_en": "A nighttime road scene beneath a flyover, with vehicle light trails and buildings in the background. Useful for memes about EDSA traffic, late-night commuting, or wishing the trip home could happen at lightspeed.",
+      "ocr_text": "JV Duque Photography",
+      "tags_emotion": [
+        "pagod",
+        "inip",
+        "impatient",
+        "tired"
+      ],
+      "tags_situation": [
+        "edsa traffic",
+        "night commute",
+        "biyahe pauwi",
+        "long exposure",
+        "city lights"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "25f4c3a20574",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/pinoy-food-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:59.345Z",
+      "rights_status": "unverified",
+      "description_tl": "Kanin sa kawali na hinahalo gamit ang spatula, parang naghahanda ng sinangag. Puwedeng gamitin kapag gutom na, nagluluto ng almusal, o may tirang kanin na gustong i-fried rice.",
+      "description_en": "Rice in a pan is being stirred with a spatula, as if making fried rice. Useful for expressing hunger, cooking breakfast, or turning leftover rice into a meal.",
+      "ocr_text": "MADE IN\nANIMOTICA",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "excited",
+        "pananabik"
+      ],
+      "tags_situation": [
+        "pagluluto",
+        "almusal",
+        "sinangag",
+        "tirang kanin",
+        "fried rice"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "26ada76ec98c",
       "width": 220,
       "height": 197,
@@ -365,6 +933,137 @@
         "kalituhan"
       ],
       "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "2775d26ef069",
+      "width": 182,
+      "height": 200,
+      "source_url": "https://tenor.com/search/pasko-na-naman-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:35.818Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Santa Claus ay nakatalikod nang bahagya katabi ng mga reindeer at sleigh na may dalang mga regalo. Pangbati ito ng Merry Christmas o pang-react kapag Pasko na naman at excited na sa gifts.",
+      "description_en": "Santa Claus stands partly turned away beside reindeer and a sleigh carrying gifts. Use it for Christmas greetings or when Christmas is coming around again and you're excited for presents.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "excited",
+        "tuwa",
+        "festive"
+      ],
+      "tags_situation": [
+        "pasko",
+        "christmas greetings",
+        "bigayan ng regalo",
+        "holiday season"
+      ],
+      "subjects": [
+        "Santa Claus",
+        "reindeer"
+      ],
+      "references": [
+        "santa claus"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "2911f7cae539",
+      "width": 220,
+      "height": 396,
+      "source_url": "https://tenor.com/search/sinigang-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:33.490Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang kaldero ng sabaw na may karne at madahong gulay ang nasa kalan, na may kahoy na sandok. Bagay itong reaction kapag nagke-crave ng sinigang o mainit na sabaw at excited nang kumain.",
+      "description_en": "A pot of soup with meat and leafy greens sits on a stove with a wooden cooking spoon. It works as a reaction when craving sinigang or hot soup and feeling excited to eat.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "excited",
+        "craving"
+      ],
+      "tags_situation": [
+        "sinigang",
+        "lutong bahay",
+        "cooking",
+        "mealtime",
+        "sabaw"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "2ef7911be70e",
+      "width": 220,
+      "height": 123,
+      "source_url": "https://tenor.com/search/mrt-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:35.173Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang puting pampasaherong eroplano ang mababang lumilipad sa maulap na langit, na may mga puno at poste sa ibaba. Puwedeng gamitin sa posts tungkol sa flight, bakasyon, pag-uwi, o gustong lumayo muna.",
+      "description_en": "A white passenger airplane flies low through a cloudy sky, with trees and poles below. It can be used for posts about flights, vacations, coming home, or wanting to get away for a while.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "excited",
+        "sabik",
+        "hopeful",
+        "homesick"
+      ],
+      "tags_situation": [
+        "flight",
+        "bakasyon",
+        "travel",
+        "pag-uwi",
+        "airport"
+      ],
+      "subjects": [
+        "airplane"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "2f7cbe407533",
+      "width": 320,
+      "height": 256,
+      "source_url": "https://tenor.com/search/ofw-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:27.258Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaking naka-white polo at kurbata ang nakanganga at nanlalaki ang mata sa sobrang gulat habang nakaupo sa opisina. Pang-reaction kapag may shocking na balita, unexpected na announcement, o office chismis.",
+      "description_en": "A man in a white shirt and tie sits in an office with his mouth wide open and eyes widened in surprise. Used to react to shocking news, unexpected announcements, or office gossip.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gulat",
+        "shocked",
+        "surprised",
+        "hindi makapaniwala"
+      ],
+      "tags_situation": [
+        "office",
+        "chismis",
+        "unexpected news",
+        "announcement"
+      ],
+      "subjects": [
+        "Chris Pratt"
+      ],
       "references": [],
       "context_note": "",
       "format": "reaction",
@@ -401,6 +1100,42 @@
       ],
       "references": [],
       "context_note": "Naka-label na Vice Ganda ang source filename ng smiling reaction na ito.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "35385abe06ae",
+      "width": 200,
+      "height": 176,
+      "source_url": "https://tenor.com/search/kilig-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:25.108Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang puting cartoon bear ang namumula ang pisngi at nakatakip ang mga kamay sa bibig habang napapalibutan ng pink na puso. Pang-reaction ito kapag kinikilig sa crush, sweet na chat, o lambing ng jowa.",
+      "description_en": "A white cartoon bear blushes and holds its paws over its mouth while surrounded by pink hearts. It's a reaction for feeling giddy over a crush, a sweet message, or affection from a partner.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "kilig",
+        "giddy",
+        "hiya",
+        "shy",
+        "in love"
+      ],
+      "tags_situation": [
+        "crush",
+        "sweet na chat",
+        "lambing",
+        "jowa",
+        "flirting"
+      ],
+      "subjects": [
+        "Milk and Mocha"
+      ],
+      "references": [
+        "milk and mocha"
+      ],
+      "context_note": "",
       "format": "reaction",
       "language": "none"
     },
@@ -476,6 +1211,41 @@
       "language": "en"
     },
     {
+      "id": "395114ec5a9c",
+      "width": 220,
+      "height": 139,
+      "source_url": "https://tenor.com/search/baha-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:58.001Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang Minion na naka-goggles ang may hawak na popcorn, na may text na “BAHAHAHA.” Pang-react ito kapag tawang-tawa ka sa kalokohan o nakikienjoy sa nakakatawang drama.",
+      "description_en": "A Minion wearing goggles holds popcorn beneath the text “BAHAHAHA.” It works as a reaction to hilarious antics or when enjoying amusing drama from the sidelines.",
+      "ocr_text": "BAHAHAHA",
+      "tags_emotion": [
+        "tawang-tawa",
+        "aliw",
+        "amused",
+        "excited"
+      ],
+      "tags_situation": [
+        "kalokohan",
+        "chismisan",
+        "group chat",
+        "panonood ng drama",
+        "funny reaction"
+      ],
+      "subjects": [
+        "Minions"
+      ],
+      "references": [
+        "minions"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "3af337f3ec5d",
       "width": 700,
       "height": 449,
@@ -538,6 +1308,42 @@
       "references": [],
       "context_note": "",
       "format": "quote_card",
+      "language": "none"
+    },
+    {
+      "id": "3c82aad83228",
+      "width": 220,
+      "height": 119,
+      "source_url": "https://tenor.com/search/bagyo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:52.811Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Elmo ay nakataas ang dalawang braso sa ilalim ng madilim na langit na may kidlat, parang dramatic na tinatawag ang bagyo. Pang-react kapag may paparating na bagyo, badtrip ka, o puro chaos na ang araw mo.",
+      "description_en": "Elmo raises both arms beneath a dark sky with lightning, as if dramatically summoning a storm. Use it when a storm is coming, you're frustrated, or your day has turned chaotic.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "badtrip",
+        "frustrated",
+        "gigil",
+        "dramatic"
+      ],
+      "tags_situation": [
+        "bagyo",
+        "ulan",
+        "kidlat",
+        "bad day",
+        "chaos"
+      ],
+      "subjects": [
+        "Elmo"
+      ],
+      "references": [
+        "elmo",
+        "sesame street"
+      ],
+      "context_note": "",
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -607,6 +1413,72 @@
       "language": "none"
     },
     {
+      "id": "40a4983b98f0",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/sweldo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:11.299Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na cartoon bunny na naka-pixel sunglasses at may hawak na perang papel, sa ilalim ng text na “Pay day.” Pang-post kapag sweldo na, may panggastos na ulit, o feeling rich kahit saglit.",
+      "description_en": "A cute cartoon bunny wearing pixel sunglasses holds banknotes beneath the words “Pay day.” Used when payday arrives, there is money to spend again, or you feel rich for a moment.",
+      "ocr_text": "Pay day",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "excited",
+        "angas"
+      ],
+      "tags_situation": [
+        "sweldo",
+        "payday",
+        "sahod",
+        "shopping",
+        "may pera"
+      ],
+      "subjects": [
+        "cartoon bunny"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "413586695f90",
+      "width": 165,
+      "height": 165,
+      "source_url": "https://tenor.com/search/sweldo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:09.785Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cartoon na aso na naka-headphones ang nakatayo sa tabi ng ATM, nakapikit at mukhang nakikiusap habang may malaking “PLEASE” sa taas. Gamit kapag naghihintay ng sweldo o nagmamakaawang sana may laman pa ang ATM account.",
+      "description_en": "A cartoon dog wearing headphones stands beside an ATM, eyes closed and seemingly pleading beneath a large “PLEASE” caption. Use it when waiting for payday or desperately hoping there is still money in your bank account.",
+      "ocr_text": "PLEASE\nINTERNATIONAL\nBANK\n$5,000",
+      "tags_emotion": [
+        "desperado",
+        "umaasa",
+        "worried",
+        "pleading"
+      ],
+      "tags_situation": [
+        "sweldo",
+        "atm",
+        "petsa de peligro",
+        "bank balance",
+        "withdrawal"
+      ],
+      "subjects": [
+        "cartoon dog"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "421b56798db2",
       "width": 581,
       "height": 584,
@@ -637,6 +1509,79 @@
       "context_note": "",
       "format": "reaction",
       "language": "taglish"
+    },
+    {
+      "id": "433fea2fbccd",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/kapuso-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:57.822Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang makintab na rainbow-colored na pusong Kapuso/GMA sa puting background. Puwedeng gamitin bilang reaction ng pagmamahal, suporta, o pagiging proud na Kapuso.",
+      "description_en": "A glossy, rainbow-colored Kapuso/GMA heart appears against a white background. It can be used to express love, support, or pride in being a Kapuso fan.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "pagmamahal",
+        "love",
+        "proud",
+        " saya"
+      ],
+      "tags_situation": [
+        "kapuso fan",
+        "fan support",
+        "panonood ng tv",
+        "pagpapakita ng pagmamahal"
+      ],
+      "subjects": [
+        "GMA",
+        "Kapuso logo"
+      ],
+      "references": [
+        "kapuso",
+        "gma"
+      ],
+      "context_note": "Ang pusong logo ay kaugnay ng GMA at ng Kapuso branding nito.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "44dff1661cf8",
+      "width": 640,
+      "height": 592,
+      "source_url": "https://tenor.com/search/nanay-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:18:16.880Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang basketball player na nakapikit at mukhang naiiyak, may malaking caption na “Nanay !”. Pang-reaction kapag nahihirapan, nasasaktan, o gusto mo nang magsumbong at humingi ng saklolo kay nanay.",
+      "description_en": "A basketball player has his eyes squeezed shut and looks tearful, with the large caption “Nanay !” (“Mom!”). Used when struggling, hurting, or wanting to run to your mom for comfort or help.",
+      "ocr_text": "Nanay !",
+      "tags_emotion": [
+        "naiiyak",
+        "takot",
+        "helpless",
+        "overwhelmed",
+        "lungkot"
+      ],
+      "tags_situation": [
+        "hanap si nanay",
+        "sumbong kay nanay",
+        "nahihirapan",
+        "humihingi ng tulong",
+        "missing mom"
+      ],
+      "subjects": [
+        "LeBron James"
+      ],
+      "references": [
+        "nanay",
+        "nba"
+      ],
+      "context_note": "Ginagamit ang caption na “Nanay!” bilang nakakatawang tawag ng saklolo kapag hindi mo na kaya ang sitwasyon.",
+      "format": "reaction",
+      "language": "tl"
     },
     {
       "id": "46271867d2bf",
@@ -847,6 +1792,75 @@
       "language": "none"
     },
     {
+      "id": "4d601ad52ed5",
+      "width": 220,
+      "height": 238,
+      "source_url": "https://tenor.com/search/pinoy-dad-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:06.978Z",
+      "rights_status": "unverified",
+      "description_tl": "Dalawang lalaki ang nakatayo sa isang kuwarto habang may malaking text na “HAPPY BIRTHDAY DAD!!!!!!!” sa ibaba. Pang-birthday greeting kay tatay o daddy na may nakakatawa at medyo awkward na sitcom vibe.",
+      "description_en": "Two men stand in a room with large text reading “HAPPY BIRTHDAY DAD!!!!!!!” below them. It works as a birthday greeting for a dad with a funny, slightly awkward sitcom vibe.",
+      "ocr_text": "HAPPY\nBIRTHDAY\nDAD!!!!!!!",
+      "tags_emotion": [
+        "masaya",
+        "happy",
+        "excited",
+        "awkward"
+      ],
+      "tags_situation": [
+        "birthday",
+        "birthday ni tatay",
+        "greeting",
+        "family"
+      ],
+      "subjects": [
+        "The Big Bang Theory"
+      ],
+      "references": [
+        "the big bang theory"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "4d6d2c86a938",
+      "width": 220,
+      "height": 179,
+      "source_url": "https://tenor.com/search/ofw-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:34.750Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang blonde na Barbie doll ang nakataas ang dalawang kamay na parang nagugulat, may caption na “OH MY!” Puwedeng reaction sa nakakagulat na balita, unexpected na pangyayari, o hindi makapaniwalang chika.",
+      "description_en": "A blonde Barbie doll raises both hands in surprise, with the caption “OH MY!” Use it to react to shocking news, unexpected events, or unbelievable gossip.",
+      "ocr_text": "OH MY!",
+      "tags_emotion": [
+        "gulat",
+        "surprised",
+        "shocked",
+        "di makapaniwala"
+      ],
+      "tags_situation": [
+        "chika",
+        "unexpected news",
+        "reaction",
+        "plot twist"
+      ],
+      "subjects": [
+        "Barbie"
+      ],
+      "references": [
+        "barbie",
+        "oh my"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "4e6d7026eba1",
       "width": 165,
       "height": 144,
@@ -881,6 +1895,40 @@
       "context_note": "Naka-label ang GIF bilang Vice Ganda sa source at iniuugnay sa Showtime, kaya bagay itong pang-good vibes na dance reaction.",
       "format": "reaction",
       "language": "en"
+    },
+    {
+      "id": "4f85d484bf06",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/simbang-gabi-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:20.978Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na rice cooker mascot na may mukha, kamay, at paa ang may hawak na makulay at maliwanag na parol. Pang-share ito ng Christmas greetings o pang-express ng excited at festive na mood sa Pasko at Simbang Gabi.",
+      "description_en": "A cute rice cooker mascot with a face, arms, and feet holds a colorful, glowing Christmas star lantern. It fits Christmas greetings or an excited, festive mood around Christmas and Simbang Gabi.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "excited",
+        "cheerful"
+      ],
+      "tags_situation": [
+        "pasko",
+        "christmas greetings",
+        "simbang gabi",
+        "parol",
+        "holiday season"
+      ],
+      "subjects": [
+        "rice cooker mascot",
+        "parol"
+      ],
+      "references": [],
+      "context_note": "Ang parol na hawak ng mascot ay simbolo ng Paskong Pinoy, kaya bagay ito sa holiday greetings.",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "52c782339bbf",
@@ -971,6 +2019,67 @@
       ],
       "references": [],
       "context_note": "Nakalabel na Vice Ganda ang GIF sa source, at ang hawak-tiyan na pose at side-eye nito ay bagay sa reaction memes.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "5b87b45b4569",
+      "width": 220,
+      "height": 319,
+      "source_url": "https://tenor.com/search/bagyo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:55.671Z",
+      "rights_status": "unverified",
+      "description_tl": "Madilim na ulap at kidlat sa ibabaw ng tubig, na parang paparating ang malakas na bagyo. Puwedeng gamitin kapag may bagyo, kinakabahan sa paparating na problema, o feeling may gulong mangyayari.",
+      "description_en": "Dark clouds and lightning loom over a body of water, suggesting a powerful approaching storm. Use it for stormy weather, anxiety about an impending problem, or the feeling that trouble is coming.",
+      "ocr_text": "S",
+      "tags_emotion": [
+        "kaba",
+        "takot",
+        "anxious",
+        "dread"
+      ],
+      "tags_situation": [
+        "bagyo",
+        "masamang panahon",
+        "kidlat",
+        "paparating na problema",
+        "storm"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "5caed73e858a",
+      "width": 220,
+      "height": 170,
+      "source_url": "https://tenor.com/search/simbang-gabi-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:19.686Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang greeting image na may punong hitik sa dilaw na bulaklak, dalawang ibon, pulang parol, at Vietnamese na pagbati. Puwedeng gamitin pang-New Year greeting o pang-share ng good vibes at suwerte.",
+      "description_en": "A greeting image featuring a tree covered in yellow blossoms, two birds, a red lantern, and a Vietnamese greeting. It can be used for New Year wishes or to share good vibes and good luck.",
+      "ocr_text": "Chúc mừng năm mới\n[remaining small text illegible]",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "hopeful",
+        "positibo"
+      ],
+      "tags_situation": [
+        "new year",
+        "greeting",
+        "bagong taon",
+        "celebration"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "none"
     },
@@ -1074,6 +2183,39 @@
       "language": "none"
     },
     {
+      "id": "62ff45ac7f73",
+      "width": 165,
+      "height": 165,
+      "source_url": "https://tenor.com/search/kanin-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:25.883Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang maliit na puti at abuhing kuneho na may laylay na tenga ang nakatayo sa likurang mga paa, katabi ng wicker basket. Puwedeng reaction kapag nagpapa-cute, nahihiya, o parang nakikiusap ng pagkain o lambing.",
+      "description_en": "A small white-and-gray rabbit with floppy ears stands on its hind legs beside a wicker basket. It works as a reaction when acting cute, feeling shy, or seemingly asking for food or affection.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "cute",
+        "gigil",
+        "shy",
+        "nahihiya",
+        "lambing"
+      ],
+      "tags_situation": [
+        "nagpapa-cute",
+        "pahingi ng pagkain",
+        "paglalambing",
+        "pet reaction"
+      ],
+      "subjects": [
+        "rabbit"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "6405297936a1",
       "width": 750,
       "height": 750,
@@ -1141,6 +2283,108 @@
         "waiting skeleton"
       ],
       "context_note": "Ang Waiting Skeleton template ay pang-express ng sobrang tagal na paghihintay, na parang naging kalansay ka na.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "695042859906",
+      "width": 220,
+      "height": 183,
+      "source_url": "https://tenor.com/search/kapamilya-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:21:02.089Z",
+      "rights_status": "unverified",
+      "description_tl": "May nakasulat na “Kapamilya Forever” at “#LabanKapamilya,” na napapalibutan ng pula, berde, at asul na hearts. Ginagamit ito para ipakita ang suporta at loyalty sa ABS-CBN at kapwa Kapamilya fans.",
+      "description_en": "The image says “Kapamilya Forever” and “#LabanKapamilya,” surrounded by red, green, and blue hearts. It is used to express support and loyalty to ABS-CBN and fellow Kapamilya fans.",
+      "ocr_text": "Kapamilya\nForever\n#LabanKapamilya",
+      "tags_emotion": [
+        "pagmamahal",
+        "loyalty",
+        "pride",
+        "pag-asa"
+      ],
+      "tags_situation": [
+        "fan support",
+        "kapamilya fandom",
+        "solidarity",
+        "network loyalty"
+      ],
+      "subjects": [
+        "ABS-CBN"
+      ],
+      "references": [
+        "kapamilya forever",
+        "laban kapamilya",
+        "abs-cbn"
+      ],
+      "context_note": "Ang “Kapamilya Forever” at “#LabanKapamilya” ay mga pahayag ng suporta sa ABS-CBN na tampok sa graphic.",
+      "format": "reaction",
+      "language": "taglish"
+    },
+    {
+      "id": "699740081d6c",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/kanin-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:20.861Z",
+      "rights_status": "unverified",
+      "description_tl": "Tatlong cute na cartoon rabbit ang magkakatabi, at mukhang pumapalakpak ang malaking rabbit sa gitna habang may pink na guhit ng excitement. Pang-react ito kapag proud ka sa kaibigan, may good news, o gusto mong mag-cheer ng “yey, congrats!”",
+      "description_en": "Three cute cartoon rabbits stand together, with the large rabbit in the middle appearing to clap amid pink excitement marks. Use it when you're proud of a friend, celebrating good news, or cheering “yay, congrats!”",
+      "ocr_text": "",
+      "tags_emotion": [
+        "tuwa",
+        "happy",
+        "excited",
+        "proud",
+        "gigil"
+      ],
+      "tags_situation": [
+        "congratulations",
+        "good news",
+        "celebration",
+        "cheering",
+        "achievement"
+      ],
+      "subjects": [
+        "cartoon rabbits"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "69e0348a636a",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/petsa-de-peligro-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:23.544Z",
+      "rights_status": "unverified",
+      "description_tl": "Dilaw na triangular warning sign na may itim na forklift icon at maliit na label na “Formación Ninja.” Puwedeng gamitin bilang pabirong babala sa work chat tungkol sa warehouse, pagbubuhat, o pag-iingat sa trabaho.",
+      "description_en": "A yellow triangular warning sign shows a black forklift icon with a small “Formación Ninja” label. It can serve as a playful warning in work chats about warehouses, lifting loads, or staying safe on the job.",
+      "ocr_text": "Formación Ninja",
+      "tags_emotion": [
+        "ingat",
+        "alerto",
+        "cautious"
+      ],
+      "tags_situation": [
+        "warehouse",
+        "trabaho",
+        "forklift",
+        "workplace safety",
+        "pagbubuhat"
+      ],
+      "subjects": [
+        "forklift"
+      ],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "none"
     },
@@ -1214,6 +2458,40 @@
         "popeye",
         "ack ack ack"
       ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "6dbdb9196224",
+      "width": 320,
+      "height": 320,
+      "source_url": "https://tenor.com/search/sweldo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:04.216Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na cartoon penguin na naka-top hat ang nakaupo sa gitna ng tambak na pera at gold coins. Pang-myaman vibes kapag bagong sweldo, may bonus, o nangangarap na yumaman nang walang problema sa gastos.",
+      "description_en": "A cute cartoon penguin wearing a top hat sits amid piles of cash and gold coins. It fits feeling rich on payday, getting a bonus, or dreaming of having money without worrying about expenses.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "satisfied",
+        "excited",
+        "sana all"
+      ],
+      "tags_situation": [
+        "sweldo",
+        "payday",
+        "bonus",
+        "ipon",
+        "pangarap yumaman"
+      ],
+      "subjects": [
+        "cartoon penguin"
+      ],
+      "references": [],
       "context_note": "",
       "format": "reaction",
       "language": "none"
@@ -1362,6 +2640,39 @@
       "language": "none"
     },
     {
+      "id": "70ade38b1426",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/walang-pasok-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:41.301Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang puting aso na may makapal na pekeng kilay at parang nakangising mukha, may caption na “NO SCHOOL.” Pang-reaction sa saya at ginhawa kapag walang pasok o suspended ang klase.",
+      "description_en": "A white dog with thick fake eyebrows and a seemingly grinning face is captioned “NO SCHOOL.” Used to express happiness and relief when there is no school or classes are suspended.",
+      "ocr_text": "NO SCHOOL",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "ginhawa",
+        "relieved",
+        "excited"
+      ],
+      "tags_situation": [
+        "walang pasok",
+        "class suspension",
+        "no school",
+        "school break"
+      ],
+      "subjects": [
+        "dog"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "719f67e241aa",
       "width": 200,
       "height": 129,
@@ -1392,6 +2703,74 @@
       "context_note": "Ang “Pinoy Pride” ay pahayag ng pagmamalaki sa pagiging Pilipino, gaya ng nakasulat sa graphic.",
       "format": "reaction",
       "language": "taglish"
+    },
+    {
+      "id": "7285fce8c1bb",
+      "width": 250,
+      "height": 192,
+      "source_url": "https://tenor.com/search/marupok-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:48.319Z",
+      "rights_status": "unverified",
+      "description_tl": "Kahoy na crate na may malaking “FRAGILE” at “THIS END UP” na marka. Bagay itong reaction kapag marupok ka sa crush, madaling ma-fall, o kailangang ingatan ang feelings mo.",
+      "description_en": "A wooden crate has large “FRAGILE” and “THIS END UP” markings. It works as a reaction when you easily fall for a crush or need your feelings handled with care.",
+      "ocr_text": "THIS END UP ↑\nFRAGILE",
+      "tags_emotion": [
+        "marupok",
+        "vulnerable",
+        "sensitive",
+        "kilig"
+      ],
+      "tags_situation": [
+        "crush",
+        "landian",
+        "madaling ma-fall",
+        "relationships"
+      ],
+      "subjects": [
+        "A Christmas Story"
+      ],
+      "references": [
+        "a christmas story",
+        "marupok"
+      ],
+      "context_note": "Ang “FRAGILE” ay puwedeng basahing “marupok,” na ginagamit sa Pinoy memes para sa madaling ma-fall sa crush.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "764cb5bda5a2",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/overtime-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:43.609Z",
+      "rights_status": "unverified",
+      "description_tl": "Wumawagayway ang bandila ng Pilipinas, na may asul at pulang bahagi at puting tatsulok na may dilaw na araw at mga bituin. Ginagamit ito para magpakita ng Pinoy pride, suporta sa bansa, o pagdiriwang ng Araw ng Kalayaan.",
+      "description_en": "The Philippine flag waves, showing blue and red bands and a white triangle with a yellow sun and stars. It is used to express Filipino pride, support for the country, or celebration of Independence Day.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "proud",
+        "pagmamalaki",
+        "makabayan",
+        "patriotic"
+      ],
+      "tags_situation": [
+        "araw ng kalayaan",
+        "independence day",
+        "pinoy pride",
+        "national celebration",
+        "suporta sa pilipinas"
+      ],
+      "subjects": [
+        "Philippine flag"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "none"
     },
     {
       "id": "77b8402ccfe0",
@@ -1563,6 +2942,238 @@
       "language": "en"
     },
     {
+      "id": "7fd3b9a47f12",
+      "width": 220,
+      "height": 215,
+      "source_url": "https://tenor.com/search/ofw-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:30.553Z",
+      "rights_status": "unverified",
+      "description_tl": "Welcome graphic sa black background na may dilaw na bilog at disenyong globo para sa SG OFW Tambayan. Pangbati ito sa bagong sali sa tambayan o online community ng mga OFW sa Singapore.",
+      "description_en": "A welcome graphic on a black background features a yellow circular globe design for SG OFW Tambayan. It is used to greet new members of a hangout or online community for overseas Filipino workers in Singapore.",
+      "ocr_text": "WELCOME\nto\nSG OFW TAMBAYAN",
+      "tags_emotion": [
+        "welcoming",
+        "masaya",
+        "belonging",
+        "gaan ng loob"
+      ],
+      "tags_situation": [
+        "ofw",
+        "singapore",
+        "bagong member",
+        "group chat",
+        "online community"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "en"
+    },
+    {
+      "id": "7fd3d3fad9d7",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/pasko-na-naman-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:39.793Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang madilim na sala na may fireplace, telebisyon, at mga dekorasyon, na naliliwanagan ng malamig na asul na ilaw. Puwedeng gamitin para sa cozy na tambay sa bahay o pagpasok ng ber months at paghihintay sa Pasko.",
+      "description_en": "A dim living room with a fireplace, television, and decorations is lit by a cool blue glow. It can convey cozy time at home or the arrival of the ber months and anticipation of Christmas.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "relaxed",
+        "kalmado",
+        "cozy",
+        "excited"
+      ],
+      "tags_situation": [
+        "ber months",
+        "pasko",
+        "tambay sa bahay",
+        "movie night"
+      ],
+      "subjects": [],
+      "references": [
+        "ber months"
+      ],
+      "context_note": "Naka-label ang source bilang ber months at Pasko, kaya konektado ito sa maagang Christmas anticipation sa Pilipinas.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "8261c9902df5",
+      "width": 165,
+      "height": 218,
+      "source_url": "https://tenor.com/search/walang-pasok-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:37.057Z",
+      "rights_status": "unverified",
+      "description_tl": "Black-and-white na larawan ng chimpanzee na nakatingala at nakapikit, na may caption na “Walang Pasok.” Pang-reaction kapag suspended ang klase o walang trabaho—parang sobrang relieved at nagpapasalamat.",
+      "description_en": "A black-and-white image of a chimpanzee looking upward with its eyes closed, captioned “Walang Pasok” (no classes or work). Used to express relief and gratitude when classes are suspended or there is no work.",
+      "ocr_text": "Walang\nPasok",
+      "tags_emotion": [
+        "ginhawa",
+        "relieved",
+        "saya",
+        "grateful"
+      ],
+      "tags_situation": [
+        "walang pasok",
+        "class suspension",
+        "day off",
+        "school",
+        "work"
+      ],
+      "subjects": [
+        "chimpanzee"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "tl"
+    },
+    {
+      "id": "8462aa1edbb8",
+      "width": 112,
+      "height": 200,
+      "source_url": "https://tenor.com/search/boss-pinoy-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:53.038Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang maliit na black-and-white na drawing ng bear na naka-thumbs up sa gitna ng itim na background. Pang-reply ito ng “ayos, boss,” “approved,” o “sige, kaya mo ’yan” sa chat.",
+      "description_en": "A small black-and-white drawing of a bear giving a thumbs-up appears against a black background. It works as a chat reply meaning “nice, boss,” “approved,” or “you can do it.”",
+      "ocr_text": "",
+      "tags_emotion": [
+        "tuwa",
+        "happy",
+        "supportive",
+        "confident"
+      ],
+      "tags_situation": [
+        "approval",
+        "chat reply",
+        "encouragement",
+        "good job"
+      ],
+      "subjects": [
+        "cartoon bear"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "8513876f59d8",
+      "width": 128,
+      "height": 128,
+      "source_url": "https://tenor.com/search/kapuso-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:53.837Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang makulay na outline ng puso na kahawig ng Kapuso logo ng GMA, na may pula, dilaw, at asul na bahagi. Puwedeng gamitin bilang reaction sa pagmamahal, suporta, o pagiging proud na Kapuso.",
+      "description_en": "A colorful heart outline resembling GMA's Kapuso logo, with red, yellow, and blue sections. It can be used as a reaction expressing love, support, or pride in being a Kapuso fan.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "pagmamahal",
+        "love",
+        "proud",
+        "saya"
+      ],
+      "tags_situation": [
+        "kapuso fandom",
+        "pagpapakita ng suporta",
+        "pagbati",
+        "sending love"
+      ],
+      "subjects": [
+        "GMA Network",
+        "Kapuso logo"
+      ],
+      "references": [
+        "kapuso",
+        "gma network"
+      ],
+      "context_note": "Ang makulay na pusong ito ay kaugnay ng Kapuso branding ng GMA Network, gaya ng nakasaad sa source context.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "8740c5c9f0bf",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/seenzone-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:01.512Z",
+      "rights_status": "unverified",
+      "description_tl": "Screenshot ng chat kay “Bae” na may nag-iisang “hey,” pero read na 15 minutes ago at wala pang reply. Pang-meme kapag na-seenzone ka ni crush o jowa at naghihintay ka pa rin ng sagot.",
+      "description_en": "A chat screenshot with “Bae” shows a lone “hey” that was read 15 minutes ago with no reply. Used when your crush or partner leaves you on read and you’re still waiting for a response.",
+      "ocr_text": "Messages\nBae\nContact\nBae\nhey\nRead 15 minutes ago",
+      "tags_emotion": [
+        "lungkot",
+        "sad",
+        "inip",
+        "anxious",
+        "pangungulila"
+      ],
+      "tags_situation": [
+        "seenzone",
+        "chat",
+        "waiting for reply",
+        "crush",
+        "jowa"
+      ],
+      "subjects": [],
+      "references": [
+        "seenzone"
+      ],
+      "context_note": "Tumutukoy ito sa “seenzone,” kapag nabasa na ang chat mo pero wala pa ring reply.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "8756ba5d3283",
+      "width": 220,
+      "height": 145,
+      "source_url": "https://tenor.com/search/edsa-traffic-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:12.679Z",
+      "rights_status": "unverified",
+      "description_tl": "Anime-style na traffic lights sa ilalim ng madilim at maulap na langit, na may pulang ilaw sa harap at berdeng ilaw sa kabila. Bagay sa posts tungkol sa paghihintay sa stoplight, traffic sa EDSA, o tahimik na late-night commute.",
+      "description_en": "Anime-style traffic lights under a dark, cloudy sky, with a red light facing forward and a green light in another direction. Useful for posts about waiting at a stoplight, EDSA traffic, or a quiet late-night commute.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "inip",
+        "pagod",
+        "tired",
+        "calm",
+        "melancholy"
+      ],
+      "tags_situation": [
+        "traffic",
+        "edsa",
+        "stoplight",
+        "late-night commute",
+        "paghihintay"
+      ],
+      "subjects": [
+        "traffic lights"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "879945fb86e4",
       "width": 1024,
       "height": 1024,
@@ -1668,6 +3279,73 @@
       "language": "en"
     },
     {
+      "id": "8b8e6b439a04",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/nanay-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:18:21.424Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang babaeng dilat ang mata at nakangising kita ang ngipin ang sumisilip sa butas ng pinto, may caption na “IT’S MOMMY.” Bagay kapag biglang sumusulpot si nanay para mang-check o manghuli ng kalokohan.",
+      "description_en": "A wide-eyed woman with a teeth-baring grin peers through a hole in a door, captioned “IT’S MOMMY.” Used when Mom suddenly appears to check on you or catch you misbehaving.",
+      "ocr_text": "IT’S MOMMY",
+      "tags_emotion": [
+        "gulat",
+        "takot",
+        "kaba",
+        "amused"
+      ],
+      "tags_situation": [
+        "nanay",
+        "biglang pagsulpot",
+        "nahuli",
+        "parent checking"
+      ],
+      "subjects": [
+        "Marissa Benson"
+      ],
+      "references": [
+        "it's mommy"
+      ],
+      "context_note": "Sa source, nakapangalan kay Marissa Benson ang “It’s Mommy” reaction na puwedeng gamitin sa biglaang pagsulpot ni nanay.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "8bbaa2fb5abb",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/pinoy-food-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:55.607Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na cartoon penguin ang nakaupo sa harap ng fried chicken, halo-halo, at isang platong pagkain, na may malaking “BUSOG!” sa itaas. Pang-react ito pagkatapos maparami ang kain o mag-food trip hanggang sobrang busog.",
+      "description_en": "A cute cartoon penguin sits in front of fried chicken, halo-halo, and a plate of food, with a large “BUSOG!” above it. It works as a reaction after overeating or enjoying a food trip until completely full.",
+      "ocr_text": "BUSOG!\nPENGU",
+      "tags_emotion": [
+        "busog",
+        "satisfied",
+        "masaya",
+        "content"
+      ],
+      "tags_situation": [
+        "food trip",
+        "pagkatapos kumain",
+        "overeating",
+        "kainan",
+        "merienda"
+      ],
+      "subjects": [
+        "Pengu"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "tl"
+    },
+    {
       "id": "8dc886d6aed8",
       "width": 220,
       "height": 122,
@@ -1700,6 +3378,41 @@
       "context_note": "",
       "format": "reaction",
       "language": "none"
+    },
+    {
+      "id": "9485ecf2b9ba",
+      "width": 220,
+      "height": 247,
+      "source_url": "https://tenor.com/search/ber-months-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:53.657Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang pusang nakapulang scarf ang nakatayo sa gitna ng nalalaglag na dahon, may greeting na “Happy Ber Months Hoomans!” Pang-share ito kapag September na at excited ka na sa simula ng ber months at Christmas countdown.",
+      "description_en": "A cat wearing a red scarf stands among falling leaves with the greeting “Happy Ber Months Hoomans!” It is used to welcome September and express excitement for the ber months and the Christmas countdown.",
+      "ocr_text": "HAPPY BER MONTHS\nHOOMANS!\nPicMix",
+      "tags_emotion": [
+        "excited",
+        "masaya",
+        "festive",
+        "aliw"
+      ],
+      "tags_situation": [
+        "ber months",
+        "september",
+        "christmas countdown",
+        "seasonal greeting"
+      ],
+      "subjects": [
+        "cat"
+      ],
+      "references": [
+        "ber months",
+        "hoomans"
+      ],
+      "context_note": "Ang “Happy Ber Months” greeting ay pang-welcome sa September, na simula ng mahabang Christmas season sa Pilipinas.",
+      "format": "template",
+      "language": "en"
     },
     {
       "id": "95e5747d1639",
@@ -1767,6 +3480,39 @@
       "context_note": "Pinangalanang sara-sara-duterte.gif ang image sa source, kaya naka-link ito kay Sara Duterte bilang reaction GIF.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "96c863c561ba",
+      "width": 220,
+      "height": 168,
+      "source_url": "https://tenor.com/search/marupok-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:19:49.827Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang kahoy na kahon na may malaking tatak na “FRAGILE.” Puwedeng reaction kapag marupok ka, madaling ma-fall, o kailangang ingatan ang feelings mo.",
+      "description_en": "A wooden crate bears a large “FRAGILE” stamp. It works as a reaction when you catch feelings easily, feel emotionally fragile, or want your feelings handled with care.",
+      "ocr_text": "THIS END UP ↑\nFRAGILE",
+      "tags_emotion": [
+        "marupok",
+        "sensitive",
+        "vulnerable",
+        "kilig"
+      ],
+      "tags_situation": [
+        "crush",
+        "madaling ma-fall",
+        "landian",
+        "nasasaktan",
+        "handle with care"
+      ],
+      "subjects": [],
+      "references": [
+        "a christmas story"
+      ],
+      "context_note": "Sa source na marupok GIF search, ang “FRAGILE” na kahon ay visual joke para sa madaling ma-fall o masaktan.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "9834dc02892f",
@@ -1837,6 +3583,38 @@
       "language": "none"
     },
     {
+      "id": "9b6bf7b5bff2",
+      "width": 498,
+      "height": 373,
+      "source_url": "https://tenor.com/search/commute-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:56.953Z",
+      "rights_status": "unverified",
+      "description_tl": "Pixel-art na eksena sa loob ng tren, kung saan magkakahiwalay na nakaupo ang mga pasaherong nakaitim at mukhang tahimik o pagod. Bagay sa memes tungkol sa nakaka-drain na commute, pauwi galing trabaho, o walang energy makipag-usap.",
+      "description_en": "A pixel-art scene inside a train shows passengers dressed in black sitting apart and looking quiet or tired. It fits memes about draining commutes, heading home from work, or having no energy to talk.",
+      "ocr_text": "201",
+      "tags_emotion": [
+        "pagod",
+        "tired",
+        "drained",
+        "antok",
+        "tahimik"
+      ],
+      "tags_situation": [
+        "commute",
+        "tren",
+        "pauwi",
+        "after work",
+        "public transport"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "9d8094746af1",
       "width": 220,
       "height": 220,
@@ -1867,6 +3645,40 @@
       "context_note": "Naka-label ang source filename bilang Vice Ganda GIF, at bagay ang deadpan na expression bilang reaction meme.",
       "format": "reaction",
       "language": "none"
+    },
+    {
+      "id": "a3200a33dd0e",
+      "width": 498,
+      "height": 498,
+      "source_url": "https://tenor.com/search/christmas-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:43.740Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang nakangiting lalaki na naka-Santa hat, suit, at Christmas-colored tie ang katabi ng bati na “September One na! Merry Christmas!” Pang-send sa September 1 kapag excited ka nang simulan ang Pasko at ber months kahit malayo pa ang December.",
+      "description_en": "A smiling man wearing a Santa hat, suit, and Christmas-colored tie appears beside the greeting “September One na! Merry Christmas!” It is used on September 1 to celebrate the start of the Philippine Christmas season, even though December is still months away.",
+      "ocr_text": "September\nOne na!\nMerry\nChristmas!",
+      "tags_emotion": [
+        "excited",
+        "masaya",
+        "festive",
+        "sabik"
+      ],
+      "tags_situation": [
+        "september 1",
+        "ber months",
+        "pasko",
+        "christmas greetings",
+        "early christmas"
+      ],
+      "subjects": [],
+      "references": [
+        "ber months",
+        "september one na"
+      ],
+      "context_note": "Patok ang ganitong September 1 greeting sa Pinoy memes dahil ber months pa lang, simula na agad ng Christmas celebration.",
+      "format": "reaction",
+      "language": "taglish"
     },
     {
       "id": "a4eea2bc853f",
@@ -1901,6 +3713,39 @@
       "context_note": "Naka-link ang GIF kay Vice Ganda at sa Girl Boy Bakla Tomboy sa source filename, kaya searchable ito bilang comedy reaction.",
       "format": "reaction",
       "language": "en"
+    },
+    {
+      "id": "a5dc155227f4",
+      "width": 220,
+      "height": 147,
+      "source_url": "https://tenor.com/search/balut-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:57.425Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang bukas na balut na kita ang laman ang nakatayo sa pulang mesa, may mga itlog at dahon sa likod. Puwedeng gamitin sa usapang balut cravings, street food trip, o hamong tikman ang balut.",
+      "description_en": "An opened balut egg with its contents exposed stands on a red table, with eggs and greens in the background. It fits conversations about balut cravings, street food outings, or daring someone to try balut.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "takaw",
+        "craving",
+        "curious",
+        "alanganin"
+      ],
+      "tags_situation": [
+        "balut",
+        "street food",
+        "food trip",
+        "merienda",
+        "tikiman"
+      ],
+      "subjects": [
+        "balut"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "a6c69ad43f40",
@@ -1939,6 +3784,44 @@
       "language": "none"
     },
     {
+      "id": "a93224b59b21",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/nanay-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:18:21.876Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cute na pink na cartoon penguin ang naka-red cape at superhero pose, may caption na “SUPERMOM.” Bagay ito sa pag-appreciate kay nanay na kayang pagsabay-sabayin ang gawaing-bahay, trabaho, at pag-aalaga.",
+      "description_en": "A cute pink cartoon penguin wears a red cape and strikes a superhero pose, with the caption “SUPERMOM.” It fits posts appreciating moms who juggle housework, work, and caring for their family.",
+      "ocr_text": "PUDGY\nPENGUINS\nPENGU\nSUPERMOM",
+      "tags_emotion": [
+        "proud",
+        "bilib",
+        "grateful",
+        "thankful",
+        "pagmamahal"
+      ],
+      "tags_situation": [
+        "nanay",
+        "mother's day",
+        "parenting",
+        "multitasking",
+        "gawaing-bahay",
+        "pag-aalaga"
+      ],
+      "subjects": [
+        "Pudgy Penguins"
+      ],
+      "references": [
+        "pudgy penguins",
+        "supermom"
+      ],
+      "context_note": "",
+      "format": "template",
+      "language": "en"
+    },
+    {
       "id": "acfedd23793b",
       "width": 220,
       "height": 148,
@@ -1970,6 +3853,39 @@
         "it's showtime"
       ],
       "context_note": "Ang “IT'S SHOWTIME!” na caption kasama ng creepy na ngisi ni Chucky ay bagay sa pabirong pag-anunsyo na magsisimula na ang kalokohan.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "b036d02b4364",
+      "width": 220,
+      "height": 156,
+      "source_url": "https://tenor.com/search/bagyo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:49.857Z",
+      "rights_status": "unverified",
+      "description_tl": "Satellite image ng malaking bagyo na may caption na “STORM'S COMING.” Puwedeng gamitin kapag may paparating na bagyo o bilang pabirong warning na may parating na gulo, problema, o tambak na trabaho.",
+      "description_en": "A satellite image of a large hurricane with the caption “STORM'S COMING.” It can be used for an approaching storm or as a joking warning about incoming trouble, problems, or a pile of work.",
+      "ocr_text": "STORM'S COMING\nH\nLUCAS\n& FRIENDS",
+      "tags_emotion": [
+        "kaba",
+        "worried",
+        "takot",
+        "dread"
+      ],
+      "tags_situation": [
+        "bagyo",
+        "weather warning",
+        "paghahanda",
+        "paparating na problema",
+        "work deadlines"
+      ],
+      "subjects": [
+        "Lucas & Friends"
+      ],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "en"
     },
@@ -2048,6 +3964,78 @@
       "language": "none"
     },
     {
+      "id": "b280e7058808",
+      "width": 165,
+      "height": 124,
+      "source_url": "https://tenor.com/search/ofw-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:33.547Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaking naka-striped na polo ang nakabuka ang mga braso habang nagsasabing, “Oh my God! We're having a fire... sale.” Bagay itong reaction sa biglang sale, sobrang murang bilihin, o OA na pag-anunsyo ng promo.",
+      "description_en": "A man in a striped shirt spreads his arms while saying, “Oh my God! We're having a fire... sale.” It works as a reaction to a sudden sale, very cheap deals, or an overly dramatic promo announcement.",
+      "ocr_text": "Oh my God! We're having a fire...sale.",
+      "tags_emotion": [
+        "gulat",
+        "excited",
+        "panic",
+        "oa"
+      ],
+      "tags_situation": [
+        "sale",
+        "shopping",
+        "promo",
+        "discount"
+      ],
+      "subjects": [
+        "Arrested Development"
+      ],
+      "references": [
+        "arrested development",
+        "fire sale"
+      ],
+      "context_note": "Mula sa Arrested Development ayon sa source, ginagamit ang dramatic na “fire... sale” line bilang nakakatawang reaction sa sale o promo.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "b4cf4746fd6d",
+      "width": 446,
+      "height": 498,
+      "source_url": "https://tenor.com/search/ber-months-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:55.758Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang pusang nakapikit at naka-red scarf ang nakaupo habang nililipad ng hangin ang mga dahon, may bati na “Happy Ber Months Hoomans!” Pang-welcome sa September hanggang December at sa excited na sa malamig at Christmas season.",
+      "description_en": "A cat with closed eyes and a red scarf sits amid windblown autumn leaves, greeting viewers with “Happy Ber Months Hoomans!” Used to welcome September through December and express excitement for cooler weather and the Christmas season.",
+      "ocr_text": "HAPPY BER MONTHS\nHOOMANS!\nPicMix",
+      "tags_emotion": [
+        "excited",
+        "masaya",
+        "cozy",
+        "relaxed",
+        "saya"
+      ],
+      "tags_situation": [
+        "ber months",
+        "september",
+        "christmas season",
+        "malamig na panahon",
+        "holiday greetings"
+      ],
+      "subjects": [
+        "cat"
+      ],
+      "references": [
+        "ber months",
+        "hoomans"
+      ],
+      "context_note": "Ang “Ber Months” greeting ay pang-welcome sa September hanggang December, na inuugnay sa maagang Christmas excitement sa Pilipinas.",
+      "format": "template",
+      "language": "en"
+    },
+    {
       "id": "baef159962d6",
       "width": 936,
       "height": 725,
@@ -2077,6 +4065,39 @@
         "absolute cinema"
       ],
       "context_note": "Ang source template na “Absolute Cinema” ay pang-reaction sa eksenang pang-pelikula ang dating, kahit kalokohan o simpleng drama lang.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "bc0eb02a005e",
+      "width": 512,
+      "height": 640,
+      "source_url": "https://tenor.com/search/lechon-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:02.413Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng lechon na makintab at golden-brown ang balat, nakahiga sa tray. Pang-react ito kapag nagki-crave ng crispy lechon o excited sa handaan at fiesta.",
+      "description_en": "A close-up of a roast pig with shiny, golden-brown skin lying on a tray. Use it when craving crispy lechon or getting excited about a feast or fiesta.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gutom",
+        "craving",
+        "excited",
+        "takaw"
+      ],
+      "tags_situation": [
+        "lechon",
+        "handaan",
+        "fiesta",
+        "birthday",
+        "food cravings"
+      ],
+      "subjects": [
+        "lechon"
+      ],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "none"
     },
@@ -2116,6 +4137,73 @@
       "language": "en"
     },
     {
+      "id": "c1bf3445d735",
+      "width": 165,
+      "height": 148,
+      "source_url": "https://tenor.com/search/jeepney-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:26.378Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang sasakyan na mukhang jeepney ang bumibiyahe sa madilim na kalsada, may matingkad na asul na ilaw sa ilalim. Puwedeng gamitin sa memes tungkol sa gabing commute, pauwi na biyahe, o astig na jeep na parang pang-karera.",
+      "description_en": "A vehicle resembling a jeepney travels down a dark road with bright blue lights underneath. It can be used for memes about nighttime commuting, heading home, or a flashy jeep that looks ready to race.",
+      "ocr_text": "TikTok\n@thonyapalo25",
+      "tags_emotion": [
+        "astig",
+        "amused",
+        "aliw",
+        "excited"
+      ],
+      "tags_situation": [
+        "jeepney",
+        "night commute",
+        "gabing biyahe",
+        "pauwi",
+        "road trip"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "c2cfa767b074",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/christmas-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:47.798Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang makulay na parol na parang stained glass, may berdeng bituin sa gitna at pulang ilaw sa palibot. Pang-share ito ng Christmas feels, pagbati ng maligayang Pasko, o excitement sa Paskuhan.",
+      "description_en": "A colorful stained-glass-style Christmas lantern has a green star in the center and red lights around its edges. It suits sharing Christmas cheer, holiday greetings, or excitement about Christmas festivities.",
+      "ocr_text": "PASKUHAN VILLAGE LOGO\nRemastered by ALWYN BALINGIT",
+      "tags_emotion": [
+        "saya",
+        "joyful",
+        "excited",
+        "nostalgic"
+      ],
+      "tags_situation": [
+        "pasko",
+        "christmas",
+        "paskuhan",
+        "holiday greetings",
+        "christmas decorations"
+      ],
+      "subjects": [
+        "Paskuhan Village logo"
+      ],
+      "references": [
+        "paskuhan village",
+        "parol"
+      ],
+      "context_note": "May nakasulat na Paskuhan Village Logo, at ang makulay na parol ay bagay sa Pinoy Christmas greetings.",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "c38881f289ed",
       "width": 720,
       "height": 709,
@@ -2152,6 +4240,42 @@
       "language": "none"
     },
     {
+      "id": "c46242bc4fe5",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/noche-buena-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:25.053Z",
+      "rights_status": "unverified",
+      "description_tl": "Cartoon na Christmas tree na napapalibutan ng mga regalo, katabi ng fireplace na may nakasabit na stockings. Bagay ito sa pagbati ng Merry Christmas o pag-share ng excited na mood para sa Noche Buena at pagbubukas ng regalo.",
+      "description_en": "A cartoon Christmas tree surrounded by presents stands beside a fireplace with hanging stockings. It fits Christmas greetings or sharing excitement for Christmas Eve dinner and opening gifts.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "excited",
+        "festive",
+        "tuwa"
+      ],
+      "tags_situation": [
+        "pasko",
+        "noche buena",
+        "christmas eve",
+        "bigayan ng regalo",
+        "holiday greetings"
+      ],
+      "subjects": [
+        "christmas tree",
+        "presents",
+        "christmas stockings",
+        "fireplace"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "c486623e0168",
       "width": 607,
       "height": 794,
@@ -2183,6 +4307,43 @@
       "context_note": "Ang Trade Offer template ay pang-meme ng mga deal gamit ang “i receive” at “you receive,” lalo na kapag nakakatawa o hindi patas ang kapalit.",
       "format": "template",
       "language": "en"
+    },
+    {
+      "id": "c67015d3c059",
+      "width": 498,
+      "height": 413,
+      "source_url": "https://tenor.com/search/kapamilya-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:59.131Z",
+      "rights_status": "unverified",
+      "description_tl": "May pulang, berdeng, at asul na hearts at ribbon sa paligid ng “Kapamilya Forever” at “#LabanKapamilya.” Pang-post ito ng suporta, pagmamahal, at solidarity para sa ABS-CBN at kapwa Kapamilya fans.",
+      "description_en": "Red, green, and blue hearts and a ribbon surround “Kapamilya Forever” and “#LabanKapamilya.” It is used to express support, love, and solidarity for ABS-CBN and fellow Kapamilya fans.",
+      "ocr_text": "Kapamilya\nForever\n#LabanKapamilya",
+      "tags_emotion": [
+        "pagmamahal",
+        "pride",
+        "loyalty",
+        "pag-asa",
+        "solidarity"
+      ],
+      "tags_situation": [
+        "kapamilya support",
+        "fandom",
+        "pakikiisa",
+        "abs-cbn"
+      ],
+      "subjects": [
+        "ABS-CBN"
+      ],
+      "references": [
+        "kapamilya forever",
+        "laban kapamilya",
+        "abs-cbn"
+      ],
+      "context_note": "Ang “Kapamilya Forever” at “#LabanKapamilya” ay mga pahayag ng suporta at loyalty sa ABS-CBN sa Philippine fan culture.",
+      "format": "reaction",
+      "language": "taglish"
     },
     {
       "id": "c9da0ba0b8b4",
@@ -2218,6 +4379,39 @@
       "context_note": "Ginagamit dito ang “Marites” bilang tawag sa mahilig makibalita o makisali sa chismisan.",
       "format": "reaction",
       "language": "tl"
+    },
+    {
+      "id": "ca41712bac8d",
+      "width": 220,
+      "height": 275,
+      "source_url": "https://tenor.com/search/lechon-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:05.886Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang buong lechon na may makintab at mukhang malutong na balat ang nakahain sa mesa. Bagay itong pang-reaction kapag nagke-crave ng lechon, gutom na, o excited sa handaan at fiesta.",
+      "description_en": "A whole roast pig with glossy, crispy-looking skin is laid out on a table. It works as a reaction when craving lechon, feeling hungry, or getting excited for a feast or fiesta.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "excited",
+        "takaw"
+      ],
+      "tags_situation": [
+        "handaan",
+        "fiesta",
+        "lechon craving",
+        "kainan",
+        "celebration"
+      ],
+      "subjects": [
+        "lechon"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "cdec61c3c641",
@@ -2258,6 +4452,104 @@
       "language": "en"
     },
     {
+      "id": "ce3b94ac36cb",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/sweldo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:08.900Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cartoon penguin na naka-top hat at sunglasses ang nakahilata sa gitna ng tambak na pera at barya. Bagay itong pang-react kapag sweldo na, may bonus, o feeling rich kahit saglit lang.",
+      "description_en": "A cartoon penguin wearing a top hat and sunglasses reclines amid piles of cash and coins. It works as a reaction for payday, getting a bonus, or feeling rich even just for a moment.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "satisfied",
+        "panatag",
+        "confident"
+      ],
+      "tags_situation": [
+        "sweldo",
+        "payday",
+        "bonus",
+        "pera",
+        "feeling rich"
+      ],
+      "subjects": [
+        "cartoon penguin"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "ce897d9ee493",
+      "width": 220,
+      "height": 262,
+      "source_url": "https://tenor.com/search/halo-halo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:41.950Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang baso ng halo-halo na may purple na ube ice cream, makukulay na gulaman, at kutsarang may ice cream. Pang-share kapag naiinitan, nagke-crave ng malamig na merienda, o gustong mag-aya ng halo-halo.",
+      "description_en": "A cup of halo-halo topped with purple ube ice cream and colorful jelly, with ice cream on a spoon. Use it when feeling hot, craving a cold snack, or inviting someone out for halo-halo.",
+      "ocr_text": "Yummy.PH",
+      "tags_emotion": [
+        "takaw",
+        "craving",
+        "excited",
+        "saya"
+      ],
+      "tags_situation": [
+        "halo-halo",
+        "merienda",
+        "summer",
+        "mainit",
+        "food cravings"
+      ],
+      "subjects": [
+        "halo-halo",
+        "ube ice cream"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "cf3fc4798a69",
+      "width": 220,
+      "height": 146,
+      "source_url": "https://tenor.com/search/christmas-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:13:49.814Z",
+      "rights_status": "unverified",
+      "description_tl": "Neon-style na “Merry Christmas” greeting sa black background, may holly, mga kampana, at snowflakes. Pangbati ito sa Pasko o pang-share ng festive holiday vibes sa chat at social media.",
+      "description_en": "A neon-style “Merry Christmas” greeting on a black background, decorated with holly, bells, and snowflakes. It is used to send Christmas greetings or share festive holiday vibes in chats and on social media.",
+      "ocr_text": "Merry\nChristmas",
+      "tags_emotion": [
+        "saya",
+        "joyful",
+        "excited",
+        "festive"
+      ],
+      "tags_situation": [
+        "pasko",
+        "christmas greetings",
+        "holiday season",
+        "group chat"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "d45391c3ba65",
       "width": 165,
       "height": 165,
@@ -2288,6 +4580,41 @@
       "context_note": "Tinukoy ng source bilang Vice Ganda GIF, at ang seryosong ekspresyon dito ay puwedeng pang-reaction sa usapan.",
       "format": "reaction",
       "language": "none"
+    },
+    {
+      "id": "d5020721b6b8",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/noche-buena-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:32.736Z",
+      "rights_status": "unverified",
+      "description_tl": "Dalawang cute na penguin na naka-Christmas hat ang nasa likod ng handa, kasama ang hamon, prutas, at roasted chicken, na may text na “NOCHE BUENA.” Pang-share ito kapag excited ka na sa salu-salo at kainan sa bisperas ng Pasko.",
+      "description_en": "Two cute penguins wearing Christmas hats stand behind a holiday spread with ham, fruit, and roast chicken, with the text “NOCHE BUENA.” It fits sharing excitement about the Christmas Eve feast and gathering.",
+      "ocr_text": "NOCHE BUENA",
+      "tags_emotion": [
+        "excited",
+        "masaya",
+        "gutom",
+        "festive"
+      ],
+      "tags_situation": [
+        "noche buena",
+        "pasko",
+        "christmas eve",
+        "salu-salo",
+        "handa"
+      ],
+      "subjects": [
+        "penguins"
+      ],
+      "references": [
+        "noche buena"
+      ],
+      "context_note": "Ang Noche Buena ay salu-salo sa bisperas ng Pasko, kaya bagay ang image sa posts tungkol sa Christmas handaan.",
+      "format": "reaction",
+      "language": "tl"
     },
     {
       "id": "d58006d3fcd3",
@@ -2326,6 +4653,39 @@
       "language": "tl"
     },
     {
+      "id": "d69ac83ba9d7",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/pinoy-food-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:06.178Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng kumukulong dark na ulam na may mga piraso ng karne, berdeng sili, at sandok sa kawali. Bagay pang-reaction kapag nagugutom, nagke-crave ng lutong-bahay, o naghihintay nang kumain.",
+      "description_en": "A close-up of a simmering dark stew with pieces of meat, green chilies, and a ladle in the pan. Useful as a reaction when hungry, craving home-cooked food, or waiting to eat.",
+      "ocr_text": "Panlasang Pinoy\nANIMATED",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "excited",
+        "craving"
+      ],
+      "tags_situation": [
+        "lutong bahay",
+        "cooking",
+        "ulam",
+        "mealtime",
+        "food cravings"
+      ],
+      "subjects": [
+        "Panlasang Pinoy"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
       "id": "d813ce7897a4",
       "width": 1024,
       "height": 1024,
@@ -2357,6 +4717,74 @@
       "context_note": "AI-generated template ito na tinawag sa source na “Monday morning zombie,” para sa pagod at antok tuwing Lunes.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "d9922ef67227",
+      "width": 640,
+      "height": 640,
+      "source_url": "https://tenor.com/search/noche-buena-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:23.200Z",
+      "rights_status": "unverified",
+      "description_tl": "Cozy na animated Christmas scene na may Christmas tree, mga regalo, at dalawang medyas na nakasabit sa tabi ng fireplace. Bagay pangbati ng Merry Christmas o pang-share ng excited at warm na feeling habang naghihintay ng Noche Buena.",
+      "description_en": "A cozy animated Christmas scene with a Christmas tree, presents, and two stockings hanging beside a fireplace. Suitable for Christmas greetings or sharing warm, excited feelings while waiting for Christmas Eve dinner.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "excited",
+        "warm",
+        "maaliwalas"
+      ],
+      "tags_situation": [
+        "pasko",
+        "christmas eve",
+        "noche buena",
+        "gift giving",
+        "holiday greetings"
+      ],
+      "subjects": [
+        "christmas tree",
+        "presents",
+        "christmas stockings",
+        "fireplace"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "d9c4df9273bf",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/sinigang-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:42.095Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang kaldero ng sabaw na maraming berdeng gulay ang hinahalo gamit ang kahoy na sandok. Bagay itong pang-react kapag nagke-crave ng sinigang o mainit na lutong-bahay.",
+      "description_en": "A pot of soup full of green vegetables is being stirred with a wooden spoon. It works as a reaction when craving sinigang or a hot home-cooked meal.",
+      "ocr_text": "PANLASANG PINOY\nMADE IN\nANIMOTICA",
+      "tags_emotion": [
+        "gutom",
+        "hungry",
+        "craving",
+        "comforted"
+      ],
+      "tags_situation": [
+        "sinigang",
+        "pagluluto",
+        "lutong bahay",
+        "ulam",
+        "hapunan"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "en"
     },
     {
       "id": "da68950613cf",
@@ -2392,6 +4820,40 @@
       "context_note": "",
       "format": "reaction",
       "language": "en"
+    },
+    {
+      "id": "db42003269ae",
+      "width": 220,
+      "height": 150,
+      "source_url": "https://tenor.com/search/lechon-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:10.426Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang buong baboy na maputla pa ang balat ang nakatuhog sa metal na pang-lechon sa ibabaw ng ihawan. Puwedeng gamitin sa memes tungkol sa handaan, cravings sa lechon, o paghihintay na maluto ang pagkain.",
+      "description_en": "A whole pig with still-pale skin is mounted on a metal roasting spit above a grill. It can be used for memes about celebrations, lechon cravings, or waiting for food to finish cooking.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gutom",
+        "craving",
+        "excited",
+        "atat"
+      ],
+      "tags_situation": [
+        "lechon",
+        "handaan",
+        "fiesta",
+        "ihawan",
+        "waiting for food"
+      ],
+      "subjects": [
+        "baboy",
+        "lechon"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "dccc9f31d570",
@@ -2533,6 +4995,72 @@
       "language": "none"
     },
     {
+      "id": "e3259b4c5e76",
+      "width": 220,
+      "height": 190,
+      "source_url": "https://tenor.com/search/mrt-philippines-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:15:38.699Z",
+      "rights_status": "unverified",
+      "description_tl": "Makikita ang makulay na bulaklak na may dilaw na araw sa ibabaw at hashtag na #IpanaloNa10ParaSaLahat. Puwedeng gamitin sa election posts para magpakita ng suporta, pag-asa, at panawagang manalo para sa lahat.",
+      "description_en": "A colorful flower with a yellow sun above it appears over the hashtag #IpanaloNa10ParaSaLahat. It can be used in election posts to express support, hope, and a call to win for everyone.",
+      "ocr_text": "#IpanaloNa10ParaSaLahat",
+      "tags_emotion": [
+        "pag-asa",
+        "hopeful",
+        "supportive",
+        "optimistic"
+      ],
+      "tags_situation": [
+        "election",
+        "halalan",
+        "kampanya",
+        "political support"
+      ],
+      "subjects": [],
+      "references": [
+        "ipanalo na10 para sa lahat"
+      ],
+      "context_note": "Ang hashtag ay may election-campaign context batay sa source na may label na election2022-philippines.",
+      "format": "reaction",
+      "language": "tl"
+    },
+    {
+      "id": "e92cbe1608f6",
+      "width": 220,
+      "height": 181,
+      "source_url": "https://tenor.com/search/walang-pasok-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:14:40.044Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang pusang may pulang collar ang nakatingin nang malungkot at parang nagmamakaawa, na may caption na “NO...NO SCHOOL.” Bagay ito kapag ayaw mong pumasok, tinatamad sa klase, o umaasang walang pasok.",
+      "description_en": "A cat wearing a red collar looks sad and pleading, with the caption “NO...NO SCHOOL.” Use it when you don't want to go to school, feel unmotivated for class, or hope classes are canceled.",
+      "ocr_text": "NO...NO SCHOOL",
+      "tags_emotion": [
+        "tamad",
+        "lungkot",
+        "nagmamakaawa",
+        "reluctant",
+        "dread"
+      ],
+      "tags_situation": [
+        "walang pasok",
+        "school",
+        "ayaw pumasok",
+        "klase",
+        "monday"
+      ],
+      "subjects": [
+        "cat"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "template",
+      "language": "en"
+    },
+    {
       "id": "f01a47125da8",
       "width": 220,
       "height": 109,
@@ -2566,6 +5094,68 @@
       "language": "en"
     },
     {
+      "id": "f187f9d4415d",
+      "width": 165,
+      "height": 165,
+      "source_url": "https://tenor.com/search/halo-halo-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:17:50.632Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng halo-halo sa clear plastic cup, na may matingkad na ube, dilaw na layers, at toppings sa ibabaw. Pang-share kapag nagki-crave ng malamig na merienda o gusto ng pampalamig sa mainit na araw.",
+      "description_en": "A close-up of halo-halo in a clear plastic cup, with bright purple and yellow layers and toppings on top. Useful for sharing cravings for a cold snack or a refreshing treat on a hot day.",
+      "ocr_text": "B\nBEB",
+      "tags_emotion": [
+        "natatakam",
+        "craving",
+        "gutom",
+        "excited"
+      ],
+      "tags_situation": [
+        "halo-halo",
+        "merienda",
+        "mainit na panahon",
+        "dessert cravings",
+        "pampalamig"
+      ],
+      "subjects": [
+        "halo-halo"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "f19957661c62",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/eat-bulaga-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:20:16.001Z",
+      "rights_status": "unverified",
+      "description_tl": "Halos plain gray at malabong frame, na may ilang faint na guhit sa ibaba at walang malinaw na tao o bagay. Puwedeng pang-reaction sa blanko ang isip, walang masabi, o naghihintay na may mangyari.",
+      "description_en": "An almost plain gray, blurry frame with a few faint lines near the bottom and no clearly visible person or object. It could serve as a reaction to drawing a blank, having nothing to say, or waiting for something to happen.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "blanko",
+        "bored",
+        "bagot",
+        "confused"
+      ],
+      "tags_situation": [
+        "walang masabi",
+        "paghihintay",
+        "blank reaction"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
       "id": "f2ba2b0fce59",
       "width": 165,
       "height": 165,
@@ -2596,6 +5186,74 @@
       "context_note": "Naka-label bilang Vice Ganda GIF sa source, at gamit dito ang exaggerated na ekspresyon bilang reaction sa nakakagulat na chika.",
       "format": "reaction",
       "language": "none"
+    },
+    {
+      "id": "f419ec32e84d",
+      "width": 220,
+      "height": 176,
+      "source_url": "https://tenor.com/search/ofw-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:28.840Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaking naka-white shirt at kurbata ang nakaupo sa mesa, nakanganga at mukhang sobrang gulat. Pang-reaction kapag may biglang chika, shocking reveal, o balitang hindi mo in-expect.",
+      "description_en": "A man in a white shirt and tie sits at a table with his mouth wide open in surprise. Used to react to unexpected gossip, a shocking reveal, or surprising news.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gulat",
+        "shocked",
+        "takang-taka",
+        "disbelief"
+      ],
+      "tags_situation": [
+        "chika",
+        "unexpected news",
+        "big reveal",
+        "office",
+        "reaction"
+      ],
+      "subjects": [
+        "Chris Pratt"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "f864e4ad52e1",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/petsa-de-peligro-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T11:16:24.607Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang dilaw at puting diamond-shaped radioactive warning label na may radiation symbol at numerong 7. Puwedeng pang-reaction sa delikado o toxic na sitwasyon, o visual pun sa “petsa de peligro” kapag paubos na ang budget.",
+      "description_en": "A yellow-and-white diamond-shaped radioactive warning label with a radiation symbol and the number 7. It can be used as a reaction to dangerous or toxic situations, or as a visual pun for “petsa de peligro” when money is running low.",
+      "ocr_text": "RADIOACTIVE II\nCONTENTS\nACTIVITY\nTRANSPORT\nINDEX\n7\nFormación Ninja",
+      "tags_emotion": [
+        "kaba",
+        "takot",
+        "worried",
+        "alarmed"
+      ],
+      "tags_situation": [
+        "petsa de peligro",
+        "budget",
+        "danger",
+        "warning",
+        "toxic na sitwasyon"
+      ],
+      "subjects": [
+        "radioactive warning label"
+      ],
+      "references": [
+        "petsa de peligro"
+      ],
+      "context_note": "Nakalista ito sa source bilang “petsa de peligro” GIF, kaya may koneksiyon ang danger label sa panahong gipit bago sumweldo.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "f885daba8a50",
