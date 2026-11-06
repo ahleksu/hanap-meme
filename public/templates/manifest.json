@@ -1,0 +1,134 @@
+{
+  "note": "Original AI-generated backgrounds of fictional people. rights_status ai_generated, format template.",
+  "model": "gpt-image-2",
+  "templates": [
+    {
+      "id": "judgy-tita",
+      "title": "Judgy tita sipping coffee",
+      "situations": [
+        "tita",
+        "chismis",
+        "judge",
+        "family",
+        "reunion",
+        "marites"
+      ],
+      "prompt": "A Filipino middle-aged aunt sitting at a dining table, sipping coffee from a mug, giving a side-eye judgmental look.",
+      "file": "judgy-tita.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "empty-ewallet",
+      "title": "Office worker staring at empty e-wallet",
+      "situations": [
+        "sweldo",
+        "pera",
+        "broke",
+        "payday",
+        "budget",
+        "petsa"
+      ],
+      "prompt": "A young Filipino office worker in a cubicle staring in disbelief at a phone screen showing an empty wallet balance, generic app with no logos.",
+      "file": "empty-ewallet.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "jeepney-rain",
+      "title": "Commuter in the rain at a jeepney stop",
+      "situations": [
+        "ulan",
+        "commute",
+        "traffic",
+        "late",
+        "baha",
+        "pagod"
+      ],
+      "prompt": "A soaked commuter standing at a rainy street corner in Manila waiting for a jeepney, holding a broken umbrella, defeated expression. The jeepney has no signage.",
+      "file": "jeepney-rain.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "student-3am",
+      "title": "Student at 3am with a laptop",
+      "situations": [
+        "exam",
+        "deadline",
+        "puyat",
+        "thesis",
+        "study",
+        "pagod"
+      ],
+      "prompt": "A tired college student at 3am in a dim bedroom lit by a laptop screen, messy hair, instant noodles on the desk.",
+      "file": "student-3am.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "late-standup",
+      "title": "Running late to the standup",
+      "situations": [
+        "late",
+        "standup",
+        "meeting",
+        "work",
+        "huli",
+        "monday"
+      ],
+      "prompt": "A panicked young professional running into an office holding a coffee cup and a laptop, clock on the wall.",
+      "file": "late-standup.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "kilig-phone",
+      "title": "Kilig over a text message",
+      "situations": [
+        "kilig",
+        "crush",
+        "jowa",
+        "sweet",
+        "landi",
+        "love"
+      ],
+      "prompt": "A young adult lying on a bed hugging a pillow, smiling widely at a phone, cheeks blushing.",
+      "file": "kilig-phone.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "badtrip-traffic",
+      "title": "Badtrip driver in EDSA traffic",
+      "situations": [
+        "badtrip",
+        "traffic",
+        "galit",
+        "pikon",
+        "inis",
+        "commute"
+      ],
+      "prompt": "A frustrated driver gripping the steering wheel in heavy city traffic at dusk, red brake lights everywhere.",
+      "file": "badtrip-traffic.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    },
+    {
+      "id": "monday-zombie",
+      "title": "Monday morning zombie",
+      "situations": [
+        "monday",
+        "pagod",
+        "antok",
+        "work",
+        "lunes",
+        "tired"
+      ],
+      "prompt": "An exhausted office worker slumped at a desk on a Monday morning with dark eye bags, holding a huge mug of coffee.",
+      "file": "monday-zombie.webp",
+      "rights_status": "ai_generated",
+      "format": "template"
+    }
+  ]
+}
