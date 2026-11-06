@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/**": ["./data/hanapmeme.db", "./data/memes/**", "./assets/fonts/**", "./public/templates/**"],
   },
+  outputFileTracingExcludes: {
+    "/*": [".env", ".env.local"],
+  },
   turbopack: {
     rules: {
       "*.css": {
