@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/* Display / anti-design: one loud dark theme, square corners, hard offset shadows. */
+:root {
+  color-scheme: dark;
+  --background: #1a1a1a;
+  --foreground: #fff5e1;
+  --card: #fff5e1;
+  --card-ink: #1a1a1a;
+  --muted: #b9ae98;
+  --line: #fff5e1;
+  --accent: #ffea4d;
+  --accent-ink: #1a1a1a;
+  --hot: #ff3b6f;
+  --brand: #ffea4d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-ink: var(--card-ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-hot: var(--hot);
+  --color-brand: var(--brand);
+  --font-sans: var(--font-archivo);
+  --font-display: var(--font-archivo-black);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--hot);
+  color: var(--card-ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--hot);
+  outline-offset: 3px;
+}
+
+/* Giant display type. */
+.display {
+  font-family: var(--font-archivo-black), "Archivo Black", sans-serif;
+  font-weight: 900;
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+}
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--accent);
+}
+
+/* Small uppercase label, used for nav, tags, buttons. */
+.label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 16px 28px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.btn-ghost {
+  border: 2px solid var(--foreground);
+  color: var(--foreground);
+}
+.btn:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 var(--hot);
+}
+.btn:active {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Tilted card with a hard yellow shadow. */
+.slab {
+  background: var(--card);
+  color: var(--card-ink);
+  box-shadow: 12px 12px 0 var(--accent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .marquee-track {
+    animation: marquee 28s linear infinite;
+  }
+  @keyframes marquee {
+    to { transform: translateX(-50%); }
+  }
+  .spin-slow {
+    animation: spin 18s linear infinite;
+  }
+  @keyframes spin {
+    to { rotate: 360deg; }
+  }
+}
