@@ -1,0 +1,27 @@
+# deps and build
+node_modules
+.next
+out
+build
+coverage
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.DS_Store
+
+# secrets
+.env*
+!.env.example
+
+# local data: never commit databases, scraped images, or your source list
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+data/memes/
+data/inbox/
+data/raw/
+public/memes/
+sources.yaml
+.playwright-mcp/
