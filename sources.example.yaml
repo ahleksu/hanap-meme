@@ -6,7 +6,8 @@ contact_url: https://github.com/ahleksu/hanap-meme
 
 # a) Local folder. Drop images here. An optional sidecar <name>.json next to <name>.png can set
 #    source_url, source_platform, original_author, rights_status ("own" or "unverified"),
-#    description_tl, description_en, ocr_text, tags_emotion, tags_situation, format, language.
+#    description_tl, description_en, ocr_text, tags_emotion, tags_situation, format, language,
+#    and approve (same rule as approve under urls below).
 inbox:
   enabled: true
   dir: data/inbox

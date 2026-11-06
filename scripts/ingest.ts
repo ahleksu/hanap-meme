@@ -102,6 +102,7 @@ function inboxCandidates(): Candidate[] {
         rights_status: sidecar.rights_status === "own" ? "own" : "unverified",
         context: [f, sidecar.description_en, sidecar.description_tl].filter(Boolean).join(" | "),
         needsReview: false,
+        approve: sidecar.approve === true,
         sidecar,
       };
     });

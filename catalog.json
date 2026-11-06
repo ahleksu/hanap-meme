@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T10:38:11.130Z",
-  "count": 40,
+  "generated_at": "2026-11-06T10:43:10.408Z",
+  "count": 43,
   "memes": [
     {
       "id": "08003cfa822e",
@@ -86,6 +86,35 @@
         "rejection"
       ],
       "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "18f39bdccf83",
+      "width": 640,
+      "height": 682,
+      "source_url": "https://i.pinimg.com/originals/4d/13/13/4d13135ef1d77ed91ce80334ceab6ef5.jpg",
+      "source_platform": "pinterest",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:42:33.524Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng isang tao na nakakunot ang noo, nakatingin sa gilid, at nakausli ang dila na parang naiinis o nandidiri. Pang-reaction kapag may narinig kang kalokohan, may ayaw kang pagkain, o badtrip ka sa kausap mo.",
+      "description_en": "A close-up of a person frowning, looking sideways, and sticking out their tongue as if annoyed or disgusted. Used to react to nonsense, unwanted food, or someone getting on your nerves.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "badtrip",
+        "inis",
+        "disgusted",
+        "annoyed",
+        "skeptical"
+      ],
+      "tags_situation": [
+        "kalokohan",
+        "ayaw na pagkain",
+        "nakakainis na kausap",
+        "side eye",
+        "reaction"
+      ],
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -233,6 +262,34 @@
       "language": "none"
     },
     {
+      "id": "421b56798db2",
+      "width": 581,
+      "height": 584,
+      "source_url": "https://i.pinimg.com/originals/5d/8d/e1/5d8de1ed5865fe770a804beaa6d26097.jpg",
+      "source_platform": "pinterest",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:42:33.452Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng taong nakapikit at nakahiga, may kumot at caption na “sleep na q..”. Pang-meme kapag antok o pagod ka na at gusto mo nang matulog o mag-good night sa chat.",
+      "description_en": "A close-up of a person lying down with eyes closed under a blanket, captioned “sleep na q..”. Used when you're sleepy or exhausted and want to go to bed or say good night in a chat.",
+      "ocr_text": "sleep na q..",
+      "tags_emotion": [
+        "antok",
+        "sleepy",
+        "pagod",
+        "tired"
+      ],
+      "tags_situation": [
+        "bedtime",
+        "good night",
+        "puyat",
+        "chat",
+        "pahinga"
+      ],
+      "format": "reaction",
+      "language": "taglish"
+    },
+    {
       "id": "46bdf31c0b2d",
       "width": 320,
       "height": 240,
@@ -259,6 +316,35 @@
       ],
       "format": "reaction",
       "language": "en"
+    },
+    {
+      "id": "4757c100eb0b",
+      "width": 768,
+      "height": 1024,
+      "source_url": "https://i.pinimg.com/originals/11/48/07/1148072cd1e9ab8e1d3c5cf44c3dfa7d.jpg",
+      "source_platform": "pinterest",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:42:35.472Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaki ang may hawak na bote ng gin, na may caption na hindi porket may gin ay lasinggero na—baka umiinom lang para makalimutan ka. Pang-hugot ito kapag sawi sa pag-ibig, nangungulila sa ex, o nagbibiro tungkol sa pag-inom dahil sa heartbreak.",
+      "description_en": "A man holds a bottle of gin with a caption saying that holding gin does not necessarily make him a drunk—maybe he is just drinking to forget someone. It is a heartbreak meme for missing an ex or joking about drinking to cope with lost love.",
+      "ocr_text": "di porket may\nhawak na gin\nlasingero na?\nGINEBRA\nSAN MIGUEL\ndiba pwedeng\numiinom lang\npara\nmakalimutan\nka na",
+      "tags_emotion": [
+        "sawi",
+        "lungkot",
+        "heartbroken",
+        "pangungulila",
+        "defensive"
+      ],
+      "tags_situation": [
+        "inuman",
+        "breakup",
+        "paglimot sa ex",
+        "hugot",
+        "gin"
+      ],
+      "format": "template",
+      "language": "tl"
     },
     {
       "id": "487dec2d4bdb",
