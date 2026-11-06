@@ -18,4 +18,4 @@ The code in this repository is MIT licensed. See `LICENSE`.
 ## Removal requests
 - Removal requests are honored within 48 hours, no questions asked.
 - On a running site, click Report on any image, or use the [takedown form](/takedown). The image is hidden at once from the website, the REST API, and MCP.
-- For this repository, open a [takedown request issue](https://github.com/ahleksu/hanapmeme/issues/new?template=takedown_request.md).
+- For this repository, open a [takedown request issue](https://github.com/ahleksu/hanap-meme/issues/new?template=takedown_request.md).

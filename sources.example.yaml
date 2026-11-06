@@ -2,7 +2,7 @@
 # otherwise this file.
 
 # Shown in the bot User-Agent: "HanapMemeBot/0.1 (+<contact_url>)". Point it at your fork.
-contact_url: https://github.com/ahleksu/hanapmeme
+contact_url: https://github.com/ahleksu/hanap-meme
 
 # a) Local folder. Drop images here. An optional sidecar <name>.json next to <name>.png can set
 #    source_url, source_platform, original_author, rights_status ("own" or "unverified"),

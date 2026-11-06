@@ -1,6 +1,6 @@
 # HanapMeme
 
-[![CI](https://github.com/ahleksu/hanapmeme/actions/workflows/ci.yml/badge.svg)](https://github.com/ahleksu/hanapmeme/actions/workflows/ci.yml)
+[![CI](https://github.com/ahleksu/hanap-meme/actions/workflows/ci.yml/badge.svg)](https://github.com/ahleksu/hanap-meme/actions/workflows/ci.yml)
 
 It is Google for Pinoy memes, but you search in Taglish feelings.
 
@@ -17,8 +17,8 @@ Type `meme para sa late na naman sa standup` and get matching memes and GIFs wit
 You need Node 24 (LTS, see `.nvmrc`), npm, and your own OpenAI API key.
 
 ```bash
-git clone https://github.com/ahleksu/hanapmeme.git
-cd hanapmeme
+git clone https://github.com/ahleksu/hanap-meme.git
+cd hanap-meme
 npm i
 cp .env.example .env.local          # then put your OPENAI_API_KEY in .env.local
 cp sources.example.yaml sources.yaml
