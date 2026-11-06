@@ -174,7 +174,7 @@ urls:
     context: Pinoy vlogger known for the "boss" catchphrase
 ```
 
-After you change notes, or after an upgrade that adds fields, run `npm run ingest -- --reannotate`. It re-annotates stored memes from their saved files and changes no status or safety flag.
+After you change notes, or after an upgrade that adds fields, run `npm run ingest -- --reannotate`. It re-annotates stored memes from their saved files. A new review can turn safety flags on and exclude a meme, but it never turns a flag off or re-activates a meme.
 
 ## Optional sources
 

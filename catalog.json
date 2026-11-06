@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T10:43:10.408Z",
-  "count": 43,
+  "generated_at": "2026-11-06T11:01:40.754Z",
+  "count": 77,
   "memes": [
     {
       "id": "08003cfa822e",
@@ -11,24 +11,65 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:33.213Z",
       "rights_status": "unverified",
-      "description_tl": "Si Oprah na naka-red outfit, may hawak na mikropono at nakabuka ang mga braso habang excited na sumisigaw. Gamit ito sa “lahat meron!” moments—pamimigay ng regalo, bonus, o kahit dagdag trabaho sa buong team.",
-      "description_en": "Oprah wears a red outfit, holding a microphone with her arms spread wide as she excitedly shouts. Used for “everyone gets one!” moments—handing out gifts, bonuses, or even extra work to the whole team.",
+      "description_tl": "Si Oprah na naka-red, may hawak na mikropono at nakabuka ang mga braso habang excited na sumisigaw. Ginagamit ito kapag may pa-giveaway, libre para sa lahat, o pabirong lahat ay bibigyan ng trabaho at problema.",
+      "description_en": "Oprah wears red and holds a microphone with her arms spread wide, shouting excitedly. This is used for giveaways, freebies for everyone, or jokes about handing out tasks and problems to everybody.",
       "ocr_text": "",
       "tags_emotion": [
         "excited",
         "masaya",
         "generous",
-        "galante"
+        " tuwang-tuwa"
       ],
       "tags_situation": [
         "giveaway",
-        "regalo",
-        "bonus",
+        "libre",
         "pamimigay",
-        "dagdag trabaho"
+        "bonus",
+        "task assignment"
       ],
+      "subjects": [
+        "Oprah Winfrey"
+      ],
+      "references": [
+        "oprah you get a"
+      ],
+      "context_note": "Ang template na “Oprah You Get A” ay ginagamit sa memes bilang reaction sa pamimigay ng kung anu-ano sa lahat.",
       "format": "reaction",
       "language": "none"
+    },
+    {
+      "id": "0827eacc5c2e",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/tagalog-meme-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:16.495Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang maliit na asong nakangisi at nakalabas ang ngipin, may mapulang mata at caption na “ANONG SABI MO?!” Pang-react kapag may narinig kang nakakainis, nakakagulat, o parang nang-aaway.",
+      "description_en": "A small dog bares its teeth with glowing red eyes beside the caption “ANONG SABI MO?!” It is used to react to something irritating, shocking, or seemingly confrontational.",
+      "ocr_text": "ANONG\nSABI MO?!",
+      "tags_emotion": [
+        "galit",
+        "badtrip",
+        "gulat",
+        "angry",
+        "shocked"
+      ],
+      "tags_situation": [
+        "asaran",
+        "bardagulan",
+        "may nang-insulto",
+        "misheard",
+        "argument"
+      ],
+      "subjects": [
+        "chihuahua"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "tl"
     },
     {
       "id": "08687760b78d",
@@ -39,23 +80,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:11:07.398Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang pulang button ang pagpipilian ng isang lalaking pawis na pawis at nagpupunas ng noo, na parang hirap magdesisyon. Ginagamit ito kapag parehong mahirap, tempting, o magkasalungat ang dalawang choice mo.",
-      "description_en": "A sweating man wipes his forehead while faced with two red buttons, visibly struggling to decide. Used when both choices are difficult, tempting, or contradictory.",
+      "description_tl": "Isang pawisang cartoon na lalaki ang hirap pumili sa dalawang pulang button na walang label. Gamit ito kapag torn ka sa dalawang choice at pressured kang magdesisyon.",
+      "description_en": "A sweating cartoon man struggles to choose between two unlabeled red buttons. Use it when you are torn between two options and feel pressured to decide.",
       "ocr_text": "JAKE-CLARK.TUMBLR",
       "tags_emotion": [
         "kabado",
-        "stressed",
-        "naguguluhan",
         "torn",
-        "alanganin"
+        "balisa",
+        "pressured",
+        "undecided"
       ],
       "tags_situation": [
-        "mahirap na desisyon",
+        "decision making",
         "dalawang pagpipilian",
         "dilemma",
-        "conflicting priorities",
-        "temptation"
+        "mahirap pumili"
       ],
+      "subjects": [
+        "Two Buttons"
+      ],
+      "references": [
+        "two buttons"
+      ],
+      "context_note": "Ang Two Buttons template ay pang-meme sa hirap pumili sa dalawang option, na ipinapakita rito ng pawisang lalaki.",
       "format": "two_panel",
       "language": "en"
     },
@@ -68,8 +115,8 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:11:05.602Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang-panel na Drake meme: sa taas, umiiwas siya at nakataas ang kamay bilang pagtanggi; sa baba, nakangiti siyang nagtuturo bilang pagsang-ayon. Ginagamit ito para ikumpara ang ayaw mo sa mas bet mong choice, gaya ng trabaho versus pahinga o gastos versus ipon.",
-      "description_en": "A two-panel Drake meme: on top, he turns away with his hand raised in rejection; below, he smiles and points in approval. It is used to compare something you dislike with a preferred choice, such as work versus rest or spending versus saving.",
+      "description_tl": "Two-panel na Drake meme: sa taas, umiiwas siya at nakataas ang kamay na parang ayaw; sa baba, nakangiti at nakaturo bilang pagsang-ayon. Ginagamit ito para ikumpara ang ayaw mong option sa mas bet mo, at blanko pa ang mga caption sa kanan.",
+      "description_en": "A two-panel Drake meme: on top, he turns away with a raised hand in rejection; below, he smiles and points in approval. It is used to contrast an unwanted option with a preferred one, with the caption spaces on the right still blank.",
       "ocr_text": "",
       "tags_emotion": [
         "ayaw",
@@ -82,11 +129,84 @@
         "pagpili",
         "comparison",
         "preferences",
-        "priorities",
         "rejection"
       ],
+      "subjects": [
+        "Drake"
+      ],
+      "references": [
+        "drake hotline bling"
+      ],
+      "context_note": "Ang Drake Hotline Bling template ay ginagamit sa memes para ipakita ang “ayaw nito, mas gusto iyon” na comparison.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "0e71a307b2d6",
+      "width": 220,
+      "height": 259,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:42.870Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang taong naka-dark leather jacket ang nakaupo, nakatagilid ang ulo at nakahawak sa batok habang seryosong nakatingin sa camera. Puwedeng reaction sa pagod, stiff neck, o kapag gusto mong mag-pose nang pa-cool kahit nangangalay na.",
+      "description_en": "A person in a dark leather jacket sits with their head tilted and a hand on the back of their neck, looking seriously at the camera. It works as a reaction to tiredness, a stiff neck, or trying to pose coolly despite feeling sore.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "pagod",
+        "tired",
+        "seryoso",
+        "confident"
+      ],
+      "tags_situation": [
+        "stiff neck",
+        "ngalay",
+        "posing",
+        "pagod sa trabaho"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Naka-label na vice-ganda.gif sa source na mula sa Vice Ganda GIF search page.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "0f52af4f62d5",
+      "width": 165,
+      "height": 294,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:47.305Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-blonde wig at striped shirt, nakatingin sa gilid na nakabuka ang bibig na parang nagulat o hindi makapaniwala. Pang-reaction kapag may narinig kang chismis, weird na sagot, o nakakagulat na balita.",
+      "description_en": "Vice Ganda wears a blonde wig and a striped shirt, looking sideways with an open mouth as if surprised or in disbelief. A reaction meme for unexpected gossip, a strange answer, or surprising news.",
+      "ocr_text": "GIRL, BOY, BAKLA, TOMBOY\nWatch Now\n iWant\nTikTok",
+      "tags_emotion": [
+        "gulat",
+        "shocked",
+        "confused",
+        "pagdududa",
+        "disbelief"
+      ],
+      "tags_situation": [
+        "chismis",
+        "unexpected news",
+        "weird na sagot",
+        "reaction"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [
+        "girl, boy, bakla, tomboy"
+      ],
+      "context_note": "Naka-label ang clip bilang “Girl, Boy, Bakla, Tomboy,” at naka-index ito sa source bilang Vice Ganda reaction GIF.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "18f39bdccf83",
@@ -97,23 +217,25 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:42:33.524Z",
       "rights_status": "unverified",
-      "description_tl": "Close-up ng isang tao na nakakunot ang noo, nakatingin sa gilid, at nakausli ang dila na parang naiinis o nandidiri. Pang-reaction kapag may narinig kang kalokohan, may ayaw kang pagkain, o badtrip ka sa kausap mo.",
-      "description_en": "A close-up of a person frowning, looking sideways, and sticking out their tongue as if annoyed or disgusted. Used to react to nonsense, unwanted food, or someone getting on your nerves.",
+      "description_tl": "Close-up ng isang taong nakakunot ang noo, nakatingin sa gilid, at nakausli ang dila na parang nandidiri o naiinis. Pang-reaction kapag may narinig kang kalokohan, may ayaw kang gawin, o badtrip ka sa kausap.",
+      "description_en": "A close-up of a person frowning, looking sideways, and sticking out their tongue as if disgusted or annoyed. A reaction for hearing nonsense, being asked to do something you dislike, or getting irritated with someone.",
       "ocr_text": "",
       "tags_emotion": [
         "badtrip",
         "inis",
         "disgusted",
         "annoyed",
-        "skeptical"
+        "pagdududa"
       ],
       "tags_situation": [
-        "kalokohan",
-        "ayaw na pagkain",
+        "may narinig na kalokohan",
+        "ayaw gawin",
         "nakakainis na kausap",
-        "side eye",
-        "reaction"
+        "side eye"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "none"
     },
@@ -126,22 +248,30 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:39.493Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang blankong papel ang ipinapakompara sa office, tapos sabi ni Pam sa The Office, “They're the same picture.” Ginagamit ito kapag dalawang bagay, tao, o sitwasyon ay kunwari magkaiba pero pareho lang naman talaga.",
-      "description_en": "Two blank sheets are presented for comparison in an office, then Pam from The Office says, “They're the same picture.” Used when two things, people, or situations supposedly differ but are really the same.",
+      "description_tl": "May dalawang blangkong larawan na ipinapahanap ng corporate ang pagkakaiba, pero sabi ng babaeng nasa opisina, pareho lang sila. Ginagamit ito kapag dalawang bagay, tao, o sitwasyon ay kunwari magkaiba pero same lang naman talaga.",
+      "description_en": "Corporate asks someone to find the differences between two blank pictures, but the woman in the office says they are the same picture. It is used when two things, people, or situations supposedly differ but are essentially identical.",
       "ocr_text": "Corporate needs you to find the differences\nbetween this picture and this picture.\nThey're the same picture.",
       "tags_emotion": [
         "sarcastic",
-        "amused",
         "unimpressed",
-        "inis"
+        "walang bilib",
+        "amused"
       ],
       "tags_situation": [
         "comparison",
         "pareho lang",
-        "walang pinagkaiba",
         "office",
-        "hypocrisy"
+        "spot the difference"
       ],
+      "subjects": [
+        "Pam Beesly",
+        "The Office"
+      ],
+      "references": [
+        "the office",
+        "they're the same picture"
+      ],
+      "context_note": "Ang “They're the same picture” template ay ginagamit pang-asar kapag wala namang tunay na pagkakaiba ang dalawang pinagkukumpara.",
       "format": "template",
       "language": "en"
     },
@@ -154,24 +284,59 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:29:10.279Z",
       "rights_status": "unverified",
-      "description_tl": "Close-up ng lalaking may bigote at goatee na may caption na “Now you know!” Pang-react kapag may bagong nalaman, may na-explain kang trivia, o gusto mong sabihing “ayan, alam mo na.”",
-      "description_en": "A close-up of a man with a mustache and goatee, captioned “Now you know!” Used when someone learns something new, after explaining trivia, or to say “there, now you know.”",
+      "description_tl": "Close-up ng isang lalaking may bigote at balbas na may caption na “Now you know!” Pang-react kapag may bagong nalaman, may ibinunyag na sikreto, o may naipaliwanag ka na sa kausap.",
+      "description_en": "A close-up of a man with a mustache and beard, captioned “Now you know!” Used when someone learns something new, a secret is revealed, or you have finished explaining something.",
       "ocr_text": "Now you know!",
       "tags_emotion": [
-        "aliw",
-        "amused",
+        "alam na",
         "confident",
+        "amused",
         "satisfied"
       ],
       "tags_situation": [
-        "trivia",
         "may bagong nalaman",
-        "paliwanag",
-        "sharing facts",
-        "alam mo na"
+        "revelation",
+        "paliwanagan",
+        "trivia"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "en"
+    },
+    {
+      "id": "24ab137b58c7",
+      "width": 220,
+      "height": 191,
+      "source_url": "https://tenor.com/search/pinoy-reaction-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:58:22.201Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang babaeng naka-pink na blazer ang nakatingala, nakakunot ang noo at parang naiiyak o nagrereklamo. Bagay itong reaction kapag tampo, frustrated, o hindi makapaniwala sa nangyari.",
+      "description_en": "A woman in a pink blazer looks upward with furrowed brows, appearing close to tears or about to complain. It works as a reaction to feeling hurt, frustrated, or unable to believe what happened.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "tampo",
+        "naiiyak",
+        "frustrated",
+        "upset",
+        "disbelief"
+      ],
+      "tags_situation": [
+        "reklamo",
+        "disappointment",
+        "bad news",
+        "hindi napagbigyan"
+      ],
+      "subjects": [
+        "Ella Cruz"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "26ada76ec98c",
@@ -182,23 +347,60 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:29:09.401Z",
       "rights_status": "unverified",
-      "description_tl": "Isang babaeng naka-earphones ang nakahawak sa magkabilang gilid ng ulo, nakakunot ang noo at mukhang litong-lito o stressed. Pang-reaction kapag hindi mo na gets ang lesson, ang daming problema, o may narinig kang nakakagulong balita.",
-      "description_en": "A woman wearing earphones holds both sides of her head, frowning and looking confused or stressed. Used as a reaction when you cannot understand a lesson, have too many problems, or hear something bewildering.",
+      "description_tl": "Isang babaeng naka-red ang hawak ang magkabilang gilid ng ulo habang mukhang gulat at stressed. Pang-react kapag sobrang confusing ng nangyayari, tambak ang problema, o hindi mo na alam ang gagawin.",
+      "description_en": "A woman in red holds both sides of her head, looking shocked and stressed. Used to react when things get confusing, problems pile up, or you no longer know what to do.",
       "ocr_text": "",
       "tags_emotion": [
-        "litong-lito",
-        "stressed",
+        "stress",
+        "gulat",
+        "taranta",
         "confused",
-        "kabado",
         "overwhelmed"
       ],
       "tags_situation": [
-        "online class",
+        "tambak na problema",
+        "deadline",
         "exam",
-        "problema",
-        "nakakagulong balita",
-        "reaction"
+        "nakakagulat na balita",
+        "kalituhan"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "3077f593c9b1",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/pinoy-reaction-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:58:17.680Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang taong naka-black feathered coat at dangling earrings ang nakatingala nang bahagya at nakangiti. Pang-reaction kapag tuwang-tuwa ka, feeling fabulous, o proud sa sarili mong bonggang entrance.",
+      "description_en": "A person wearing a black feathered coat and dangling earrings looks slightly upward and smiles. A reaction for feeling delighted, fabulous, or proud of making a grand entrance.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "tuwa",
+        "happy",
+        "confident",
+        "proud",
+        "feeling fabulous"
+      ],
+      "tags_situation": [
+        "bonggang entrance",
+        "ootd",
+        "party",
+        "self-confidence",
+        "good news"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Naka-label na Vice Ganda ang source filename ng smiling reaction na ito.",
       "format": "reaction",
       "language": "none"
     },
@@ -211,24 +413,66 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:31:31.636Z",
       "rights_status": "unverified",
-      "description_tl": "Isang cartoon na aso ang kalmadong nakaupo at may kape habang nasusunog ang buong kuwarto, sabay sabing “This is fine.” Ginagamit kapag kunwari okay ka lang kahit tambak ang problema, deadlines, o stress at parang nagkakagulo na ang lahat.",
-      "description_en": "A cartoon dog calmly sits with coffee while the whole room burns, saying “This is fine.” Used when pretending everything is okay despite mounting problems, deadlines, or stress and everything falling apart.",
+      "description_tl": "Isang cartoon na aso na may sombrero ang kalmadong nakaupo sa mesang may tasa habang nasusunog ang kuwarto, sabay sabi ng “This is fine.” Ginagamit kapag tambak ang problema sa work, school, o buhay pero nagpapanggap kang okay lang.",
+      "description_en": "A cartoon dog wearing a hat sits calmly at a table with a cup while the room burns, saying “This is fine.” Used when problems at work, school, or in life are piling up but you pretend everything is okay.",
       "ocr_text": "THIS IS FINE.",
       "tags_emotion": [
-        "kunwaring okay",
-        "stress",
+        "stressed",
+        "pagod",
+        "kunwaring kalmado",
         "overwhelmed",
-        "kalmado",
         "denial"
       ],
       "tags_situation": [
-        "deadlines",
         "tambak na trabaho",
-        "problema",
-        "crisis",
-        "school stress"
+        "deadline",
+        "school stress",
+        "sunod-sunod na problema",
+        "pretending to be okay"
       ],
+      "subjects": [
+        "This Is Fine dog"
+      ],
+      "references": [
+        "this is fine"
+      ],
+      "context_note": "Ang “This is fine” ay ginagamit na reaction sa pagpapanggap na okay lang kahit kitang-kitang magulo o malala na ang sitwasyon.",
       "format": "template",
+      "language": "en"
+    },
+    {
+      "id": "361bf9912ef6",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:34.229Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-blonde wig ay humahalakhak habang nakahawak sa dibdib. Bagay itong reaction kapag sobrang nakakatawa ang banat, asaran, o chika ng barkada.",
+      "description_en": "Vice Ganda, wearing a blonde wig, laughs with a hand on their chest. This works as a reaction to a hilarious joke, playful teasing, or gossip among friends.",
+      "ocr_text": "re a \"him\"",
+      "tags_emotion": [
+        "tawa",
+        "aliw",
+        "amused",
+        "happy"
+      ],
+      "tags_situation": [
+        "asaran",
+        "biruan",
+        "chikahan",
+        "barkada",
+        "funny reaction"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [
+        "girl boy bakla tomboy"
+      ],
+      "context_note": "Ayon sa source filename, ang laughing reaction ni Vice Ganda ay kaugnay ng Girl, Boy, Bakla, Tomboy.",
+      "format": "reaction",
       "language": "en"
     },
     {
@@ -240,25 +484,126 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:43.703Z",
       "rights_status": "unverified",
-      "description_tl": "Four-panel na Gru's Plan meme kung saan confident na nagpe-present si Gru sa blankong board, tapos napatingin siya rito na parang may mali sa plano. Ginagamit kapag akala mo solid ang diskarte mo sa school, trabaho, o buhay pero biglang napansin mong sablay pala.",
-      "description_en": "A four-panel Gru's Plan meme showing Gru confidently presenting beside a blank board, then looking back at it as if something is wrong with his plan. Used when you think your school, work, or life strategy is solid but suddenly realize it has a flaw.",
+      "description_tl": "Four-panel meme ni Gru na nagpe-present ng plano sa blankong board, tapos napatingin dito na parang may napansing mali. Bagay ito sa mga planong confident ka sa simula pero saka mo mare-realize na may sablay o hindi inaasahang resulta.",
+      "description_en": "A four-panel meme of Gru presenting a plan on a blank board, then looking back at it as if he has noticed a mistake. It fits plans that start confidently before you realize there is a flaw or an unexpected outcome.",
       "ocr_text": "",
       "tags_emotion": [
         "confident",
-        "excited",
         "gulat",
         "confused",
-        "dismaya"
+        "alangan",
+        "regret"
       ],
       "tags_situation": [
-        "planning",
-        "diskarte",
-        "school",
-        "trabaho",
-        "plan gone wrong",
+        "plano",
+        "presentation",
+        "expectation vs reality",
+        "palpak na plano",
         "realization"
       ],
+      "subjects": [
+        "Gru"
+      ],
+      "references": [
+        "gru's plan",
+        "despicable me"
+      ],
+      "context_note": "Ang Gru's Plan template ay ginagamit para ipakita ang confident na plano na biglang may sablay sa bandang huli.",
       "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "3b39eceab17e",
+      "width": 220,
+      "height": 124,
+      "source_url": "https://tenor.com/search/tagalog-meme-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:28.379Z",
+      "rights_status": "unverified",
+      "description_tl": "Plain na muted red na background lang ang nakikita, walang tao o text. Puwedeng hanapin bilang blank image o background para sa sariling meme caption.",
+      "description_en": "Only a plain muted red background is visible, with no people or text. It can be searched for as a blank image or background for a custom meme caption.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "neutral",
+        "blanko",
+        "walang reaksyon"
+      ],
+      "tags_situation": [
+        "blank image",
+        "red background",
+        "meme template"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "quote_card",
+      "language": "none"
+    },
+    {
+      "id": "3dc7c50ff991",
+      "width": 220,
+      "height": 240,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:00.584Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-blond na buhok, may hawak na mikropono, at nakatingala sa gilid na parang nag-iisip o may pinagdududahan. Bagay itong reaction kapag napapa-“ano raw?” ka sa sinabi ng kausap o naghihintay ng paliwanag.",
+      "description_en": "Vice Ganda, with blond hair and a microphone, looks upward to the side as if thinking or feeling skeptical. This works as a reaction when someone's remark makes you go “what?” or leaves you waiting for an explanation.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "duda",
+        "skeptical",
+        "confused",
+        "nagtataka"
+      ],
+      "tags_situation": [
+        "reaction",
+        "may kausap",
+        "naghihintay ng sagot",
+        "di gets"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Naka-label bilang vice-ganda.gif sa source, at ang ekspresyon niya rito ay bagay sa nagtatakang reaction meme.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "405230a6edd2",
+      "width": 165,
+      "height": 294,
+      "source_url": "https://tenor.com/search/filipino-meme-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:54:38.615Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang babaeng naka-white strapless top ang nakatingin sa laptop na may seryoso at medyo nag-aalalang expression. Bagay itong reaction kapag may nabasang confusing na message, stressful na email, o mahirap na task sa work o school.",
+      "description_en": "A woman in a white strapless top looks at a laptop with a serious, slightly worried expression. It fits reactions to a confusing message, a stressful email, or a difficult work or school task.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "nag-aalala",
+        "worried",
+        "confused",
+        "seryoso",
+        "stressed"
+      ],
+      "tags_situation": [
+        "laptop",
+        "work",
+        "school",
+        "email",
+        "pagbabasa ng message"
+      ],
+      "subjects": [
+        "Maris Racal"
+      ],
+      "references": [],
+      "context_note": "Tinukoy ng source filename na maris-racal.gif ang reaction image na ito bilang kay Maris Racal.",
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -270,23 +615,100 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:42:33.452Z",
       "rights_status": "unverified",
-      "description_tl": "Close-up ng taong nakapikit at nakahiga, may kumot at caption na “sleep na q..”. Pang-meme kapag antok o pagod ka na at gusto mo nang matulog o mag-good night sa chat.",
-      "description_en": "A close-up of a person lying down with eyes closed under a blanket, captioned “sleep na q..”. Used when you're sleepy or exhausted and want to go to bed or say good night in a chat.",
+      "description_tl": "Close-up ng isang taong nakapikit at nakasimangot habang nakahiga, may caption na “sleep na q..”. Pang-react kapag antok o pagod ka na at gusto mo nang matulog kaysa makipag-usap o makisali.",
+      "description_en": "A close-up of a person lying down with closed eyes and a downturned mouth, captioned “sleep na q..”. Used when you’re sleepy or exhausted and would rather go to bed than keep chatting or participating.",
       "ocr_text": "sleep na q..",
       "tags_emotion": [
         "antok",
-        "sleepy",
         "pagod",
-        "tired"
+        "sleepy",
+        "tired",
+        "fed up"
       ],
       "tags_situation": [
         "bedtime",
-        "good night",
         "puyat",
-        "chat",
-        "pahinga"
+        "late night",
+        "ending a conversation",
+        "after work"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
+      "language": "taglish"
+    },
+    {
+      "id": "46271867d2bf",
+      "width": 220,
+      "height": 283,
+      "source_url": "https://tenor.com/search/malupiton-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:57:10.879Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaking walang damit pang-itaas ang nakakunot-noo at nakabuka ang bibig, may caption na “ARAY KOOO.” Pang-react kapag nasaktan, napahiya, o tinamaan ng masakit na banat.",
+      "description_en": "A shirtless man furrows his brow with his mouth open, captioned “ARAY KOOO.” Used to react to pain, embarrassment, or a remark that hits a little too close to home.",
+      "ocr_text": "ARAY KOOO",
+      "tags_emotion": [
+        "sakit",
+        "hurt",
+        "gulat",
+        "shocked",
+        "hiya"
+      ],
+      "tags_situation": [
+        "nasaktan",
+        "banat",
+        "napahiya",
+        "realtalk",
+        "reaction"
+      ],
+      "subjects": [
+        "Malupiton"
+      ],
+      "references": [
+        "aray kooo",
+        "malupiton"
+      ],
+      "context_note": "Naka-link sa Malupiton GIF search ang source, at ang “ARAY KOOO” ay bagay na reaction sa sakit o masakit na banat.",
+      "format": "reaction",
+      "language": "tl"
+    },
+    {
+      "id": "465682346d2c",
+      "width": 220,
+      "height": 165,
+      "source_url": "https://tenor.com/search/marites-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:57:44.491Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang lalaking nakangiti at mukhang interesadong makinig, na may caption na “Marites-mode.” Pang-react ito kapag may bagong chika o gusto mong makisagap ng tsismis sa barkada.",
+      "description_en": "A smiling man looks eager to listen, with the caption “Marites-mode.” Use it when there is fresh gossip or you want to hear what your friends are talking about.",
+      "ocr_text": "Marites-mode",
+      "tags_emotion": [
+        "curious",
+        "intrigued",
+        "excited",
+        "usisero"
+      ],
+      "tags_situation": [
+        "chikahan",
+        "tsismisan",
+        "barkada",
+        "group chat",
+        "bagong chika"
+      ],
+      "subjects": [
+        "David Licauco"
+      ],
+      "references": [
+        "marites",
+        "pambansang ginoo"
+      ],
+      "context_note": "Ang “Marites-mode” sa caption ay tumutukoy sa pagiging alerto at interesado sa chika o tsismis.",
+      "format": "template",
       "language": "taglish"
     },
     {
@@ -298,22 +720,25 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:29:06.607Z",
       "rights_status": "unverified",
-      "description_tl": "Isang lalaking naka-white shirt ang nakaharap sa camera na nakakunot ang noo at seryoso, parang hindi impressed. Bagay ito sa reaction na badtrip, duda, o walang gana sa sinasabi ng kausap.",
-      "description_en": "A man in a white shirt faces the camera with a furrowed brow and a serious, unimpressed expression. It fits reactions of annoyance, skepticism, or disinterest in what someone is saying.",
-      "ocr_text": "MAKE GIFS AT GIFSOUP.COM",
+      "description_tl": "Isang lalaking naka-white shirt ang nakasandal palapit sa camera, may bigote at seryoso, tila naiinis na mukha. Bagay itong reaction kapag badtrip ka na, pagod sa trabaho, o wala nang gana sa kausap.",
+      "description_en": "A mustached man in a white shirt leans toward the camera with a serious, seemingly annoyed expression. It works as a reaction when you're irritated, tired from work, or done with a conversation.",
+      "ocr_text": "BIR\nMAKE GIFS AT GIFSOUP.COM",
       "tags_emotion": [
         "badtrip",
-        "duda",
-        "unimpressed",
+        "inis",
+        "pagod",
         "annoyed",
-        "walang gana"
+        "unimpressed"
       ],
       "tags_situation": [
-        "reaction",
-        "usap",
-        "nakakainis na tanong",
-        "hindi nakakatawang joke"
+        "trabaho",
+        "nakakainis na kausap",
+        "walang gana",
+        "reaction"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "en"
     },
@@ -326,23 +751,28 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:42:35.472Z",
       "rights_status": "unverified",
-      "description_tl": "Isang lalaki ang may hawak na bote ng gin, na may caption na hindi porket may gin ay lasinggero na—baka umiinom lang para makalimutan ka. Pang-hugot ito kapag sawi sa pag-ibig, nangungulila sa ex, o nagbibiro tungkol sa pag-inom dahil sa heartbreak.",
-      "description_en": "A man holds a bottle of gin with a caption saying that holding gin does not necessarily make him a drunk—maybe he is just drinking to forget someone. It is a heartbreak meme for missing an ex or joking about drinking to cope with lost love.",
-      "ocr_text": "di porket may\nhawak na gin\nlasingero na?\nGINEBRA\nSAN MIGUEL\ndiba pwedeng\numiinom lang\npara\nmakalimutan\nka na",
+      "description_tl": "Isang lalaki ang may hawak na bote ng alak, na may caption na hindi porket may gin ay lasinggero—baka umiinom lang para makalimutan ka. Pang-hugot kapag brokenhearted, nangungulila sa ex, o nagbibiro tungkol sa pag-inom para maka-move on.",
+      "description_en": "A man holds a bottle of alcohol beneath a caption saying that holding gin does not make him a drunk—perhaps he is just drinking to forget you. Used for heartbreak, missing an ex, or joking about drinking to move on.",
+      "ocr_text": "di porket may\nhawak na gin\nlasingero na?\ndiba pwedeng\numiinom lang\npara\nmakalimutan\nka na\nSAN MIGUEL\nPALE PILSEN",
       "tags_emotion": [
-        "sawi",
         "lungkot",
         "heartbroken",
         "pangungulila",
-        "defensive"
+        "hurt",
+        "sentimental"
       ],
       "tags_situation": [
         "inuman",
         "breakup",
-        "paglimot sa ex",
+        "moving on",
         "hugot",
-        "gin"
+        "missing an ex"
       ],
+      "subjects": [],
+      "references": [
+        "hugot"
+      ],
+      "context_note": "Hugot ang caption dahil ginagawang biro ang pag-inom para makalimutan ang isang tao.",
       "format": "template",
       "language": "tl"
     },
@@ -355,24 +785,27 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:25:50.658Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang office worker ang gulat at problemadong nakatitig sa cellphone habang nakahawak sa noo. Sakto kapag chineck mo ang e-wallet at ubos na pala ang sweldo, pero malayo pa ang susunod na payday.",
-      "description_en": "An office worker stares at his phone in shock and worry, holding his forehead. Perfect for checking your e-wallet and realizing your salary is already gone while the next payday is still far away.",
+      "description_tl": "Isang office worker ang nanlalaki ang mata habang nakatitig sa cellphone at nakahawak sa noo, parang hindi makapaniwalang ubos na ang laman ng e-wallet. Sakto sa kakasweldo lang pero broke agad dahil sa bills at budget.",
+      "description_en": "An office worker stares wide-eyed at his phone with a hand on his forehead, seemingly unable to believe his e-wallet is empty. Perfect for getting paid only to go broke immediately because of bills and budgeting.",
       "ocr_text": "",
       "tags_emotion": [
         "gulat",
-        "worried",
-        "stress",
+        "shocked",
         "kabado",
-        "panghihinayang"
+        "worried",
+        "hinayang"
       ],
       "tags_situation": [
         "sweldo",
-        "pera",
         "broke",
-        "payday",
+        "e-wallet",
         "budget",
-        "e-wallet"
+        "bills",
+        "petsa de peligro"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "Ayon sa source, AI-generated template ito tungkol sa office worker na nakatitig sa walang lamang e-wallet, para sa memes tungkol sa sweldo at pagkaubos ng pera.",
       "format": "template",
       "language": "none"
     },
@@ -385,27 +818,69 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:11:09.453Z",
       "rights_status": "unverified",
-      "description_tl": "Lumingon ang boyfriend sa babaeng naka-red habang ang kasama niyang girlfriend ay nakatingin sa kanya na gulat at badtrip. Ginagamit ito kapag natutukso sa bagong option at napapabayaan ang kasalukuyang jowa, gawain, o responsibilidad.",
-      "description_en": "A boyfriend turns to look at a woman in red while his girlfriend looks at him in shock and annoyance. Used when someone is tempted by a new option and neglects their current partner, task, or responsibility.",
+      "description_tl": "Isang lalaking may kasamang babae ang lumilingon sa babaeng naka-red, habang mukhang naiinis at nagugulat ang kasama niya. Ginagamit ito kapag natutukso ka sa bagong option at napapabayaan ang dati mong choice, jowa, o responsibilidad.",
+      "description_en": "A man walking with a woman turns to look at a woman in red, while his companion looks annoyed and shocked. Used when a tempting new option distracts you from your original choice, partner, or responsibilities.",
       "ocr_text": "",
       "tags_emotion": [
         "tukso",
-        "selos",
-        "badtrip",
         "tempted",
+        "selos",
         "jealous",
+        "inis",
         "distracted"
       ],
       "tags_situation": [
-        "jowa",
         "relationship",
-        "bagong option",
+        "jowa",
+        "choices",
         "distraction",
-        "priorities",
-        "responsibilidad"
+        "priorities"
       ],
+      "subjects": [
+        "Distracted Boyfriend"
+      ],
+      "references": [
+        "distracted boyfriend"
+      ],
+      "context_note": "Ang Distracted Boyfriend template ay ginagamit para ipakita ang pagkahumaling sa bagong option habang napapabayaan ang kasalukuyan.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "4e6d7026eba1",
+      "width": 165,
+      "height": 144,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:51.830Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda ay sumasayaw sa stage na naka-oversized white shirt at shorts, na may purple na ilaw sa background. Bagay itong reaction kapag good vibes, excited sa lakad, o gustong mag-celebrate at rumampa.",
+      "description_en": "Vice Ganda dances onstage in an oversized white shirt and shorts, with purple lighting in the background. It works as a reaction for feeling upbeat, getting excited about going out, or wanting to celebrate and strut.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "excited",
+        "confident",
+        "good vibes"
+      ],
+      "tags_situation": [
+        "sayawan",
+        "celebration",
+        "party",
+        "gimik",
+        "rampa"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [
+        "it's showtime"
+      ],
+      "context_note": "Naka-label ang GIF bilang Vice Ganda sa source at iniuugnay sa Showtime, kaya bagay itong pang-good vibes na dance reaction.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "52c782339bbf",
@@ -416,24 +891,155 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:31:29.332Z",
       "rights_status": "unverified",
-      "description_tl": "Isang kalbong lalaki ang nakatingin sa camera na may bahagyang ngiti, habang may isa pang lalaki sa likod niya. Bagay itong reaction kapag may banat ang tropa at ang sagot mo ay isang tahimik na tinging parang “talaga ba?”",
-      "description_en": "A bald man looks at the camera with a slight smile while another man stands behind him. It works as a reaction when a friend makes a remark and you respond with a silent “really?” look.",
-      "ocr_text": "MGA...",
+      "description_tl": "Isang kalbong lalaki na naka-white shirt ang may pigil na ngiti habang may isa pang lalaki sa likod niya. Bagay itong reaction kapag may kalokohan, may alam kang sikreto, o gusto mong mang-asar nang walang sinasabi.",
+      "description_en": "A bald man in a white shirt gives a restrained smile while another man stands behind him. It works as a reaction to mischief, knowing a secret, or teasing someone without saying anything.",
+      "ocr_text": "",
       "tags_emotion": [
-        "amused",
-        "skeptical",
         "natatawa",
-        "nagdududa"
+        "amused",
+        "mischievous",
+        "pilyo"
       ],
       "tags_situation": [
         "asaran",
-        "biruan",
-        "tropa",
-        "reaction",
-        "group chat"
+        "kalokohan",
+        "sikreto",
+        "reaction"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
       "format": "reaction",
       "language": "tl"
+    },
+    {
+      "id": "52fa4defce70",
+      "width": 258,
+      "height": 210,
+      "source_url": "https://tenor.com/search/pinoy-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:54:16.247Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang puting folder na may asul na upload arrow sa blue background. Puwedeng gamitin sa usapang pag-upload ng files, pagpasa ng assignment, o pagsumite ng requirements online.",
+      "description_en": "A white folder with a blue upload arrow on a blue background. It can be used in conversations about uploading files, turning in assignments, or submitting requirements online.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "neutral",
+        "kalmado",
+        "ready"
+      ],
+      "tags_situation": [
+        "upload",
+        "file sharing",
+        "online submission",
+        "assignment",
+        "requirements"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "598689c745fc",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:01.549Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-orange at blue na baseball jersey, hawak ang tiyan habang nakatingin sa gilid na parang nagulat o may iniinda. Bagay na reaction kapag sumasakit ang tiyan, sobrang busog, o may narinig na nakakagulat.",
+      "description_en": "Vice Ganda wears an orange-and-blue baseball jersey and holds their stomach while looking sideways with a startled or uncomfortable expression. A fitting reaction to a stomachache, feeling overly full, or hearing something surprising.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gulat",
+        "shocked",
+        "ilang",
+        "uncomfortable"
+      ],
+      "tags_situation": [
+        "sakit ng tiyan",
+        "busog",
+        "pagkatapos kumain",
+        "unexpected news"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Nakalabel na Vice Ganda ang GIF sa source, at ang hawak-tiyan na pose at side-eye nito ay bagay sa reaction memes.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "5e752e04ca10",
+      "width": 498,
+      "height": 205,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:10.631Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng animated na lalaking naka-black sunglasses at pulang damit, na may seryoso at astig na expression. Bagay itong reaction kapag ready ka nang sumabak, magpa-cool, o gumawa ng dramatic entrance.",
+      "description_en": "A close-up of an animated man wearing black sunglasses and a red outfit, with a serious, tough expression. It works as a reaction when you're ready for action, playing it cool, or making a dramatic entrance.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "astig",
+        "confident",
+        "seryoso",
+        "determined"
+      ],
+      "tags_situation": [
+        "dramatic entrance",
+        "ready na",
+        "showtime",
+        "pagpapasikat"
+      ],
+      "subjects": [],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "5fa7a5fcb7d6",
+      "width": 220,
+      "height": 118,
+      "source_url": "https://tenor.com/search/marites-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:57:42.795Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang grupo ng mga lalaking naka-unipormeng marino ang sabay-sabay na sumasayaw sa isang kuwarto. Puwedeng reaction kapag game na ang buong barkada sa sayawan, trip, o celebration.",
+      "description_en": "A group of men in sailor uniforms dance together in a room. It works as a reaction when the whole friend group is ready to dance, join the fun, or celebrate.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "saya",
+        "happy",
+        "excited",
+        "aliw",
+        "playful"
+      ],
+      "tags_situation": [
+        "barkada",
+        "sayawan",
+        "party",
+        "celebration",
+        "group performance"
+      ],
+      "subjects": [
+        "Channing Tatum",
+        "Hail, Caesar!"
+      ],
+      "references": [
+        "hail, caesar!"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "6004a3ecea71",
@@ -444,23 +1050,26 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:20.148Z",
       "rights_status": "unverified",
-      "description_tl": "Si Boromir sa The Lord of the Rings, nakataas ang kamay na parang seryosong nagpapaliwanag na hindi basta-basta ang isang bagay. Gamit ang “One Does Not Simply” meme kapag may gawaing akala ng iba madali pero mahirap pala, gaya ng pag-iipon o pag-move on.",
-      "description_en": "Boromir from The Lord of the Rings raises his hand as if seriously explaining that something is not that simple. The “One Does Not Simply” meme is used for tasks others assume are easy but are actually difficult, like saving money or moving on.",
+      "description_tl": "Isang lalaking naka-medieval na kasuotan ang seryosong nagsasalita habang magkadikit ang hinlalaki at hintuturo. Gamit ang “One Does Not Simply” template kapag may gawaing akala ng iba ay madali pero mahirap pala, gaya ng pag-iipon o pag-move on.",
+      "description_en": "A man in medieval clothing speaks seriously while holding his thumb and index finger together. The “One Does Not Simply” template is used when something others assume is easy is actually difficult, such as saving money or moving on.",
       "ocr_text": "",
       "tags_emotion": [
         "seryoso",
         "skeptical",
         "frustrated",
-        "hirap",
-        "amused"
+        "hirap"
       ],
       "tags_situation": [
-        "one does not simply",
         "mahirap na gawain",
-        "pagpapaliwanag",
+        "unrealistic expectations",
         "pag-iipon",
         "moving on"
       ],
+      "subjects": [],
+      "references": [
+        "one does not simply"
+      ],
+      "context_note": "Ang “One Does Not Simply” template ay ginagamit sa memes para sabihing hindi basta-basta nagagawa ang isang bagay.",
       "format": "template",
       "language": "none"
     },
@@ -473,22 +1082,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:11:11.420Z",
       "rights_status": "unverified",
-      "description_tl": "Si Bernie Sanders na naka-winter jacket sa labas, may caption na “I am once again asking.” Ginagamit kapag paulit-ulit kang humihingi ng tulong, suporta, pabor, o ambag sa barkada.",
-      "description_en": "Bernie Sanders stands outdoors in a winter jacket with the caption “I am once again asking.” Used when repeatedly asking for help, support, favors, or contributions from friends.",
+      "description_tl": "Si Bernie na naka-winter jacket sa labas, may caption na “I am once again asking.” Ginagamit kapag paulit-ulit kang humihingi ng tulong, pabor, o suporta, o nangungulit sa isang request.",
+      "description_en": "Bernie stands outdoors in a winter jacket with the caption “I am once again asking.” Used when repeatedly asking for help, a favor, or support, or following up on a request.",
       "ocr_text": "Bernie\nI am once again asking",
       "tags_emotion": [
-        "nagmamakaawa",
+        "nakikiusap",
         "hopeful",
         "frustrated",
-        "desperado"
+        "naiinip"
       ],
       "tags_situation": [
-        "hingi ng tulong",
-        "pakiusap",
-        "ambagan",
+        "paghingi ng tulong",
+        "paulit-ulit na request",
         "follow-up",
-        "asking for support"
+        "pabor",
+        "support"
       ],
+      "subjects": [
+        "Bernie"
+      ],
+      "references": [
+        "i am once again asking for your support"
+      ],
+      "context_note": "Ang template na “Bernie I Am Once Again Asking For Your Support” ay ginagamit sa memes para sa paulit-ulit na pakiusap.",
       "format": "reaction",
       "language": "en"
     },
@@ -501,8 +1117,8 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:50.198Z",
       "rights_status": "unverified",
-      "description_tl": "Isang kalansay ang nakaupo sa bench, parang inabot na ng habambuhay sa paghihintay. Pang-meme kapag sobrang tagal ng reply, pila, sweldo, o pagdating ng kausap mo.",
-      "description_en": "A skeleton sits on a bench as if it has spent a lifetime waiting. Used when a reply, a queue, payday, or someone's arrival is taking forever.",
+      "description_tl": "Isang skeleton ang nakaupo sa kahoy na bench na parang sobrang tagal nang naghihintay. Pang-meme ito kapag wala pa ring reply, late ang ka-meet, o ang tagal dumating ng hinihintay mo.",
+      "description_en": "A skeleton sits on a wooden bench as if it has been waiting forever. This meme fits waiting for a reply, someone who is late, or anything taking far too long to arrive.",
       "ocr_text": "",
       "tags_emotion": [
         "inip",
@@ -512,13 +1128,19 @@
         "resigned"
       ],
       "tags_situation": [
-        "waiting",
+        "paghihintay",
         "walang reply",
-        "pila",
-        "sweldo",
-        "late",
-        "antayan"
+        "late na ka-meet",
+        "matagal na proseso",
+        "delayed"
       ],
+      "subjects": [
+        "Waiting Skeleton"
+      ],
+      "references": [
+        "waiting skeleton"
+      ],
+      "context_note": "Ang Waiting Skeleton template ay pang-express ng sobrang tagal na paghihintay, na parang naging kalansay ka na.",
       "format": "reaction",
       "language": "none"
     },
@@ -531,24 +1153,105 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:22.541Z",
       "rights_status": "unverified",
-      "description_tl": "Si Lenny sa The Simpsons ay naglalagay ng zero sa “days without” board, kaya balik sa zero ang bilang ng araw na walang insidente. Gamit ito kapag naulit na naman ang bisyo, pagkakamali, o aberyang sinusubukang iwasan.",
-      "description_en": "Lenny from The Simpsons puts a zero on a “days without” board, resetting the incident-free count to zero. Use it when a bad habit, mistake, or recurring problem happens yet again.",
+      "description_tl": "Si Lenny sa The Simpsons ay naglalagay ng zero sa “days without” na karatula. Gamit ito kapag naulit na naman ang bad habit, sablay, o problemang akala mo natigil na.",
+      "description_en": "Lenny from The Simpsons puts a zero on a “days without” sign. Use it when a bad habit, mistake, or supposedly resolved problem happens yet again.",
       "ocr_text": "0\nDAYS WITHOUT\n0",
       "tags_emotion": [
+        "inis",
         "badtrip",
-        "frustrated",
         "disappointed",
-        "panghihinayang"
+        "resigned"
       ],
       "tags_situation": [
-        "balik sa zero",
-        "paulit-ulit na problema",
+        "paulit-ulit",
         "bad habits",
-        "pagkakamali",
-        "workplace incident"
+        "sablay",
+        "reset counter",
+        "balik sa dati"
       ],
+      "subjects": [
+        "Lenny",
+        "The Simpsons"
+      ],
+      "references": [
+        "the simpsons",
+        "0 days without"
+      ],
+      "context_note": "Ang “0 days without” template ay pangbirong reset ng bilang kapag naulit na naman ang isang sablay o ugali.",
       "format": "template",
       "language": "en"
+    },
+    {
+      "id": "6b8e5dff782b",
+      "width": 220,
+      "height": 194,
+      "source_url": "https://tenor.com/search/marites-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:57:32.233Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Popeye na nakapikit at nakanganga sa pagtawa, may caption na “ACK ACK ACK.” Pang-react kapag sobrang nakakatawa ang joke, may kalokohan sa barkada, o natatawa ka nang may halong pang-aasar.",
+      "description_en": "Popeye laughs with his eyes shut and mouth open, captioned “ACK ACK ACK.” A reaction for a hilarious joke, friends messing around, or laughter with a bit of teasing.",
+      "ocr_text": "ACK ACK ACK",
+      "tags_emotion": [
+        "tawa",
+        "aliw",
+        "amused",
+        "happy",
+        "pang-aasar"
+      ],
+      "tags_situation": [
+        "biruan",
+        "barkada",
+        "group chat",
+        "funny joke",
+        "asaran"
+      ],
+      "subjects": [
+        "Popeye"
+      ],
+      "references": [
+        "popeye",
+        "ack ack ack"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "6fd6b920d8d5",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:05.997Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang taong naka-blonde na kulot na wig ang nakangiti nang malaki at mukhang natatawa. Pang-reaction ito kapag may nakakatawang chika, banat, o biruan sa barkada.",
+      "description_en": "A person wearing a curly blonde wig is smiling widely and appears amused. This works as a reaction to funny gossip, witty remarks, or jokes among friends.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "aliw",
+        "amused",
+        "saya",
+        "happy",
+        "natatawa"
+      ],
+      "tags_situation": [
+        "chikahan",
+        "biruan",
+        "barkada",
+        "funny reaction"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [
+        "girl boy bakla tomboy"
+      ],
+      "context_note": "Iniuugnay ng source filename kay Vice Ganda at sa “Girl Boy Bakla Tomboy” ang reaction image na ito.",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "6ff4588989f3",
@@ -559,22 +1262,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:15.939Z",
       "rights_status": "unverified",
-      "description_tl": "Ang lalaki sa Ancient Aliens meme ay nakangiti at nakataas ang dalawang kamay na parang nagpapaliwanag ng kakaibang teorya. Ginagamit ito kapag may absurd na paliwanag, conspiracy theory, o sinisisi na lang sa aliens ang bagay na hindi maipaliwanag.",
-      "description_en": "The man in the Ancient Aliens meme is smiling with both hands raised as if explaining an unusual theory. It is used for absurd explanations, conspiracy theories, or blaming aliens for something unexplained.",
+      "description_tl": "Isang lalaking naka-suit, magulo ang buhok, at nakataas ang dalawang kamay na parang may ipinapaliwanag sa Ancient Aliens template. Ginagamit ito kapag may malabong teorya o sobrang confident na paliwanag sa isang misteryo o simpleng problema.",
+      "description_en": "A man in a suit with wild hair holds both hands up as if explaining something in the Ancient Aliens template. It is used for far-fetched theories or overly confident explanations of mysteries or everyday problems.",
       "ocr_text": "H HD\nHISTORY.COM",
       "tags_emotion": [
-        "aliw",
+        "confident",
         "amused",
-        "pagtataka",
-        "curious"
+        "nagtataka",
+        "aliw"
       ],
       "tags_situation": [
         "conspiracy theory",
-        "aliens",
         "paliwanag",
-        "palusot",
-        "usapang barkada"
+        "misteryo",
+        "debate",
+        "hula"
       ],
+      "subjects": [
+        "Ancient Aliens"
+      ],
+      "references": [
+        "ancient aliens"
+      ],
+      "context_note": "Ang Ancient Aliens template ay bagay sa biro tungkol sa malabong teoryang ipinapaliwanag nang sobrang confident.",
       "format": "reaction",
       "language": "en"
     },
@@ -587,25 +1297,134 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:36.529Z",
       "rights_status": "unverified",
-      "description_tl": "Magkatabi ang sobrang maskuladong Buff Doge at ang maliit, nakaupong Cheems na mukhang malungkot at may luha. Ginagamit ito pang-compare ng malakas at mahinang version ng sarili, gaya ng confident bago ang exam pero kawawa na pagdating sa actual test.",
-      "description_en": "An extremely muscular Buff Doge stands beside a smaller, seated Cheems who looks sad and teary. This meme compares strong and weak versions of yourself, such as feeling confident before an exam but helpless during the actual test.",
+      "description_tl": "Magkatabi ang sobrang muscular na Buff Doge at maliit, nakaupong Cheems na may luha. Ginagamit ito sa paghahambing ng malakas at mahinang version ng sarili o iba, gaya ng expectations vs. reality o noon vs. ngayon.",
+      "description_en": "An extremely muscular Buff Doge stands beside a small, seated Cheems with a tear. This is used to compare strong and weak versions of oneself or others, such as expectations versus reality or then versus now.",
       "ocr_text": "",
       "tags_emotion": [
         "confident",
-        "kawawa",
-        "malungkot",
-        "intimidated",
-        "hiya"
+        "lungkot",
+        "insecure",
+        "tapang",
+        "panghihina"
       ],
       "tags_situation": [
-        "comparison",
-        "expectation vs reality",
+        "expectations vs reality",
         "noon vs ngayon",
-        "exam",
+        "comparison",
         "gym",
-        "bago at pagkatapos"
+        "pagod sa trabaho"
       ],
+      "subjects": [
+        "Buff Doge",
+        "Cheems"
+      ],
+      "references": [
+        "buff doge vs. cheems",
+        "doge"
+      ],
+      "context_note": "Ang Buff Doge vs. Cheems template ay pang-contrast ng malakas o confident na side at mahina o kawawang side.",
       "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "706e3b0c014b",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:19.134Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cartoon na unggoy na naka-black suit at red tie ang humahawak sa sunglasses niya na parang cool at ready na. Bagay itong reaction kapag oras nang magpasikat, sumabak sa trabaho, o simulan ang show.",
+      "description_en": "A cartoon monkey in a black suit and red tie holds its sunglasses as if looking cool and ready to go. It works as a reaction when it is time to show off, get to work, or start the show.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "confident",
+        "angas",
+        "excited",
+        "handa"
+      ],
+      "tags_situation": [
+        "showtime",
+        "performance",
+        "trabaho",
+        "pasikat",
+        "ready na"
+      ],
+      "subjects": [
+        "cartoon monkey"
+      ],
+      "references": [
+        "it's showtime"
+      ],
+      "context_note": "",
+      "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "719f67e241aa",
+      "width": 200,
+      "height": 129,
+      "source_url": "https://tenor.com/search/pinoy-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:54:24.828Z",
+      "rights_status": "unverified",
+      "description_tl": "Makukulay na salitang “Pinoy Pride” na may nakangiting araw at mga bituin. Ginagamit ito pang-express ng pagiging proud Pinoy, lalo na kapag may tagumpay o achievement ang kapwa Pilipino.",
+      "description_en": "Colorful “Pinoy Pride” lettering with a smiling sun and stars. Used to express Filipino pride, especially when celebrating a fellow Filipino’s success or achievement.",
+      "ocr_text": "PINOY\nPRIDE",
+      "tags_emotion": [
+        "proud",
+        "pagmamalaki",
+        "masaya",
+        "happy"
+      ],
+      "tags_situation": [
+        "pinoy pride",
+        "filipino achievement",
+        "celebration",
+        "suportang pinoy"
+      ],
+      "subjects": [],
+      "references": [
+        "pinoy pride"
+      ],
+      "context_note": "Ang “Pinoy Pride” ay pahayag ng pagmamalaki sa pagiging Pilipino, gaya ng nakasulat sa graphic.",
+      "format": "reaction",
+      "language": "taglish"
+    },
+    {
+      "id": "77b8402ccfe0",
+      "width": 220,
+      "height": 163,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:40.330Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ni Vice Ganda na nakangiti, kita ang braces, at nakalabas ang dila habang parang kumikindat. Pang-reaction sa kulitan, pang-aasar, o kapag feeling playful at malandi.",
+      "description_en": "A close-up of Vice Ganda smiling with visible braces and sticking out their tongue while appearing to wink. Used as a reaction for playful teasing, joking around, or feeling flirty.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "makulit",
+        "playful",
+        "malandi",
+        "flirty",
+        "amused"
+      ],
+      "tags_situation": [
+        "kulitan",
+        "asaran",
+        "biruan",
+        "flirting",
+        "chat reaction"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Pinangalanang Vice Ganda ang GIF sa source, at ang paglabas ng dila ay bagay sa makulit na reaction sa chats.",
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -617,23 +1436,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:46.015Z",
       "rights_status": "unverified",
-      "description_tl": "Drawing ng dalawang maskuladong braso na mahigpit na nag-handshake, gaya ng Epic Handshake meme. Ginagamit kapag may solid na pagkakasundo, teamwork, o magkaibang grupo na may iisang hilig o problema.",
-      "description_en": "A drawing of two muscular arms clasping hands in the Epic Handshake pose. Used for strong agreement, teamwork, or different groups sharing the same interest or problem.",
+      "description_tl": "Dalawang maskuladong braso ang mahigpit na magkahawak sa Epic Handshake template. Ginagamit ito kapag may pinagkasunduan o common ground ang dalawang tao o grupong magkaiba.",
+      "description_en": "Two muscular arms clasp hands firmly in the Epic Handshake template. It is used when two different people or groups agree or find common ground.",
       "ocr_text": "",
       "tags_emotion": [
-        "solidarity",
         "proud",
-        "excited",
         "tiwala",
+        "solidarity",
         "saya"
       ],
       "tags_situation": [
-        "teamwork",
         "pagkakasundo",
-        "shared interests",
-        "friendship",
-        "alliance"
+        "teamwork",
+        "common ground",
+        "alyansa",
+        "friendship"
       ],
+      "subjects": [
+        "Epic Handshake"
+      ],
+      "references": [
+        "epic handshake"
+      ],
+      "context_note": "Ang Epic Handshake ay meme template para ipakita ang shared interest o pagkakasundo ng dalawang magkaibang panig.",
       "format": "template",
       "language": "none"
     },
@@ -646,23 +1471,95 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:58.946Z",
       "rights_status": "unverified",
-      "description_tl": "May blue flag icon at text na “Marked Safe From” at “Today,” na may bakanteng espasyo para sa kung anong naiwasan. Ginagamit ito para pabirong sabihing ligtas ka o nakaiwas sa hassle, drama, gastos, o ibang problema ngayong araw.",
-      "description_en": "A blue flag icon appears above “Marked Safe From” and “Today,” with blank space for whatever was avoided. It is used to jokingly announce that you are safe from hassles, drama, spending, or other problems for the day.",
+      "description_tl": "May blue flag at text na “Marked Safe From” at “Today,” na may bakanteng espasyo para sa bagay na naiwasan. Ginagamit ito para pabirong sabihing ligtas ka o nakaiwas sa abala, drama, o nakakastress na pangyayari.",
+      "description_en": "A blue flag appears above “Marked Safe From” and “Today,” with blank space for whatever was avoided. It is used to jokingly announce being safe from trouble, drama, or a stressful event.",
       "ocr_text": "Marked Safe From\nToday",
       "tags_emotion": [
-        "relieved",
-        "panatag",
-        "thankful",
-        "gaan ng loob"
+        "relief",
+        "ginhawa",
+        "tuwa",
+        "amused"
       ],
       "tags_situation": [
-        "iwas drama",
-        "ligtas",
-        "daily update",
-        "iwas gastos",
-        "hassle"
+        "pag-iwas sa drama",
+        "nakaligtas",
+        "stress",
+        "safe today"
       ],
+      "subjects": [],
+      "references": [
+        "marked safe from",
+        "facebook safety check"
+      ],
+      "context_note": "Ang “Marked Safe From” template ay ginagawang pabirong safety announcement tungkol sa mga abala o pangyayaring naiwasan.",
       "format": "template",
+      "language": "en"
+    },
+    {
+      "id": "7d4285425dc8",
+      "width": 200,
+      "height": 200,
+      "source_url": "https://tenor.com/search/pinoy-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:54:13.302Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang cartoon penguin na naka-salakot at blue shirt ang may hawak na bandila ng Pilipinas habang nakatayo sa dilaw na plataporma. Puwedeng gamitin pang-Pinoy pride, suporta sa Philippine team, o pagbati sa Araw ng Kalayaan.",
+      "description_en": "A cartoon penguin wearing a salakot and a blue shirt holds the Philippine flag while standing on a yellow platform. It can express Filipino pride, support for the Philippine team, or Independence Day greetings.",
+      "ocr_text": "Philippines",
+      "tags_emotion": [
+        "proud",
+        "makabayan",
+        "happy",
+        "masaya"
+      ],
+      "tags_situation": [
+        "araw ng kalayaan",
+        "pinoy pride",
+        "philippine team",
+        "celebration"
+      ],
+      "subjects": [
+        "cartoon penguin",
+        "Philippine flag"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "7f3de07b71ed",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:31.425Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Nina Dobrev ay may hawak na mikropono at nagbibigay ng seryosong side-eye habang ini-interview. Bagay itong reaction kapag may narinig kang kahina-hinalang dahilan o kuwentong hindi mo pinaniniwalaan.",
+      "description_en": "Nina Dobrev holds a microphone and gives a skeptical side-eye during an interview. It fits reactions to suspicious excuses or stories you don't believe.",
+      "ocr_text": "DIRECTV\nSHOWTIME\nDIRECTV\nSHOWTIME\nSHOWTIME\nDIRECTV\nE!\nEONLINE.COM",
+      "tags_emotion": [
+        "duda",
+        "skeptical",
+        "inis",
+        "unimpressed",
+        "suspicious"
+      ],
+      "tags_situation": [
+        "palusot",
+        "chismis",
+        "interview",
+        "hindi naniniwala",
+        "side-eye"
+      ],
+      "subjects": [
+        "Nina Dobrev"
+      ],
+      "references": [],
+      "context_note": "",
+      "format": "reaction",
       "language": "en"
     },
     {
@@ -674,24 +1571,27 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:25:58.392Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang basang commuter ang nakatayo sa ulan, may sirang payong sa tabi habang may jeepney sa kalsada. Pang-mood kapag malas ang commute: pagod ka na, late pa, at bumigay pa ang payong.",
-      "description_en": "A drenched commuter stands in the rain beside a broken umbrella while a jeepney is on the road. It captures an unlucky commute when you're already tired, running late, and even your umbrella gives up.",
+      "description_tl": "Isang basang commuter ang nakatayo sa ulan sa hintayan ng jeep, may hawak na baligtad at sirang payong habang may jeep sa kalsada. Pang-react kapag pagod ka na sa commute, traffic, at ulan tapos mukhang male-late ka pa.",
+      "description_en": "A soaked commuter stands in the rain at a jeepney stop, holding an inverted, broken umbrella with a jeepney on the road. Used when you're exhausted by commuting, traffic, and rain and might end up late too.",
       "ocr_text": "",
       "tags_emotion": [
         "pagod",
+        "tired",
         "badtrip",
-        "malas",
         "frustrated",
         "helpless"
       ],
       "tags_situation": [
         "ulan",
         "commute",
-        "jeepney",
+        "traffic",
         "late",
         "sirang payong",
-        "traffic"
+        "hintayan ng jeep"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "AI-generated template ito tungkol sa hassle ng pagko-commute sa ulan at paghihintay ng jeep.",
       "format": "template",
       "language": "none"
     },
@@ -704,22 +1604,31 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:08.576Z",
       "rights_status": "unverified",
-      "description_tl": "Isang lalaking naka-bonnet ang humahawak sa leeg habang mukhang sabik na may hinihingi pa—ang classic na “Y’all got any more of that?” meme. Ginagamit kapag bitin at gusto mo pa ng kape, sweldo, pagkain, o bagong episode.",
-      "description_en": "A man wearing a beanie holds his neck while looking eager to ask for more—the classic “Y’all got any more of that?” meme. Used when you cannot get enough and want more coffee, pay, food, or new episodes.",
+      "description_tl": "Isang lalaking naka-bonnet at jacket ang humahawak sa leeg habang mukhang sabik at nakikiusap. Bagay itong reaction kapag bitin ka pa at gusto mong humingi ng dagdag—kape, pagkain, sweldo, o bagong episodes.",
+      "description_en": "A man in a beanie and jacket holds his neck with an eager, pleading expression. It works as a reaction when you want more of something, such as coffee, food, pay, or new episodes.",
       "ocr_text": "",
       "tags_emotion": [
         "sabik",
         "bitin",
         "craving",
-        "eager"
+        "desperate",
+        "atat"
       ],
       "tags_situation": [
         "kape",
-        "sweldo",
         "pagkain",
-        "bagong episode",
-        "pahingi pa"
+        "sweldo",
+        "pahingi",
+        "dagdag",
+        "bagong episode"
       ],
+      "subjects": [
+        "Y'all Got Any More Of That"
+      ],
+      "references": [
+        "y'all got any more of that"
+      ],
+      "context_note": "Ang template na “Y'all Got Any More Of That” ay ginagamit bilang pabirong paghingi ng dagdag kapag sobrang sabik o bitin.",
       "format": "reaction",
       "language": "none"
     },
@@ -732,26 +1641,65 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:11:13.390Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang panel ng UNO meme: isang card na may “OR draw 25,” at isang lalaking may hawak na maraming baraha. Ginagamit kapag mas pipiliin mong maparusahan o mahirapan kaysa gawin ang isang ayaw mong task o aminin ang isang bagay.",
-      "description_en": "A two-panel UNO meme shows a card reading “OR draw 25” and a man holding a large hand of cards. It is used when you would rather accept a penalty or hardship than do an unwanted task or admit something.",
+      "description_tl": "Isang UNO card na may “OR draw 25” ang katabi ng lalaking may hawak na maraming baraha. Ginagamit ito kapag mas pipiliin mong tiisin ang parusa o dagdag na hirap kaysa gawin ang isang bagay na ayaw mo.",
+      "description_en": "An UNO card reading “OR draw 25” appears beside a man holding a large hand of cards. It is used when someone would rather accept a penalty or extra hardship than do something they refuse to do.",
       "ocr_text": "OR\ndraw\n25\nUNO",
       "tags_emotion": [
         "matigas ang ulo",
         "stubborn",
         "ayaw",
         "reluctant",
-        "determined"
+        "resigned"
       ],
       "tags_situation": [
         "uno",
         "card game",
-        "hard choices",
+        "mahirap na pagpili",
         "pag-iwas",
-        "ayaw umamin",
-        "unwanted task"
+        "parusa"
       ],
+      "subjects": [],
+      "references": [
+        "uno draw 25 cards",
+        "uno"
+      ],
+      "context_note": "Ang “UNO Draw 25 Cards” template ay pang-meme sa pagpili ng mabigat na parusa kaysa gawin ang ayaw mong option.",
       "format": "two_panel",
       "language": "en"
+    },
+    {
+      "id": "8dc886d6aed8",
+      "width": 220,
+      "height": 122,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:13.495Z",
+      "rights_status": "unverified",
+      "description_tl": "Pixelated na kuha ni Beetlejuice na may magulong buhok, maputlang mukha, at madilim na eye makeup habang nakatingin sa gilid. Puwedeng reaction kapag lutang, puyat, o naghihintay kung anong ganap.",
+      "description_en": "A pixelated shot of Beetlejuice with messy hair, a pale face, and dark eye makeup, looking to the side. It works as a reaction to feeling spaced out, sleep-deprived, or waiting to see what happens.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "lutang",
+        "pagod",
+        "curious",
+        "confused"
+      ],
+      "tags_situation": [
+        "puyat",
+        "waiting",
+        "reaction",
+        "walang tulog"
+      ],
+      "subjects": [
+        "Beetlejuice"
+      ],
+      "references": [
+        "beetlejuice"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "none"
     },
     {
       "id": "95e5747d1639",
@@ -762,24 +1710,61 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:25:42.281Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang titang nakaupo sa hapag, humihigop ng kape habang nakataas ang kilay at may mapanghusgang side-eye. Bagay sa chismis, pagiging Marites, o tahimik na pangja-judge sa mga kuwento sa family reunion.",
-      "description_en": "An auntie sits at a dining table, sipping coffee with a raised eyebrow and a judgmental side-eye. Useful for gossip, nosiness, or silently judging stories at a family reunion.",
+      "description_tl": "Isang AI-generated na tita ang humihigop ng kape habang may mapanuring side-eye, parang tahimik na nanghuhusga. Bagay ito sa chismis, family reunion, o kapag may narinig kang kuwento na hindi ka kumbinsido.",
+      "description_en": "An AI-generated auntie sips coffee with a judgmental side-eye, as if silently judging someone. Use it for gossip, family reunions, or hearing a story you find hard to believe.",
       "ocr_text": "",
       "tags_emotion": [
         "mapanghusga",
-        "judgy",
-        "suspicious",
+        "judgmental",
+        "skeptical",
         "duda",
         "unimpressed"
       ],
       "tags_situation": [
         "tita",
         "chismis",
-        "marites",
         "family reunion",
-        "kape",
+        "marites",
+        "coffee",
         "side-eye"
       ],
+      "subjects": [],
+      "references": [
+        "marites"
+      ],
+      "context_note": "Ayon sa source, AI-generated na judgy tita template ito para sa chismis at panghuhusga sa family reunion.",
+      "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "9605d3d1b93b",
+      "width": 220,
+      "height": 165,
+      "source_url": "https://tenor.com/search/pinoy-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:54:16.995Z",
+      "rights_status": "unverified",
+      "description_tl": "Isang babaeng naka-green na polo ang nakaupo sa berdeng upuan sa harap ng mikropono, na may bahagyang ngiti at kalmadong ekspresyon. Puwedeng reaction kapag tahimik ka lang na nakikinig sa meeting o pilit na chill habang may awkward na usapan.",
+      "description_en": "A woman in a green polo sits in a green chair behind a microphone, wearing a slight smile and a calm expression. It can be used as a reaction when quietly listening in a meeting or trying to stay chill during an awkward conversation.",
+      "ocr_text": "67",
+      "tags_emotion": [
+        "kalmado",
+        "chill",
+        "awkward",
+        "alanganin"
+      ],
+      "tags_situation": [
+        "meeting",
+        "pakikinig",
+        "awkward na usapan",
+        "reaction"
+      ],
+      "subjects": [
+        "Sara Duterte"
+      ],
+      "references": [],
+      "context_note": "Pinangalanang sara-sara-duterte.gif ang image sa source, kaya naka-link ito kay Sara Duterte bilang reaction GIF.",
       "format": "template",
       "language": "none"
     },
@@ -792,22 +1777,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:02.063Z",
       "rights_status": "unverified",
-      "description_tl": "Si Bernie Sanders na naka-winter jacket at salamin, nakaharap sa camera na parang seryosong nakikiusap. Ginagamit ito kapag paulit-ulit kang humihingi ng tulong, pabor, o ambag, o nagpapaalala na naman sa mga kaibigan at katrabaho.",
-      "description_en": "Bernie Sanders wears a winter jacket and glasses, facing the camera as if making a serious appeal. This meme is used when repeatedly asking for help, favors, or contributions, or reminding friends and coworkers yet again.",
+      "description_tl": "Si Bernie Sanders na naka-winter jacket at salamin, seryosong nakaharap sa camera sa labas na may niyebe. Ginagamit ang template kapag paulit-ulit kang nakikiusap, humihingi ng tulong, o nagpapaalala sa isang tao.",
+      "description_en": "Bernie Sanders wears a winter jacket and glasses, facing the camera seriously outdoors with snow nearby. This template is used when repeatedly making a request, asking for help, or reminding someone.",
       "ocr_text": "",
       "tags_emotion": [
-        "pakiusap",
-        "hopeful",
         "seryoso",
-        "frustrated"
+        "frustrated",
+        "naiinip",
+        "hopeful"
       ],
       "tags_situation": [
-        "paulit-ulit na request",
-        "hingi ng tulong",
-        "ambagan",
-        "follow-up",
-        "reminder"
+        "paulit-ulit na pakiusap",
+        "asking for help",
+        "reminder",
+        "follow-up"
       ],
+      "subjects": [
+        "Bernie Sanders"
+      ],
+      "references": [
+        "bernie sanders once again asking",
+        "i am once again asking"
+      ],
+      "context_note": "Kilala ang template na “Bernie Sanders Once Again Asking” bilang meme para sa paulit-ulit na paghingi o pakiusap.",
       "format": "reaction",
       "language": "none"
     },
@@ -820,26 +1812,95 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:26:25.718Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang AI-generated na driver ang nakasimangot at mahigpit ang kapit sa manibela habang stuck sa traffic sa EDSA. Pang-react kapag badtrip ka na sa usad-pagong na biyahe, lalo na sa rush hour at gusto mo nang makauwi.",
-      "description_en": "An AI-generated driver scowls and grips the steering wheel while stuck in EDSA traffic. Used when you're fed up with a painfully slow trip, especially during rush hour when you just want to get home.",
+      "description_tl": "Isang nakasimangot na driver ang mahigpit na nakahawak sa manibela habang bumper-to-bumper ang traffic sa dapithapon. Gamit kapag badtrip, pikon, o ubos na ang pasensya sa EDSA traffic at matagal na commute.",
+      "description_en": "A scowling driver grips the steering wheel while stuck in bumper-to-bumper traffic at dusk. Used when annoyed, irritable, or out of patience with EDSA traffic and a long commute.",
       "ocr_text": "",
       "tags_emotion": [
         "badtrip",
         "galit",
-        "inis",
         "pikon",
-        "frustrated"
+        "inis",
+        "frustrated",
+        "impatient"
       ],
       "tags_situation": [
-        "traffic",
         "edsa",
-        "rush hour",
+        "traffic",
         "commute",
-        "pauwi",
-        "driving"
+        "driving",
+        "rush hour"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "Ayon sa source, AI-generated template ito ng badtrip na driver sa EDSA traffic para sa mga hugot tungkol sa nakakainis na biyahe.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "9d8094746af1",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:54.443Z",
+      "rights_status": "unverified",
+      "description_tl": "Close-up ng taong may maikling blonde na buhok sa labas, nakatingin sa camera na parang walang gana o unimpressed. Bagay itong reaction kapag badtrip, bored, o hindi ka bilib sa narinig mo.",
+      "description_en": "A close-up of a person with short blonde hair outdoors, looking at the camera with an unenthusiastic or unimpressed expression. It works as a reaction when you're annoyed, bored, or unconvinced by what you hear.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "walang gana",
+        "unimpressed",
+        "badtrip",
+        "bored"
+      ],
+      "tags_situation": [
+        "reaction",
+        "may nagkwento",
+        "hindi bilib",
+        "nakakainis"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Naka-label ang source filename bilang Vice Ganda GIF, at bagay ang deadpan na expression bilang reaction meme.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "a4eea2bc853f",
+      "width": 354,
+      "height": 354,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:32.086Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-blonde wig, nakanganga sa tawa at nakaturo na parang may nakakatawang napansin. Bagay itong reaction kapag tawang-tawa ka sa banat, asaran, o biglang rebelasyon sa usapan.",
+      "description_en": "Vice Ganda wears a blonde wig, laughing with an open mouth and pointing as if something hilarious caught their attention. This reaction fits funny remarks, playful teasing, or a sudden revelation in a conversation.",
+      "ocr_text": "re a ”him”!",
+      "tags_emotion": [
+        "tawang-tawa",
+        "aliw",
+        "amused",
+        "surprised"
+      ],
+      "tags_situation": [
+        "asaran",
+        "biruan",
+        "revelation",
+        "group chat"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [
+        "girl boy bakla tomboy"
+      ],
+      "context_note": "Naka-link ang GIF kay Vice Ganda at sa Girl Boy Bakla Tomboy sa source filename, kaya searchable ito bilang comedy reaction.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "a6c69ad43f40",
@@ -850,26 +1911,67 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:31:30.231Z",
       "rights_status": "unverified",
-      "description_tl": "Blank na Expanding Brain meme na may apat na panel ng utak na palaki nang palaki ang glow, mula ordinaryong isip hanggang sa sobrang enlightened. Ginagamit ito para ikumpara ang mga ideya o diskarte mula basic hanggang kunwari galaxy-brain, madalas sarcastic o lalong sablay.",
-      "description_en": "A blank Expanding Brain meme with four panels showing brains glowing progressively brighter, from ordinary thinking to extreme enlightenment. It is used to compare ideas or strategies from basic to supposedly galaxy-brain, often sarcastically or with increasingly absurd choices.",
+      "description_tl": "Blank na four-panel Expanding Brain template: palaki nang palaki ang glow ng utak sa bawat level, habang walang laman ang mga kahon sa kaliwa. Ginagamit ito para ikumpara ang mga ideya o diskarte mula ordinaryo hanggang kunwaring sobrang genius pero mas absurd.",
+      "description_en": "A blank four-panel Expanding Brain template shows a brain glowing more intensely at each level, with empty boxes on the left. It is used to rank ideas or strategies from ordinary to supposedly genius but increasingly absurd.",
       "ocr_text": "",
       "tags_emotion": [
-        "talino",
-        "enlightened",
+        "bil惹",
         "amused",
-        "bilib",
-        "sarcastic"
+        "confident",
+        "pagkamangha"
       ],
       "tags_situation": [
         "comparison",
+        "ranking",
         "diskarte",
         "overthinking",
-        "ranking",
-        "absurd ideas",
-        "problem solving"
+        "sarcastic advice"
       ],
+      "subjects": [
+        "Expanding Brain"
+      ],
+      "references": [
+        "expanding brain",
+        "galaxy brain"
+      ],
+      "context_note": "Ang Expanding Brain template ay pang-ranking ng mga ideya, kung saan mas maliwanag na utak ang nagpapahiwatig ng kunwaring mas matalinong sagot.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "acfedd23793b",
+      "width": 220,
+      "height": 148,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:27.076Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Chucky na may nakakatakot na ngisi habang may caption na “IT'S SHOWTIME!” Pang-react kapag oras nang rumampa, magpakitang-gilas, o simulan ang kalokohan.",
+      "description_en": "Chucky wears a sinister grin with the caption “IT'S SHOWTIME!” Use it when it’s time to make an entrance, show off, or kick off some mischief.",
+      "ocr_text": "IT'S SHOWTIME!",
+      "tags_emotion": [
+        "excited",
+        "sabik",
+        "pilyo",
+        "confident"
+      ],
+      "tags_situation": [
+        "grand entrance",
+        "pakitang-gilas",
+        "kalokohan",
+        "simula ng event"
+      ],
+      "subjects": [
+        "Chucky"
+      ],
+      "references": [
+        "chucky",
+        "it's showtime"
+      ],
+      "context_note": "Ang “IT'S SHOWTIME!” na caption kasama ng creepy na ngisi ni Chucky ay bagay sa pabirong pag-anunsyo na magsisimula na ang kalokohan.",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "b16fa092723c",
@@ -880,23 +1982,33 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:28.675Z",
       "rights_status": "unverified",
-      "description_tl": "Si Squidward ay nakasilip sa bintana habang masayang naglalaro sa labas sina SpongeBob at Patrick. Ginagamit ito kapag inggit o feeling left out ka, lalo na kung nasa bahay o trabaho ka habang gumagala ang barkada.",
-      "description_en": "Squidward looks through his window while SpongeBob and Patrick happily play outside. Used when you feel envious or left out, especially when you're stuck at home or work while your friends are out having fun.",
+      "description_tl": "Si Squidward nasa loob at nakatingin sa bintana habang masayang naglalaro sa labas sina SpongeBob at Patrick. Pang-meme kapag inggit o left out ka habang nagsasaya ang iba, lalo na kung stuck ka sa bahay o trabaho.",
+      "description_en": "Squidward watches from inside his window while SpongeBob and Patrick happily play outside. Used when you feel envious or left out while others have fun, especially when you're stuck at home or at work.",
       "ocr_text": "",
       "tags_emotion": [
         "inggit",
+        "envious",
         "lungkot",
-        "left out",
         "lonely",
-        "fomo"
+        "left out"
       ],
       "tags_situation": [
-        "barkada",
-        "gala",
-        "naiwan sa bahay",
+        "walang gala",
+        "stuck sa bahay",
         "trabaho",
-        "walang invite"
+        "friends having fun",
+        "missing out"
       ],
+      "subjects": [
+        "Squidward",
+        "SpongeBob SquarePants",
+        "Patrick Star"
+      ],
+      "references": [
+        "spongebob squarepants",
+        "squidward window"
+      ],
+      "context_note": "Ang Squidward window template ay pang-react sa inggit o pagka-left out habang nagsasaya ang iba.",
       "format": "template",
       "language": "none"
     },
@@ -909,23 +2021,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:39.518Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang astronaut ang nakatingin sa Earth, pero ang nasa likod ay nakatutok ng baril sa kasama niya—ang “Always Has Been” meme. Ginagamit kapag may bagong realization ka, tapos malalaman mong matagal na palang ganoon at ikaw lang ang huling nakaalam.",
-      "description_en": "Two astronauts look at Earth, but the one behind points a gun at the other—the “Always Has Been” meme. Used when you discover something only to learn it has always been that way and you were the last to know.",
+      "description_tl": "Dalawang astronaut ang nasa kalawakan: nakatingin sa Earth ang isa habang tinututukan siya ng baril ng nasa likod niya. Bagay ito sa biglang realization na matagal nang totoo ang isang bagay, tapos may sasagot ng “always has been.”",
+      "description_en": "Two astronauts are in space: one looks at Earth while the other points a gun at him from behind. This fits a sudden realization that something has been true all along, followed by an “always has been” response.",
       "ocr_text": "",
       "tags_emotion": [
         "gulat",
         "shocked",
-        "takot",
-        "betrayed",
-        "pagdududa"
+        "pagtataksil",
+        "suspicious"
       ],
       "tags_situation": [
         "realization",
-        "huling nakaalam",
         "plot twist",
-        "secret reveal",
+        "pagtataksil",
+        "matagal nang alam",
+        "revelation"
+      ],
+      "subjects": [
+        "astronauts"
+      ],
+      "references": [
         "always has been"
       ],
+      "context_note": "Ang source template na “Always Has Been” ay ginagamit sa memes para sa realization na matagal nang totoo ang isang bagay.",
       "format": "template",
       "language": "none"
     },
@@ -938,24 +2056,27 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:31.687Z",
       "rights_status": "unverified",
-      "description_tl": "Black-and-white na larawan ni Martin Scorsese na nakaupo at nakataas ang dalawang kamay, mula sa “Absolute Cinema” meme. Ginagamit kapag sobrang ganda o epic ng eksena, plot twist, o drama—puwede ring sarcastic reaction sa kalokohang pang-pelikula.",
-      "description_en": "A black-and-white photo of Martin Scorsese seated with both hands raised, from the “Absolute Cinema” meme. Used to praise an amazing scene, plot twist, or drama—or sarcastically react to movie-worthy absurdity.",
+      "description_tl": "Black-and-white na larawan ng isang matandang lalaking nakaupo, seryoso ang mukha at parehong kamay nakataas. Ginagamit ang “Absolute Cinema” meme kapag sobrang ganda ng eksena, plot twist, o drama—minsan sincere na paghanga, minsan sarcastic sa sobrang kalokohan.",
+      "description_en": "A black-and-white image of an older man seated with a serious expression and both hands raised. The “Absolute Cinema” meme is used to praise a great scene, plot twist, or drama—sometimes sincerely, sometimes sarcastically for something absurd.",
       "ocr_text": "",
       "tags_emotion": [
-        "bilib",
-        "amazed",
-        "manghang-mangha",
+        "paghanga",
         "impressed",
+        "amused",
         "aliw"
       ],
       "tags_situation": [
-        "absolute cinema",
-        "pelikula",
+        "movie reaction",
         "plot twist",
         "drama",
-        "epic moment",
-        "sarcastic reaction"
+        "peak moment",
+        "sarcastic praise"
       ],
+      "subjects": [],
+      "references": [
+        "absolute cinema"
+      ],
+      "context_note": "Ang source template na “Absolute Cinema” ay pang-reaction sa eksenang pang-pelikula ang dating, kahit kalokohan o simpleng drama lang.",
       "format": "reaction",
       "language": "none"
     },
@@ -968,22 +2089,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:39.513Z",
       "rights_status": "unverified",
-      "description_tl": "Isang asul na kotse ang biglang kumakabig papunta sa exit ramp sa halip na dumiretso sa highway. Ginagamit ito kapag biglang nagbago ng plano, nagpadala sa tukso, o pinili ang detour kaysa sa dapat gawin.",
-      "description_en": "A blue car swerves sharply onto an exit ramp instead of continuing straight on the highway. It is used for abruptly changing plans, giving in to temptation, or choosing a detour over what you should be doing.",
-      "ocr_text": "LEFT\nEXIT 12\nEAST ST - SKYWOOD",
+      "description_tl": "Isang asul na kotse ang biglang kumakabig papunta sa highway exit imbes na dumiretso. Ginagamit ito kapag last-minute nagbago ng plano, pinili ang tukso, o iniwan ang sensible na option para sa mas gustong gawin.",
+      "description_en": "A blue car swerves sharply toward a highway exit instead of continuing straight. This meme is used for last-minute changes of plan, giving in to temptation, or abandoning the sensible option for something more appealing.",
+      "ocr_text": "LEFT\nEXIT 12",
       "tags_emotion": [
+        "alanganin",
         "panic",
-        "tukso",
         "excited",
-        "alanganin"
+        "torn"
       ],
       "tags_situation": [
-        "biglang pagbabago ng plano",
+        "biglang liko",
         "last-minute decision",
-        "distraction",
-        "pag-iwas sa responsibilidad",
-        "detour"
+        "pagbabago ng plano",
+        "tukso",
+        "pagpili"
       ],
+      "subjects": [
+        "Left Exit 12 Off Ramp"
+      ],
+      "references": [
+        "left exit 12 off ramp"
+      ],
+      "context_note": "Ang Left Exit 12 Off Ramp template ay pangkumpara ng mga pagpipilian, kung saan ang biglang liko ang piniling option.",
       "format": "template",
       "language": "en"
     },
@@ -996,23 +2124,30 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:57.467Z",
       "rights_status": "unverified",
-      "description_tl": "Tatlong eksena ni Pablo Escobar na mag-isang nakaupo sa swing, nasa hapag-kainan, at nakatayo sa tabi ng walang lamang pool. Pang-meme kapag malungkot, lonely, o bored ka habang naghihintay ng reply o walang makasama.",
-      "description_en": "Three scenes of Pablo Escobar alone on a swing, at a dining table, and standing beside an empty pool. Used when feeling sad, lonely, or bored while waiting for a reply or having no one to hang out with.",
+      "description_tl": "Tatlong eksena ng Sad Pablo Escobar na mag-isang nakaupo sa swing, nasa hapag-kainan, at nakatayo sa tabi ng walang lamang pool. Pang-meme kapag malungkot, bored, o walang kasama habang naghihintay ng reply o ng mga kaibigan.",
+      "description_en": "Three scenes show Sad Pablo Escobar alone on a swing, by a dining table, and beside an empty pool. Used when feeling lonely, bored, or left waiting for a reply or for friends to arrive.",
       "ocr_text": "",
       "tags_emotion": [
-        "malungkot",
+        "lungkot",
         "lonely",
         "bored",
-        "lungkot",
-        "inip"
+        "inip",
+        "empty"
       ],
       "tags_situation": [
         "waiting for reply",
         "walang kasama",
-        "tambay",
-        "naiwan mag-isa",
-        "walang magawa"
+        "paghihintay",
+        "cancelled plans",
+        "bored sa bahay"
       ],
+      "subjects": [
+        "Pablo Escobar"
+      ],
+      "references": [
+        "sad pablo escobar"
+      ],
+      "context_note": "Ang Sad Pablo Escobar template ay bagay sa mga post tungkol sa pag-iisa at matagal na paghihintay.",
       "format": "two_panel",
       "language": "none"
     },
@@ -1025,24 +2160,64 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:03.480Z",
       "rights_status": "unverified",
-      "description_tl": "Lalaking naka-suit na magkadikit ang mga daliri sa ilalim ng “Trade Offer,” na may bakanteng “i receive” at “you receive.” Ginagamit kapag may tawaran, deal, o pabor na kunwari patas pero lugi ang isang panig.",
-      "description_en": "A man in a suit holds his fingertips together beneath “Trade Offer,” with blank “i receive” and “you receive” sections. Used for bargaining, deals, or favors that supposedly benefit both sides but leave one side worse off.",
+      "description_tl": "Isang lalaking naka-suit ang magkadikit ang mga daliri na parang may seryosong negosasyon, sa ilalim ng “Trade Offer” at mga blangkong “i receive” at “you receive.” Ginagamit ito para sa nakakatawa o hindi patas na palitan, deal, at pabor na may kapalit.",
+      "description_en": "A man in a suit holds his fingertips together as if negotiating seriously, beneath “Trade Offer” and blank “i receive” and “you receive” headings. It is used for funny or unfair exchanges, deals, and favors with strings attached.",
       "ocr_text": "⚠️TRADE OFFER⚠️\ni receive:\nyou receive:",
       "tags_emotion": [
+        "seryoso",
         "confident",
-        "tuso",
-        "amused",
-        "duda"
+        "maparaan",
+        "amused"
       ],
       "tags_situation": [
+        "negosasyon",
+        "palitan",
         "tawaran",
-        "trade offer",
         "pabor",
-        "deal",
-        "palitan"
+        "unfair deal"
       ],
+      "subjects": [],
+      "references": [
+        "trade offer"
+      ],
+      "context_note": "Ang Trade Offer template ay pang-meme ng mga deal gamit ang “i receive” at “you receive,” lalo na kapag nakakatawa o hindi patas ang kapalit.",
       "format": "template",
       "language": "en"
+    },
+    {
+      "id": "c9da0ba0b8b4",
+      "width": 220,
+      "height": 220,
+      "source_url": "https://tenor.com/search/marites-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:57:22.197Z",
+      "rights_status": "unverified",
+      "description_tl": "Dalawang yellow emoji na mukhang nagbubulungan, isang dilat ang mata at isang nakangiti at nakapikit ang isang mata, sa ilalim ng “MAKIKI-MARITES.” Pang-react kapag gustong makisali sa chismisan o makibalita sa bagong ganap.",
+      "description_en": "Two yellow emojis appear to whisper to each other, one wide-eyed and the other smiling with one eye closed, beneath “MAKIKI-MARITES.” Used when someone wants to join the gossip or hear the latest news.",
+      "ocr_text": "MAKIKI-MARITES",
+      "tags_emotion": [
+        "curious",
+        "intrigued",
+        "excited",
+        "usisero"
+      ],
+      "tags_situation": [
+        "chismisan",
+        "pakikibalita",
+        "gossip",
+        "group chat",
+        "may bagong ganap"
+      ],
+      "subjects": [
+        "emoji"
+      ],
+      "references": [
+        "marites"
+      ],
+      "context_note": "Ginagamit dito ang “Marites” bilang tawag sa mahilig makibalita o makisali sa chismisan.",
+      "format": "reaction",
+      "language": "tl"
     },
     {
       "id": "cdec61c3c641",
@@ -1053,25 +2228,102 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:55.168Z",
       "rights_status": "unverified",
-      "description_tl": "Si Buzz Lightyear ay nakaakbay kay Woody at nakaturo sa paligid, habang mukhang alanganin si Woody. Gamit ang “X, X Everywhere” meme kapag puro iisang bagay ang nakikita mo—gaya ng deadlines, gastos, o problema kahit saan.",
-      "description_en": "Buzz Lightyear has an arm around Woody and gestures around them while Woody looks uneasy. The “X, X Everywhere” meme is used when the same thing seems to be everywhere, such as deadlines, expenses, or problems.",
-      "ocr_text": "LIGHTYEAR\nSPACE RANGER",
+      "description_tl": "Nakaakbay si Buzz Lightyear kay Woody habang nakataas ang kamay na parang ipinapakita ang isang bagay sa buong paligid, at mukhang alanganin si Woody. Gamit ang “X, X Everywhere” template kapag puro iisang bagay ang nakikita mo—gaya ng deadlines, gastos, o problema.",
+      "description_en": "Buzz Lightyear has an arm around Woody and gestures broadly at their surroundings while Woody looks uneasy. The “X, X Everywhere” template is used when the same thing seems to be everywhere, such as deadlines, expenses, or problems.",
+      "ocr_text": "SPACE RANGER\nLIGHTYEAR",
       "tags_emotion": [
         "alanganin",
         "worried",
         "overwhelmed",
-        "gulat"
+        "umay"
       ],
       "tags_situation": [
         "deadlines",
         "gastos",
         "problema",
         "paulit-ulit",
-        "kahit saan",
-        "trabaho"
+        "everywhere"
       ],
+      "subjects": [
+        "Woody",
+        "Buzz Lightyear",
+        "Toy Story"
+      ],
+      "references": [
+        "toy story",
+        "x, x everywhere"
+      ],
+      "context_note": "Ang “X, X Everywhere” template ay ginagamit para biruin na kahit saan ka tumingin, puro pare-parehong bagay ang nakikita mo.",
       "format": "template",
       "language": "en"
+    },
+    {
+      "id": "d45391c3ba65",
+      "width": 165,
+      "height": 165,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:41.082Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na naka-blonde bob at itim na damit ay may hawak na mikropono, seryoso ang mukha habang nakatingin sa gilid. Bagay itong reaction kapag nakikinig ka pero medyo duda, hindi kumbinsido, o naghihintay ng paliwanag.",
+      "description_en": "Vice Ganda, wearing a blonde bob and a black outfit, holds a microphone with a serious expression while looking to the side. It works as a reaction when you are listening but skeptical, unconvinced, or waiting for an explanation.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "duda",
+        "skeptical",
+        "seryoso",
+        "unconvinced"
+      ],
+      "tags_situation": [
+        "pakikinig",
+        "paghihintay ng paliwanag",
+        "reaction",
+        "usapan"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Tinukoy ng source bilang Vice Ganda GIF, at ang seryosong ekspresyon dito ay puwedeng pang-reaction sa usapan.",
+      "format": "reaction",
+      "language": "none"
+    },
+    {
+      "id": "d58006d3fcd3",
+      "width": 220,
+      "height": 175,
+      "source_url": "https://tenor.com/search/tagalog-meme-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:20.319Z",
+      "rights_status": "unverified",
+      "description_tl": "Drake meme na umaayaw sa “magkaribal” pero aprubado ang “magka-ibigan.” Pang-react kapag mas gusto mong maging magkaibigan o magka-ibigan kaysa magkalaban.",
+      "description_en": "A Drake meme rejecting “rivals” and approving “friends/lovers.” Used when you would rather be friends or romantically involved than be rivals.",
+      "ocr_text": "magkaribal\nmagka-ibigan",
+      "tags_emotion": [
+        "kilig",
+        "amused",
+        "hopeful",
+        "ayaw",
+        "gusto"
+      ],
+      "tags_situation": [
+        "rivalry",
+        "friendship",
+        "crush",
+        "landian",
+        "relationships"
+      ],
+      "subjects": [
+        "Drake"
+      ],
+      "references": [
+        "drake hotline bling"
+      ],
+      "context_note": "Ginagamit dito ang Drake no/yes meme format para ikumpara ang pagiging magkaribal at magka-ibigan.",
+      "format": "two_panel",
+      "language": "tl"
     },
     {
       "id": "d813ce7897a4",
@@ -1082,26 +2334,64 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:26:31.769Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang mukhang puyat at lutang na office worker ang nakaupo sa harap ng computer, hawak ang malaking mug ng kape. Pang-Monday morning na antok at pagod ka pa pero kailangan nang magtrabaho.",
-      "description_en": "An exhausted, spaced-out office worker sits at a computer holding a large mug of coffee. Used for Monday mornings when you are still sleepy and tired but have to work.",
+      "description_tl": "Isang mukhang puyat at ubos-energy na office worker ang nakaupo sa desk, hawak ang malaking mug ng kape. Pang-reaction kapag Lunes na naman at kailangan magtrabaho kahit antok na antok ka pa.",
+      "description_en": "An exhausted, sleep-deprived office worker sits at his desk holding a large mug of coffee. A reaction for Monday mornings when you have to work even though you can barely stay awake.",
       "ocr_text": "",
       "tags_emotion": [
         "pagod",
         "antok",
-        "lutang",
         "tired",
-        "sleepy"
+        "sleepy",
+        "walang gana"
       ],
       "tags_situation": [
         "monday",
         "lunes",
         "work",
         "office",
-        "kape",
-        "puyat"
+        "morning",
+        "kape"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "AI-generated template ito na tinawag sa source na “Monday morning zombie,” para sa pagod at antok tuwing Lunes.",
       "format": "template",
       "language": "none"
+    },
+    {
+      "id": "da68950613cf",
+      "width": 220,
+      "height": 165,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:21.694Z",
+      "rights_status": "unverified",
+      "description_tl": "Si ALF ay nakaupo sa mesa na may caption na “Yo, It's Showtime!” Bagay itong reaction kapag magsisimula na ang ganap, performance, o anumang exciting na eksena.",
+      "description_en": "ALF sits at a table with the caption “Yo, It's Showtime!” This works as a reaction when an event, performance, or exciting moment is about to begin.",
+      "ocr_text": "Yo, It's Showtime!",
+      "tags_emotion": [
+        "excited",
+        "sabik",
+        "handa",
+        "playful"
+      ],
+      "tags_situation": [
+        "simula ng ganap",
+        "performance",
+        "showtime",
+        "party"
+      ],
+      "subjects": [
+        "ALF"
+      ],
+      "references": [
+        "alf",
+        "yo, it's showtime"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
     },
     {
       "id": "dccc9f31d570",
@@ -1112,24 +2402,29 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:54.233Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang-panel na cartoon ng taong inaabot ang dilaw na balloon, pero pinipigilan siya ng pink na character na nakahawak sa kanya mula sa likod. Ginagamit ito kapag may gusto kang maabot—goals, pahinga, o kalayaan—pero may responsibilidad o ibang humahadlang.",
-      "description_en": "A two-panel cartoon shows a person reaching for a yellow balloon while a pink character holds them back from behind. It is used when you want to reach something—goals, rest, or freedom—but responsibilities or other obstacles keep you from it.",
+      "description_tl": "Dalawang-panel na cartoon ng taong gustong abutin ang dilaw na balloon, pero pinipigilan siya ng pink na karakter na nakayakap sa bewang niya. Bagay ito kapag may goal o gusto kang habulin pero may responsibilidad, problema, o taong humihila sa iyo pabalik.",
+      "description_en": "A two-panel cartoon shows a person reaching for a yellow balloon while a pink character holds them back by the waist. It fits situations where you are chasing a goal or something you want but responsibilities, problems, or another person keep holding you back.",
       "ocr_text": "",
       "tags_emotion": [
-        "frustrated",
         "panghihinayang",
-        "hopeful",
-        "nanghihinayang",
-        "stressed"
+        "frustrated",
+        "sabik",
+        "worried"
       ],
       "tags_situation": [
         "goals",
         "responsibilidad",
-        "hadlang",
-        "pahinga",
-        "freedom",
-        "distractions"
+        "held back",
+        "distractions",
+        "pangarap"
       ],
+      "subjects": [
+        "Running Away Balloon"
+      ],
+      "references": [
+        "running away balloon"
+      ],
+      "context_note": "Ang Running Away Balloon template ay nagpapakita ng gustong abutin at ng humahadlang dito, gamit ang balloon at pink na karakter.",
       "format": "template",
       "language": "none"
     },
@@ -1142,8 +2437,8 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:29:10.278Z",
       "rights_status": "unverified",
-      "description_tl": "Dalawang panel ni Dad na proud na itinuturo ang bakanteng patungan ng trophy, tapos biglang nagagalit dahil wala naman siyang trophy. Pang-react kapag may nakahanda ka nang paglalagyan o plano para sa achievement, jowa, o sweldo—kung meron lang sana.",
-      "description_en": "Two panels show Dad proudly presenting an empty trophy pedestal, then getting angry because he has no trophy. Used when you already have a place or plans for an achievement, partner, or paycheck—if only you actually had one.",
+      "description_tl": "Sa dalawang panel, isang cartoon character ang proud na itinuturo ang bakanteng trophy display bago biglang magalit dahil wala naman siyang trophy. Bagay ito kapag gusto mong ipagmalaki ang award, achievement, o jowa—kung meron ka lang sana.",
+      "description_en": "In two panels, a cartoon character proudly presents an empty trophy display before getting angry because he has no trophy. It fits situations where you want to show off an award, achievement, or partner—if only you had one.",
       "ocr_text": "",
       "tags_emotion": [
         "inggit",
@@ -1153,12 +2448,17 @@
         "bitter"
       ],
       "tags_situation": [
-        "walang trophy",
+        "walang award",
         "achievement",
-        "walang jowa",
-        "sweldo",
-        "unmet expectations"
+        "competition",
+        "single",
+        "humblebrag"
       ],
+      "subjects": [],
+      "references": [
+        "this is where i'd put my trophy if i had one"
+      ],
+      "context_note": "Ang source template na “This Is Where I'd Put My Trophy If I Had One” ay pangbirong pagpapakita ng isang bagay na wala ka naman.",
       "format": "two_panel",
       "language": "none"
     },
@@ -1171,24 +2471,32 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:27:41.843Z",
       "rights_status": "unverified",
-      "description_tl": "Four-panel meme nina Anakin at Padmé sa damuhan: nakangiti si Padmé sa umpisa, pero naging alanganin ang mukha niya habang seryoso lang si Anakin. Ginagamit kapag akala mo harmless ang sinabi ng kausap, tapos mapapa-“joke lang ’yon, di ba?” ka.",
-      "description_en": "A four-panel meme of Anakin and Padmé in a meadow: Padmé starts out smiling but grows uneasy while Anakin remains serious. Used when you initially assume someone's statement is harmless, then find yourself asking, “You're joking, right?”",
+      "description_tl": "Four-panel meme nina Anakin at Padmé sa damuhan: nakangiti si Padmé sa una, pero naging seryoso at nag-aalala habang nananatiling seryoso si Anakin. Bagay ito kapag akala mo joke lang ang sinabi ng kausap mo, tapos napaisip kang, “Joke lang naman, di ba?”",
+      "description_en": "A four-panel meme of Anakin and Padmé in a meadow: Padmé starts out smiling, then looks serious and concerned while Anakin remains serious. It fits moments when you assume someone is joking, then start wondering, “You're joking, right?”",
       "ocr_text": "",
       "tags_emotion": [
-        "alanganin",
         "kaba",
         "uneasy",
-        "doubt",
-        "amused"
+        "confused",
+        "duda",
+        "alarmed"
       ],
       "tags_situation": [
-        "joke lang",
         "usap",
-        "misunderstanding",
+        "joke",
         "awkward conversation",
-        "ominous silence",
-        "star wars"
+        "misunderstanding",
+        "red flag"
       ],
+      "subjects": [
+        "Anakin Skywalker",
+        "Padmé Amidala"
+      ],
+      "references": [
+        "star wars",
+        "anakin padme 4 panel"
+      ],
+      "context_note": "Ang Anakin–Padmé four-panel template ay bagay sa setup na masayang usapan muna bago maging alanganin ang reaksyon.",
       "format": "template",
       "language": "none"
     },
@@ -1201,15 +2509,14 @@
       "original_author": "HanapMeme (AI-generated)",
       "retrieved_at": "2026-11-06T10:26:12.270Z",
       "rights_status": "ai_generated",
-      "description_tl": "Isang lalaking naka-suit ang nagmamadaling pumasok sa opisina, may hawak na kape at laptop at mukhang taranta. Bagay ito kapag late ka na sa standup o meeting, lalo na sa Monday na sabog ang simula ng trabaho.",
-      "description_en": "A man in a suit rushes into the office holding coffee and a laptop, looking flustered. Use it when you're running late to a standup or meeting, especially during a chaotic Monday morning.",
+      "description_tl": "Isang lalaking naka-suit ang nagmamadaling pumasok sa opisina, may hawak na kape at laptop at mukhang nagpapanic. Bagay ito kapag late ka na sa standup o meeting, lalo na sa Monday.",
+      "description_en": "A man in a suit rushes into the office holding coffee and a laptop, looking panicked. It fits being late to a standup or meeting, especially on a Monday.",
       "ocr_text": "",
       "tags_emotion": [
+        "panic",
         "taranta",
         "kaba",
-        "stressed",
-        "rushed",
-        "panic"
+        "stressed"
       ],
       "tags_situation": [
         "late",
@@ -1219,7 +2526,75 @@
         "huli",
         "monday"
       ],
+      "subjects": [],
+      "references": [],
+      "context_note": "Ayon sa source, AI-generated template ito para sa pagmamadali dahil late na sa standup meeting.",
       "format": "template",
+      "language": "none"
+    },
+    {
+      "id": "f01a47125da8",
+      "width": 220,
+      "height": 109,
+      "source_url": "https://tenor.com/search/showtime-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:56:15.137Z",
+      "rights_status": "unverified",
+      "description_tl": "Orange na title card na may salitang “SHOWTIME” sa gitna at itim na dotted border. Puwedeng gamitin kapag simula na ng show, presentation, o oras nang magpasikat.",
+      "description_en": "An orange title card with “SHOWTIME” in the center and a black dotted border. It can be used when a show or presentation is starting, or when it is time to show off.",
+      "ocr_text": "SHOWTIME",
+      "tags_emotion": [
+        "excited",
+        "sabik",
+        "confident",
+        "gigil"
+      ],
+      "tags_situation": [
+        "showtime",
+        "presentation",
+        "performance",
+        "simula ng show",
+        "pagpapasikat"
+      ],
+      "subjects": [],
+      "references": [
+        "showtime"
+      ],
+      "context_note": "",
+      "format": "reaction",
+      "language": "en"
+    },
+    {
+      "id": "f2ba2b0fce59",
+      "width": 165,
+      "height": 165,
+      "source_url": "https://tenor.com/search/vice-ganda-gifs",
+      "source_platform": "tenor",
+      "original_author": null,
+      "retrieved_at": "2026-11-06T10:55:36.302Z",
+      "rights_status": "unverified",
+      "description_tl": "Si Vice Ganda na may mahabang blonde na buhok, choker, at striped na top ay nakatingala na nakabuka ang bibig, na parang gulat na gulat. Pang-reaction kapag may shocking na chika, unexpected na balita, o hindi makapaniwala sa narinig.",
+      "description_en": "Vice Ganda, wearing long blonde hair, a choker, and a striped top, looks upward with an open-mouthed, surprised expression. A reaction for shocking gossip, unexpected news, or disbelief at what someone just said.",
+      "ocr_text": "",
+      "tags_emotion": [
+        "gulat",
+        "shocked",
+        "hindi makapaniwala",
+        "surprised"
+      ],
+      "tags_situation": [
+        "chika",
+        "unexpected news",
+        "revelation",
+        "reaction"
+      ],
+      "subjects": [
+        "Vice Ganda"
+      ],
+      "references": [],
+      "context_note": "Naka-label bilang Vice Ganda GIF sa source, at gamit dito ang exaggerated na ekspresyon bilang reaction sa nakakagulat na chika.",
+      "format": "reaction",
       "language": "none"
     },
     {
@@ -1231,23 +2606,31 @@
       "original_author": null,
       "retrieved_at": "2026-11-06T10:28:14.909Z",
       "rights_status": "unverified",
-      "description_tl": "Si SpongeBob ay nakayuko, nakadilat nang malaki, at naka-awkward na pose na parang nanggagaya para mang-asar. Ginagamit ito pang-mock ng sinabi ng iba, lalo na sa palusot, reklamo, o pabidang comment, madalas may salit-salitang uppercase at lowercase na caption.",
-      "description_en": "SpongeBob is hunched over with wide eyes and an awkward pose, as if imitating someone to tease them. People use this meme to mock someone's excuses, complaints, or know-it-all comments, often with alternating uppercase and lowercase captions.",
+      "description_tl": "Si SpongeBob ay nakayuko at nakanganga, may dilang nakalabas at nakakatawang pose na parang nanggagaya. Ginagamit ito para mang-asar o sarcastic na ulitin ang sinabi ng iba, lalo na kapag palusot o nagmamarunong.",
+      "description_en": "SpongeBob is hunched over with his mouth open, tongue out, and a goofy pose that looks like an imitation. This is used to mock or sarcastically repeat what someone said, especially excuses or know-it-all remarks.",
       "ocr_text": "",
       "tags_emotion": [
-        "pang-aasar",
         "sarcastic",
         "inis",
-        "amused"
+        "amused",
+        "pikon",
+        "mapang-asar"
       ],
       "tags_situation": [
-        "pang-mock",
+        "pang-aasar",
+        "panggagaya",
         "palusot",
-        "reklamo",
-        "pabida",
-        "online argument",
-        "panggagaya"
+        "argument",
+        "group chat"
       ],
+      "subjects": [
+        "SpongeBob"
+      ],
+      "references": [
+        "mocking spongebob",
+        "spongebob squarepants"
+      ],
+      "context_note": "Ang Mocking Spongebob template ay ginagamit sa memes para sa sarcastic na panggagaya o pang-aasar sa sinabi ng iba.",
       "format": "reaction",
       "language": "none"
     }
