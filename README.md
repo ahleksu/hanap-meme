@@ -4,6 +4,8 @@
 
 It is Google for Pinoy memes, but you search in Taglish feelings.
 
+Live: https://hanap-meme.vercel.app · MCP: `https://hanap-meme.vercel.app/api/mcp`
+
 Type `meme para sa late na naman sa standup` and get matching memes and GIFs with source credit. There are three ways in:
 
 1. A website with search, a gallery, and a meme generator.
