@@ -5,7 +5,8 @@ import { rateLimit } from "@/lib/http";
 const Body = z.object({ situation: z.string().trim().min(1).max(300), templateId: z.string().max(64).optional() });
 
 export async function POST(req: Request) {
-  const limited = rateLimit(req, "generate", 10);
+  // Per-IP limit, plus a global cap on AI-backed generations per instance per hour.
+  const limited = rateLimit(req, "generate", 10) ?? rateLimit(req, "generate-all", 200, 3_600_000, true);
   if (limited) return limited;
   const parsed = Body.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return Response.json({ error: "Send {situation, templateId?}." }, { status: 400 });

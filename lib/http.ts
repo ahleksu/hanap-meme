@@ -1,9 +1,10 @@
 const buckets = new Map<string, { n: number; reset: number }>();
 
 // shortcut: in-memory fixed window per process, fine for one server; move to Redis/KV when you scale out.
-export function rateLimit(req: Request, key: string, max: number, windowMs = 60_000): Response | null {
-  const id = `${key}:${clientIp(req) ?? "unknown"}`;
+export function rateLimit(req: Request, key: string, max: number, windowMs = 60_000, global = false): Response | null {
+  const id = global ? key : `${key}:${clientIp(req) ?? "unknown"}`;
   const now = Date.now();
+  if (buckets.size > 10_000) for (const [k, v] of buckets) if (v.reset < now) buckets.delete(k);
   const b = buckets.get(id);
   if (!b || b.reset < now) {
     buckets.set(id, { n: 1, reset: now + windowMs });
@@ -16,8 +17,12 @@ export function rateLimit(req: Request, key: string, max: number, windowMs = 60_
   );
 }
 
+// On Vercel the platform sets x-vercel-forwarded-for, so clients cannot spoof it.
+// Elsewhere X-Forwarded-For is only as trustworthy as the proxy in front of the app.
 export function clientIp(req: Request): string | null {
-  return req.headers.get("x-forwarded-for")?.split(",")[0].trim() || req.headers.get("x-real-ip") || null;
+  const h = req.headers;
+  const ip = process.env.VERCEL ? h.get("x-vercel-forwarded-for") : h.get("x-forwarded-for") ?? h.get("x-real-ip");
+  return ip?.split(",")[0].trim() || null;
 }
 
 export function siteUrl(req: Request): string {

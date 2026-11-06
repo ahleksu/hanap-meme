@@ -1,7 +1,7 @@
 import Database from "better-sqlite3";
 import fs from "node:fs";
 import path from "node:path";
-import { recordTakedown, takedownIds } from "./takedowns";
+import { blobEnabled, recordTakedown, takedownIds } from "./takedowns";
 import type { Flags, Meme, MemeStatus } from "./types";
 
 export const DATA_DIR = path.join(/* turbopackIgnore: true */ process.cwd(), "data");
@@ -118,6 +118,8 @@ export function getEmbeddings(ids: string[]): Map<string, Float32Array> {
 
 export async function reportMeme(id: string, reason: string, ip: string | null): Promise<boolean> {
   if (!(await getActive(id))) return false;
+  // A read-only deploy with no Blob store cannot persist a takedown, so fail loudly instead of pretending.
+  if (READ_ONLY && !blobEnabled()) throw new Error("Takedowns need a Vercel Blob store on this deploy");
   await recordTakedown(id, reason);
   if (READ_ONLY) return true;
   const d = getDb();
