@@ -41,9 +41,9 @@ type Candidate = {
   sidecar?: Partial<Record<string, unknown>>;
 };
 
-function withNotes(context: string, notes?: Notes) {
-  const parts = [notes?.subjects?.length ? `who: ${notes.subjects.join(", ")}` : "", notes?.context ?? ""].filter(Boolean);
-  return parts.length ? `${context}\nMaintainer notes (facts): ${parts.join(". ")}` : context;
+/** Trusted notes text. Built only from sources.yaml or a sidecar, never from scraped content. */
+function notesText(notes?: Notes) {
+  return [notes?.subjects?.length ? `who: ${notes.subjects.join(", ")}` : "", notes?.context ?? ""].filter(Boolean).join(". ");
 }
 
 const args = process.argv.slice(2);
@@ -112,7 +112,7 @@ function inboxCandidates(): Candidate[] {
         source_platform: sidecar.source_platform ?? "local",
         original_author: sidecar.original_author ?? null,
         rights_status: sidecar.rights_status === "own" ? "own" : "unverified",
-        context: withNotes([f, sidecar.description_en, sidecar.description_tl].filter(Boolean).join(" | "), sidecar),
+        context: [f, sidecar.description_en, sidecar.description_tl].filter(Boolean).join(" | "),
         needsReview: false,
         approve: sidecar.approve === true,
         notes: sidecar,
@@ -201,7 +201,7 @@ function urlCandidates(): Candidate[] {
       source_platform: e.platform ?? (host.match(/(tenor|giphy|imgur|pinimg|reddit)/)?.[1] ?? host),
       original_author: e.author ?? null,
       rights_status: "unverified",
-      context: withNotes(`Linked image from ${host}. Filename: ${e.url.split("/").pop()?.split("?")[0]}`, e),
+      context: `Linked image from ${host}. Filename: ${e.url.split("/").pop()?.split("?")[0]}`,
       needsReview: true,
       approve: e.approve === true,
       notes: e,
@@ -360,7 +360,7 @@ async function main() {
       const file = `${id}.${ext}`;
       fs.writeFileSync(path.join(MEME_DIR, file), stored);
 
-      const ann = hasKey ? await annotateImage(webp, c.context) : null;
+      const ann = hasKey ? await annotateImage(webp, c.context, notesText(c.notes)) : null;
       const sc = c.sidecar ?? {};
       const fallbackText = c.context.replace(/^Imgflip template name: /, "");
       const meta = ann ?? {
@@ -438,16 +438,20 @@ async function reannotate(db: ReturnType<typeof getDb>, candidates: Candidate[])
     .all() as { id: string; file: string; origin_url: string | null; source_platform: string }[];
   const update = db.prepare(`UPDATE memes SET description_tl = @description_tl, description_en = @description_en,
     ocr_text = @ocr_text, tags_emotion = @tags_emotion, tags_situation = @tags_situation, subjects = @subjects,
-    refs = @refs, context_note = @context_note, embedding = @embedding, annotated = ${ANNOTATION_VERSION} WHERE id = @id`);
+    refs = @refs, context_note = @context_note, embedding = @embedding, annotated = ${ANNOTATION_VERSION}, flags = @flags,
+    status = CASE WHEN @exclude = 1 AND status = 'active' THEN 'excluded' ELSE status END WHERE id = @id`);
   let done = 0;
   const pool = pLimit(4);
   await Promise.all(rows.slice(0, LIMIT).map((r) => pool(async () => {
     const c = r.origin_url ? byOrigin.get(r.origin_url) : undefined;
     try {
       const { webp } = await normalize(fs.readFileSync(path.join(MEME_DIR, r.file)));
-      const ann = await annotateImage(webp, c?.context ?? `Source platform: ${r.source_platform}`);
+      const ann = await annotateImage(webp, c?.context ?? `Source platform: ${r.source_platform}`, notesText(c?.notes));
       if (!ann) return;
       applyNotes(ann, c?.notes);
+      // New flags can only tighten status: a fresh review may exclude a meme, never re-activate one.
+      const flagged = Object.values(ann.flags).some(Boolean);
+      const exclude = flagged && !(c?.approve && overridable(ann.flags));
       const vec = (await embed([embeddingText(ann)]))?.[0];
       update.run({
         id: r.id,
@@ -460,7 +464,10 @@ async function reannotate(db: ReturnType<typeof getDb>, candidates: Candidate[])
         refs: JSON.stringify(ann.references),
         context_note: ann.context_note,
         embedding: vec ? JSON.stringify(vec) : null,
+        flags: JSON.stringify(ann.flags),
+        exclude: exclude ? 1 : 0,
       });
+      if (exclude) console.log(`  excluded after re-review: ${r.id}`);
       console.log(`[${++done}/${Math.min(rows.length, LIMIT)}] ${r.id} who: ${ann.subjects.join(", ") || "-"} · refs: ${ann.references.join(", ") || "-"}`);
     } catch (e) {
       console.log(`  fail ${r.id}: ${(e as Error).message}`);
