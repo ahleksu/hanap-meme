@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { keywordSearch, tokenize } from "./search";
+import { diversify, keywordSearch, tokenize } from "./search";
 import { cleanUntrusted } from "./annotate";
 import type { Meme } from "./types";
 
@@ -24,6 +24,13 @@ test("keyword search finds a synonym match with no API key", () => {
 test("a named subject is searchable", () => {
   const memes = [{ ...meme("vice", "A host laughing on stage"), subjects: ["Vice Ganda"], references: ["it's showtime"] }, meme("x", "A cat")];
   assert.equal(keywordSearch("vice ganda showtime meme", memes, 5)[0].id, "vice");
+});
+
+test("diversify caps a subject unless the query names it", () => {
+  const vg = (id: string) => ({ ...meme(id, "host"), subjects: ["Vice Ganda"] });
+  const list = [vg("v1"), vg("v2"), vg("v3"), meme("x", "cat")];
+  assert.deepEqual(diversify(list).map((m) => m.id), ["v1", "v2", "x", "v3"]);
+  assert.deepEqual(diversify(list, "vice ganda memes").map((m) => m.id), ["v1", "v2", "v3", "x"]);
 });
 
 test("exact words outrank synonyms", () => {

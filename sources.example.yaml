@@ -44,44 +44,214 @@ urls: []
 # b) Public pages to scrape. robots.txt is obeyed, max 1 request / 2s per host.
 #    Each image keeps the page URL as its source_url. Scraped images are only stored after an
 #    AI safety review, so this source is skipped when OPENAI_API_KEY is not set.
-# Pinoy sources first. Tenor and GIPHY search pages allow bots and list GIFs in plain HTML.
+# Pinoy topics across seasons, showbiz, sports, food, commute, work, family, love, gaming, and music.
+# Each topic is capped at 5 so no single subject floods the library. Partisan politics is left out on purpose.
 pages:
-  - url: https://tenor.com/search/pinoy-gifs
+  # Season (November)
+  - url: https://tenor.com/search/pasko-na-naman-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/filipino-meme-gifs
+    max_images: 5
+  - url: https://tenor.com/search/christmas-philippines-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/pinoy-meme-gifs
+    max_images: 5
+  - url: https://tenor.com/search/ber-months-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/tagalog-meme-gifs
+    max_images: 5
+  - url: https://tenor.com/search/13th-month-pay-gifs
     platform: tenor
-    max_images: 15
+    max_images: 5
+  - url: https://tenor.com/search/simbang-gabi-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/noche-buena-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/walang-pasok-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/bagyo-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/baha-gifs
+    platform: tenor
+    max_images: 5
+  # Commute and city
+  - url: https://tenor.com/search/edsa-traffic-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/jeepney-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/mrt-philippines-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/tricycle-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/commute-philippines-gifs
+    platform: tenor
+    max_images: 5
+  # Money and work
+  - url: https://tenor.com/search/sweldo-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/petsa-de-peligro-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/ofw-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/overtime-philippines-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/boss-pinoy-gifs
+    platform: tenor
+    max_images: 5
+  # Food
+  - url: https://tenor.com/search/pinoy-food-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/lechon-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/kanin-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/sinigang-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/halo-halo-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/balut-gifs
+    platform: tenor
+    max_images: 5
+  # Family and barkada
+  - url: https://tenor.com/search/filipino-mom-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/nanay-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/tita-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/lola-filipino-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/barkada-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/pinoy-dad-gifs
+    platform: tenor
+    max_images: 5
+  # Love and hugot
+  - url: https://tenor.com/search/hugot-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/kilig-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/jowa-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/marupok-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/seenzone-gifs
+    platform: tenor
+    max_images: 5
+  # Showbiz and TV
+  - url: https://tenor.com/search/eat-bulaga-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/pbb-pinoy-big-brother-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/teleserye-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/kapuso-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/kapamilya-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/maricel-soriano-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/kris-aquino-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/ai-ai-delas-alas-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/pokwang-gifs
+    platform: tenor
+    max_images: 5
   - url: https://tenor.com/search/vice-ganda-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/showtime-gifs
+    max_images: 5
+  # Sports
+  - url: https://tenor.com/search/gilas-pilipinas-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/malupiton-gifs
+    max_images: 5
+  - url: https://tenor.com/search/pba-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/marites-gifs
+    max_images: 5
+  - url: https://tenor.com/search/manny-pacquiao-gifs
     platform: tenor
-    max_images: 15
+    max_images: 5
+  - url: https://tenor.com/search/pinoy-basketball-gifs
+    platform: tenor
+    max_images: 5
+  # Gaming and music
+  - url: https://tenor.com/search/mobile-legends-philippines-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/opm-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/videoke-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/pinoy-tiktok-gifs
+    platform: tenor
+    max_images: 5
+  # Reactions
   - url: https://tenor.com/search/pinoy-reaction-gifs
     platform: tenor
-    max_images: 15
-  - url: https://tenor.com/search/filipino-funny-gifs
+    max_images: 5
+  - url: https://tenor.com/search/filipino-meme-gifs
     platform: tenor
-    max_images: 15
+    max_images: 5
+  - url: https://tenor.com/search/pinoy-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/marites-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/chismis-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/malupiton-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/charot-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/ay-nako-gifs
+    platform: tenor
+    max_images: 5
+  - url: https://tenor.com/search/grabe-gifs
+    platform: tenor
+    max_images: 5
   - url: https://giphy.com/search/pinoy
     platform: giphy
-    max_images: 10
+    max_images: 5
   - url: https://giphy.com/search/filipino
     platform: giphy
-    max_images: 10
+    max_images: 5
   - url: https://commons.wikimedia.org/wiki/Category:Internet_memes
     platform: wikimedia-commons
     max_images: 6
