@@ -79,6 +79,9 @@ export function DetailModal({ m, onClose, onReport }: { m: PublicMeme; onClose: 
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
   const rows: [string, React.ReactNode][] = [
+    ...(m.subjects.length ? ([["Who / what", m.subjects.join(", ")]] as [string, React.ReactNode][]) : []),
+    ...(m.context_note ? ([["Context", m.context_note]] as [string, React.ReactNode][]) : []),
+    ...(m.references.length ? ([["References", m.references.join(", ")]] as [string, React.ReactNode][]) : []),
     ["Source", <a key="s" href={m.source_url} target="_blank" rel="noopener noreferrer nofollow" className="break-all font-semibold underline">{m.source_url}</a>],
     ["Platform", m.source_platform],
     ["Author", m.original_author ?? "Unknown"],

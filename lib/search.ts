@@ -47,11 +47,22 @@ export function tokenize(s: string): string[] {
 }
 
 function docText(m: Meme): string {
-  return [m.description_tl, m.description_en, m.ocr_text, ...m.tags_emotion, ...m.tags_situation].join(" ");
+  // Names and references are repeated so a search for "vice ganda" or "showtime" outranks a passing mention.
+  const named = [...m.subjects, ...m.references].join(" ");
+  return [m.description_tl, m.description_en, m.ocr_text, ...m.tags_emotion, ...m.tags_situation, named, named, m.context_note].join(" ");
 }
 
-export function embeddingText(m: Pick<Meme, "description_tl" | "description_en" | "ocr_text" | "tags_emotion" | "tags_situation">) {
-  return [m.description_tl, m.description_en, m.ocr_text, [...m.tags_emotion, ...m.tags_situation].join(", ")]
+type EmbedFields = "description_tl" | "description_en" | "ocr_text" | "tags_emotion" | "tags_situation" | "subjects" | "references" | "context_note";
+export function embeddingText(m: Pick<Meme, EmbedFields>) {
+  return [
+    m.subjects.length ? `Who/what: ${m.subjects.join(", ")}` : "",
+    m.references.length ? `References: ${m.references.join(", ")}` : "",
+    m.context_note,
+    m.description_tl,
+    m.description_en,
+    m.ocr_text,
+    [...m.tags_emotion, ...m.tags_situation].join(", "),
+  ]
     .filter(Boolean)
     .join("\n");
 }
@@ -106,7 +117,7 @@ async function rerank(query: string, candidates: Meme[], limit: number): Promise
   if (!ai || candidates.length <= 1) return null;
   try {
     const list = candidates
-      .map((m) => `${m.id}: ${m.description_tl} | ${m.description_en} | ${m.ocr_text} | ${m.tags_emotion.join(",")}`)
+      .map((m) => `${m.id}: ${m.subjects.join(", ")} | ${m.description_tl} | ${m.description_en} | ${m.ocr_text} | ${m.tags_emotion.join(",")}`)
       .join("\n");
     const res = await ai.responses.parse(
       {

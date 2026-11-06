@@ -9,6 +9,7 @@
   - Amendment (2026-11-06, by the maintainer): a link in `sources.yaml` with `approve: true` is served even if the AI review flagged it as `possible_minor` or `private_individual`. Approval never overrides `explicit` or `hateful`, and never restores a takedown. Ingest logs every override.
 - Scrape politely: obey robots.txt, max 1 request / 2s per host, identify the bot with a contact URL.
 - AI-generated templates depict fictional people only: no real people, no logos.
+- The annotator names a real person only from visible text, the source title, or maintainer notes (`subjects`, `context`). It never identifies anyone from their face. A private individual is never named unless a maintainer note names them.
 - Work in verified milestones: after each one, run typecheck + build and fix every error before continuing. Don't stop to ask questions; choose sensible defaults and list them in the README.
 
 <!-- BEGIN:nextjs-agent-rules -->
