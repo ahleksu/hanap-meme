@@ -1,0 +1,14 @@
+# Upload the local meme library (data/hanapmeme.db, data/memes/) with `vercel deploy`,
+# but never secrets, the raw inbox, or your private source list.
+.env*
+!.env.example
+data/inbox/
+data/raw/
+sources.yaml
+node_modules
+.next
+.playwright-mcp
+coverage
+*.db-journal
+*.db-wal
+*.db-shm

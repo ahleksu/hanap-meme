@@ -1,0 +1,6 @@
+{
+  "name": "HanapMeme",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm ci && cp -n .env.example .env.local && cp -n sources.example.yaml sources.yaml"
+}
