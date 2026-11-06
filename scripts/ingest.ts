@@ -428,7 +428,7 @@ async function main() {
 
 /**
  * Re-run the AI annotation on stored memes to fill new metadata fields. Reads the stored file, so nothing is
- * downloaded again. It updates descriptions, tags, subjects, and embeddings only: status and flags never change here.
+ * downloaded again. Flags only turn on, and status can only move from active to excluded.
  */
 async function reannotate(db: ReturnType<typeof getDb>, candidates: Candidate[]) {
   if (!getOpenAI()) throw new Error("--reannotate needs OPENAI_API_KEY");
@@ -449,6 +449,9 @@ async function reannotate(db: ReturnType<typeof getDb>, candidates: Candidate[])
       const ann = await annotateImage(webp, c?.context ?? `Source platform: ${r.source_platform}`, notesText(c?.notes));
       if (!ann) return;
       applyNotes(ann, c?.notes);
+      // Flags only ever turn on: keep every flag an earlier review set, then decide.
+      const old = JSON.parse((db.prepare("SELECT flags FROM memes WHERE id = ?").get(r.id) as { flags: string }).flags) as Partial<Flags>;
+      ann.flags = Object.fromEntries(Object.entries(ann.flags).map(([k, v]) => [k, v || !!old[k as keyof Flags]])) as Flags;
       // New flags can only tighten status: a fresh review may exclude a meme, never re-activate one.
       const flagged = Object.values(ann.flags).some(Boolean);
       const exclude = flagged && !(c?.approve && overridable(ann.flags));
