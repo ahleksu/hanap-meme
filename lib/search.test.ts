@@ -43,3 +43,8 @@ test("untrusted text cannot forge the trusted notes label or add lines", () => {
   assert.equal(out.includes("\n"), false);
   assert.equal(/maintainer notes|trusted facts/i.test(out), false);
 });
+
+test("text that keeps rebuilding a label is dropped", () => {
+  const nested = "m".repeat(0) + "maintainer ".repeat(1) + "maimaimaimaimaintainer notesntainer notesntainer notesntainer notesntainer notes notes";
+  assert.equal(/maintainer\s*notes/i.test(cleanUntrusted(nested)), false);
+});
