@@ -149,6 +149,10 @@ npx vercel deploy --prod
 
 `.vercelignore` keeps `.env*`, `data/inbox/`, and `sources.yaml` out of the upload.
 
+Production deploys come from the CLI only. `vercel.json` turns off automatic deploys from `main`, because a Git build has no meme library and would replace the live site with an empty one. Pull request previews still deploy, and they show the empty state.
+
+If the Blob store is missing on a deploy, `POST /api/report` returns 503 and saves nothing. It never claims that it removed an image when it did not.
+
 ## Demo script
 
 1. Open `/search` and type `late na naman sa standup`.
@@ -165,7 +169,9 @@ npx vercel deploy --prod
 - Images are stored in `data/memes/` and served through an API route, not from `public/memes/`. The route checks the status, so removed images cannot leak by URL.
 - Scraped page and GIPHY images are stored only after an AI safety review. With no key, ingest skips them.
 - Imgflip and inbox images with no key get no safety flags. Use the Report button to remove a bad one.
-- Ingest never re-activates an `excluded` or `takedown` meme.
+- Ingest never re-activates an `excluded` or `takedown` meme, except through `approve: true` (see below).
+- The maintainer can set `approve: true` on a link in `sources.yaml` or in an inbox sidecar. Approval lifts only the `possible_minor` and `private_individual` flags, never `explicit` or `hateful`, and never a takedown. Ingest logs each override. Read AGENTS.md for the rule.
+- Report has no login, by design: anyone can hide a meme at once. The rate limit uses `x-vercel-forwarded-for` on Vercel. On other hosts, put the app behind a proxy that sets `X-Forwarded-For`.
 - `catalog.json` lists active memes only.
 - The rate limit is in memory per server process.
 - The site uses one dark theme.
