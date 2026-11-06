@@ -378,6 +378,12 @@ async function main() {
       };
       applyNotes(meta, c.notes);
       if (c.format) meta.format = c.format;
+      // Flags only ever turn on: a re-run keeps every flag an earlier review set for the same image.
+      const before = db.prepare("SELECT flags FROM memes WHERE sha256 = ?").get(sha256) as { flags: string } | undefined;
+      if (before) {
+        const old = JSON.parse(before.flags) as Partial<Flags>;
+        meta.flags = Object.fromEntries(Object.entries(meta.flags).map(([k, v]) => [k, v || !!old[k as keyof Flags]])) as Flags;
+      }
       const flagged = Object.values(meta.flags).some(Boolean);
       const vec = ann ? (await embed([embeddingText(meta)]))?.[0] : null;
       const status = flagged && !(c.approve && overridable(meta.flags)) ? "excluded" : "active";
