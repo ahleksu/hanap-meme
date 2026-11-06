@@ -20,8 +20,11 @@ type Sources = {
   giphy?: { enabled?: boolean; queries?: string[]; per_query?: number; rating?: string };
   templates?: { enabled?: boolean };
   pages?: { url: string; platform?: string; max_images?: number }[];
-  urls?: (string | { url: string; source_url?: string; platform?: string; author?: string; approve?: boolean })[];
+  urls?: (string | ({ url: string; source_url?: string; platform?: string; author?: string; approve?: boolean } & Notes))[];
 };
+
+// Maintainer notes: who is in the meme and why it is known. The AI uses them as facts, and they are always kept.
+type Notes = { subjects?: string[]; context?: string };
 
 type Candidate = {
   origin: string; // the exact image URL or inbox path, used to skip work on re-runs
@@ -34,10 +37,19 @@ type Candidate = {
   context: string;
   needsReview: boolean; // scraped page images are never stored without an AI safety review
   approve?: boolean; // maintainer override for person flags only, see AGENTS.md
+  notes?: Notes;
   sidecar?: Partial<Record<string, unknown>>;
 };
 
+function withNotes(context: string, notes?: Notes) {
+  const parts = [notes?.subjects?.length ? `who: ${notes.subjects.join(", ")}` : "", notes?.context ?? ""].filter(Boolean);
+  return parts.length ? `${context}\nMaintainer notes (facts): ${parts.join(". ")}` : context;
+}
+
 const args = process.argv.slice(2);
+const REANNOTATE = args.includes("--reannotate");
+// `annotated` stores the annotation schema version. 2 added subjects, references, and context_note.
+const ANNOTATION_VERSION = 2;
 const limitArg = args.indexOf("--limit");
 const LIMIT = limitArg >= 0 ? Number(args[limitArg + 1]) : 50;
 const sourcesArg = args.indexOf("--sources");
@@ -100,9 +112,10 @@ function inboxCandidates(): Candidate[] {
         source_platform: sidecar.source_platform ?? "local",
         original_author: sidecar.original_author ?? null,
         rights_status: sidecar.rights_status === "own" ? "own" : "unverified",
-        context: [f, sidecar.description_en, sidecar.description_tl].filter(Boolean).join(" | "),
+        context: withNotes([f, sidecar.description_en, sidecar.description_tl].filter(Boolean).join(" | "), sidecar),
         needsReview: false,
         approve: sidecar.approve === true,
+        notes: sidecar,
         sidecar,
       };
     });
@@ -188,9 +201,10 @@ function urlCandidates(): Candidate[] {
       source_platform: e.platform ?? (host.match(/(tenor|giphy|imgur|pinimg|reddit)/)?.[1] ?? host),
       original_author: e.author ?? null,
       rights_status: "unverified",
-      context: `Linked image from ${host}. Filename: ${e.url.split("/").pop()?.split("?")[0]}`,
+      context: withNotes(`Linked image from ${host}. Filename: ${e.url.split("/").pop()?.split("?")[0]}`, e),
       needsReview: true,
       approve: e.approve === true,
+      notes: e,
     };
   });
 }
@@ -209,20 +223,24 @@ async function pageCandidates(): Promise<Candidate[]> {
     }
     const html = await res.text();
     const author = html.match(/<meta[^>]+name=["']author["'][^>]+content=["']([^"']+)/i)?.[1] ?? null;
-    const urls = new Set<string>();
-    for (const m of html.matchAll(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/gi)) urls.add(m[1]);
-    for (const m of html.matchAll(/<img[^>]+?(?:data-src|src)=["']([^"']+)["']/gi)) urls.add(m[1]);
-    const imgs = [...urls]
-      .map((u) => {
+    // Keep each image's alt text: on Tenor and GIPHY it is the GIF title, which names the person or show.
+    const alts = new Map<string, string>();
+    for (const m of html.matchAll(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/gi)) alts.set(m[1], "");
+    for (const m of html.matchAll(/<img\b[^>]*>/gi)) {
+      const src = m[0].match(/\s(?:data-src|src)=["']([^"']+)["']/i)?.[1];
+      if (src && !alts.has(src)) alts.set(src, m[0].match(/\salt=["']([^"']*)["']/i)?.[1] ?? "");
+    }
+    const imgs = [...alts]
+      .map(([u, alt]) => {
         try {
-          return new URL(u.replace(/&amp;/g, "&"), page.url).href;
+          return { u: new URL(u.replace(/&amp;/g, "&"), page.url).href, alt: alt.replace(/&amp;/g, "&").replace(/&#39;/g, "'") };
         } catch {
           return null;
         }
       })
-      .filter((u): u is string => !!u && /^https?:/.test(u) && !/\.svg(\?|$)|icon|logo|sprite|avatar|pixel/i.test(u))
+      .filter((x): x is { u: string; alt: string } => !!x && /^https?:/.test(x.u) && !/\.svg(\?|$)|icon|logo|sprite|avatar|pixel/i.test(x.u))
       .slice(0, page.max_images ?? 10);
-    for (const u of imgs)
+    for (const { u, alt } of imgs)
       out.push({
         origin: u,
         load: () => download(u),
@@ -230,7 +248,7 @@ async function pageCandidates(): Promise<Candidate[]> {
         source_platform: page.platform ?? new URL(page.url).hostname,
         original_author: author,
         rights_status: "unverified",
-        context: `Found on ${page.url}`,
+        context: `Found on ${page.url}. Image title: ${alt || "none"}. Filename: ${new URL(u).pathname.split("/").pop()}`,
         needsReview: true,
       });
   }
@@ -258,6 +276,11 @@ async function normalize(buf: Buffer) {
 // Approval can lift person flags only. Explicit or hateful content is never served.
 const overridable = (f: Flags) => !f.explicit && !f.hateful;
 
+function applyNotes(meta: { subjects: string[]; context_note: string }, notes?: Notes) {
+  if (notes?.subjects?.length) meta.subjects = [...new Set([...notes.subjects, ...meta.subjects])];
+  if (notes?.context && !meta.context_note) meta.context_note = notes.context;
+}
+
 const NO_FLAGS: Flags = { possible_minor: false, private_individual: false, explicit: false, hateful: false };
 
 async function main() {
@@ -270,9 +293,10 @@ async function main() {
     ...templateCandidates(),
     ...inboxCandidates(),
     ...urlCandidates(),
+    // Philippine sources first, so they fill --limit before the international Imgflip templates.
+    ...(await pageCandidates()),
     ...(await giphyCandidates()),
     ...(await imgflipCandidates()),
-    ...(await pageCandidates()),
   ];
   console.log(`${candidates.length} candidates`);
 
@@ -280,14 +304,15 @@ async function main() {
   const bySha = db.prepare("SELECT id, annotated FROM memes WHERE sha256 = ?");
   const upsert = db.prepare(`
     INSERT INTO memes (id, file, sha256, width, height, source_url, source_platform, original_author, retrieved_at,
-      rights_status, description_tl, description_en, ocr_text, tags_emotion, tags_situation, format, language, flags,
-      status, annotated, origin_url, embedding)
+      rights_status, description_tl, description_en, ocr_text, tags_emotion, tags_situation, subjects, refs, context_note,
+      format, language, flags, status, annotated, origin_url, embedding)
     VALUES (@id, @file, @sha256, @width, @height, @source_url, @source_platform, @original_author, @retrieved_at,
-      @rights_status, @description_tl, @description_en, @ocr_text, @tags_emotion, @tags_situation, @format, @language,
-      @flags, @status, @annotated, @origin_url, @embedding)
+      @rights_status, @description_tl, @description_en, @ocr_text, @tags_emotion, @tags_situation, @subjects, @refs,
+      @context_note, @format, @language, @flags, @status, @annotated, @origin_url, @embedding)
     ON CONFLICT(sha256) DO UPDATE SET
       description_tl = excluded.description_tl, description_en = excluded.description_en, ocr_text = excluded.ocr_text,
-      tags_emotion = excluded.tags_emotion, tags_situation = excluded.tags_situation, format = excluded.format,
+      tags_emotion = excluded.tags_emotion, tags_situation = excluded.tags_situation, subjects = excluded.subjects,
+      refs = excluded.refs, context_note = excluded.context_note, format = excluded.format,
       language = excluded.language, flags = excluded.flags, annotated = excluded.annotated, embedding = excluded.embedding,
       -- never resurrect a takedown; a new review can only exclude, not re-activate
       status = CASE WHEN memes.status = 'takedown' THEN 'takedown'
@@ -300,6 +325,8 @@ async function main() {
     if (row && overridable(JSON.parse(row.flags)) && approve.run(c.origin, row.flags).changes)
       console.log(`  approve override: ${c.origin}`);
   }
+
+  if (REANNOTATE) return reannotate(db, candidates);
 
   let done = 0;
   let reserved = 0; // slots taken by in-flight work, so parallel tasks never pass --limit
@@ -344,8 +371,12 @@ async function main() {
         tags_situation: (sc.tags_situation as string[]) ?? tokenize(fallbackText),
         format: ((sc.format as MemeFormat) ?? (c.source_platform === "imgflip" ? "template" : "reaction")) as MemeFormat,
         language: String(sc.language ?? "en"),
+        subjects: [],
+        references: [],
+        context_note: "",
         flags: NO_FLAGS,
       };
+      applyNotes(meta, c.notes);
       if (c.format) meta.format = c.format;
       const flagged = Object.values(meta.flags).some(Boolean);
       const vec = ann ? (await embed([embeddingText(meta)]))?.[0] : null;
@@ -367,11 +398,14 @@ async function main() {
         ocr_text: meta.ocr_text,
         tags_emotion: JSON.stringify(meta.tags_emotion),
         tags_situation: JSON.stringify(meta.tags_situation),
+        subjects: JSON.stringify(meta.subjects),
+        refs: JSON.stringify(meta.references),
+        context_note: meta.context_note,
         format: meta.format,
         language: meta.language,
         flags: JSON.stringify(meta.flags),
         status,
-        annotated: ann ? 1 : 0,
+        annotated: ann ? ANNOTATION_VERSION : 0,
         origin_url: c.origin,
         embedding: vec ? JSON.stringify(vec) : null,
       });
@@ -390,6 +424,50 @@ async function main() {
 
   const n = await exportCatalog();
   console.log(`Done. new/updated=${done} active=${counts.active} excluded=${counts.excluded} skipped=${counts.skipped} failed=${counts.failed}. catalog.json has ${n} active memes.`);
+}
+
+/**
+ * Re-run the AI annotation on stored memes to fill new metadata fields. Reads the stored file, so nothing is
+ * downloaded again. It updates descriptions, tags, subjects, and embeddings only: status and flags never change here.
+ */
+async function reannotate(db: ReturnType<typeof getDb>, candidates: Candidate[]) {
+  if (!getOpenAI()) throw new Error("--reannotate needs OPENAI_API_KEY");
+  const byOrigin = new Map(candidates.map((c) => [c.origin, c]));
+  const rows = db
+    .prepare(`SELECT id, file, origin_url, source_platform FROM memes WHERE status != 'takedown' AND annotated < ${ANNOTATION_VERSION}`)
+    .all() as { id: string; file: string; origin_url: string | null; source_platform: string }[];
+  const update = db.prepare(`UPDATE memes SET description_tl = @description_tl, description_en = @description_en,
+    ocr_text = @ocr_text, tags_emotion = @tags_emotion, tags_situation = @tags_situation, subjects = @subjects,
+    refs = @refs, context_note = @context_note, embedding = @embedding, annotated = ${ANNOTATION_VERSION} WHERE id = @id`);
+  let done = 0;
+  const pool = pLimit(4);
+  await Promise.all(rows.slice(0, LIMIT).map((r) => pool(async () => {
+    const c = r.origin_url ? byOrigin.get(r.origin_url) : undefined;
+    try {
+      const { webp } = await normalize(fs.readFileSync(path.join(MEME_DIR, r.file)));
+      const ann = await annotateImage(webp, c?.context ?? `Source platform: ${r.source_platform}`);
+      if (!ann) return;
+      applyNotes(ann, c?.notes);
+      const vec = (await embed([embeddingText(ann)]))?.[0];
+      update.run({
+        id: r.id,
+        description_tl: ann.description_tl,
+        description_en: ann.description_en,
+        ocr_text: ann.ocr_text,
+        tags_emotion: JSON.stringify(ann.tags_emotion),
+        tags_situation: JSON.stringify(ann.tags_situation),
+        subjects: JSON.stringify(ann.subjects),
+        refs: JSON.stringify(ann.references),
+        context_note: ann.context_note,
+        embedding: vec ? JSON.stringify(vec) : null,
+      });
+      console.log(`[${++done}/${Math.min(rows.length, LIMIT)}] ${r.id} who: ${ann.subjects.join(", ") || "-"} · refs: ${ann.references.join(", ") || "-"}`);
+    } catch (e) {
+      console.log(`  fail ${r.id}: ${(e as Error).message}`);
+    }
+  })));
+  const n = await exportCatalog();
+  console.log(`Re-annotated ${done} memes. catalog.json has ${n} active memes.`);
 }
 
 main().catch((e) => {

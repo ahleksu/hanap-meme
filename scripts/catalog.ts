@@ -18,6 +18,9 @@ export async function exportCatalog(): Promise<number> {
       ocr_text: m.ocr_text,
       tags_emotion: m.tags_emotion,
       tags_situation: m.tags_situation,
+      subjects: m.subjects,
+      references: m.references,
+      context_note: m.context_note,
       format: m.format,
       language: m.language,
     }))

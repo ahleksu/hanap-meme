@@ -7,7 +7,8 @@ contact_url: https://github.com/ahleksu/hanap-meme
 # a) Local folder. Drop images here. An optional sidecar <name>.json next to <name>.png can set
 #    source_url, source_platform, original_author, rights_status ("own" or "unverified"),
 #    description_tl, description_en, ocr_text, tags_emotion, tags_situation, format, language,
-#    and approve (same rule as approve under urls below).
+#    approve (same rule as approve under urls below), and maintainer notes:
+#    subjects (who or what is in it, e.g. ["Vice Ganda", "It's Showtime"]) and context (why it is known).
 inbox:
   enabled: true
   dir: data/inbox
@@ -27,11 +28,15 @@ giphy:
 # c) Imgflip public templates API (https://api.imgflip.com/get_memes).
 imgflip:
   enabled: true
-  max: 100
+  max: 40
 
 # Direct image or GIF links. A plain string, or {url, source_url, platform, author, approve} to credit the post page.
 # approve: true lets the maintainer show a link that the AI review flagged as possible_minor or
 # private_individual. It never overrides explicit or hateful, and it never restores a takedown.
+# subjects and context are maintainer notes. They make a meme searchable by name, for example:
+#   - url: https://media.tenor.com/<id>/example.gif
+#     subjects: ["Malupiton"]
+#     context: Pinoy vlogger known for the "boss" catchphrase
 # robots.txt is checked for each link. Hosts that block bots (for example i.pinimg.com) are skipped:
 # save those images into data/inbox/ yourself with a sidecar .json instead.
 urls: []
@@ -39,7 +44,44 @@ urls: []
 # b) Public pages to scrape. robots.txt is obeyed, max 1 request / 2s per host.
 #    Each image keeps the page URL as its source_url. Scraped images are only stored after an
 #    AI safety review, so this source is skipped when OPENAI_API_KEY is not set.
+# Pinoy sources first. Tenor and GIPHY search pages allow bots and list GIFs in plain HTML.
 pages:
+  - url: https://tenor.com/search/pinoy-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/filipino-meme-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/pinoy-meme-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/tagalog-meme-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/vice-ganda-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/showtime-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/malupiton-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/marites-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/pinoy-reaction-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://tenor.com/search/filipino-funny-gifs
+    platform: tenor
+    max_images: 15
+  - url: https://giphy.com/search/pinoy
+    platform: giphy
+    max_images: 10
+  - url: https://giphy.com/search/filipino
+    platform: giphy
+    max_images: 10
   - url: https://commons.wikimedia.org/wiki/Category:Internet_memes
     platform: wikimedia-commons
     max_images: 6

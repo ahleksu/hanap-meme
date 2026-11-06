@@ -90,7 +90,7 @@ flowchart LR
 
 | Job | Model | Where |
 | --- | --- | --- |
-| Annotate each image (Taglish and English description, text in the image, tags, format, safety flags) | `gpt-6.1-sol`, image input, structured output, reasoning effort `low` | `lib/annotate.ts`, run by `npm run ingest` |
+| Annotate each image (Taglish and English description, text in the image, tags, who or what is in it, pop-culture references, why it is known, format, safety flags) | `gpt-6.1-sol`, image input, structured output, reasoning effort `low` | `lib/annotate.ts`, run by `npm run ingest` |
 | Embed descriptions and queries | `text-embedding-3-small` (1536 dimensions) | `lib/openai.ts` |
 | Rerank the top 30 results (3 s timeout) | `gpt-6.1-sol`, structured output `{ids[]}` | `lib/search.ts` |
 | Pick a template and write captions | `gpt-6.1-sol`, structured output | `lib/generate.ts` |
@@ -161,8 +161,24 @@ If the Blob store is missing on a deploy, `POST /api/report` returns 503 and sav
 2. In Codex, after `codex mcp add`, ask: "Kuya, bigyan mo ako ng meme para sa standup na late na naman ako". Codex calls `search_memes` and shows the same memes with credit.
 3. Click Report on one meme. Search again on the site, with `curl /api/search`, and in Codex. The meme is gone in all three.
 
+## Who is in the meme
+
+Each meme has three context fields: `subjects` (people, shows, or characters), `references` (shows, catchphrases, and trends), and `context_note` (why it is known in the Pinoy meme scene). Search, embeddings, the API, and MCP all use them, so a search for `vice ganda`, `showtime`, or `malupiton` finds memes that mention them.
+
+The AI fills these fields from visible text, captions, watermarks, and the source title. It never identifies a real person from their face. To make a meme findable by name, add a maintainer note to its link in `sources.yaml` or to its inbox sidecar:
+
+```yaml
+urls:
+  - url: https://media.tenor.com/<id>/example.gif
+    subjects: ["Malupiton"]
+    context: Pinoy vlogger known for the "boss" catchphrase
+```
+
+After you change notes, or after an upgrade that adds fields, run `npm run ingest -- --reannotate`. It re-annotates stored memes from their saved files and changes no status or safety flag.
+
 ## Optional sources
 
+- `sources.example.yaml` lists Tenor and GIPHY search pages for Pinoy topics (for example `pinoy`, `vice-ganda`, `showtime`, `malupiton`, `marites`). Ingest runs these before the Imgflip API, so `--limit` fills with Philippine memes first. Each image's alt text and filename go to the AI as its source title.
 - `data/inbox/` takes your own images. A sidecar `<name>.json` can set `source_url`, `original_author`, `rights_status` (`own` or `unverified`), and descriptions.
 - GIPHY: set `GIPHY_API_KEY` in `.env.local` (free key at developers.giphy.com). Ingest then searches the `giphy.queries` list in `sources.yaml` and keeps GIFs animated.
 

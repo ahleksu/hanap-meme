@@ -25,6 +25,9 @@ export type Meme = {
   ocr_text: string;
   tags_emotion: string[];
   tags_situation: string[];
+  subjects: string[]; // people, shows, or characters, named only from visible text or source context
+  references: string[]; // pop-culture references: shows, catchphrases, trends
+  context_note: string; // why the meme is known in the Philippine meme scene
   format: MemeFormat;
   language: string;
   flags: Flags;

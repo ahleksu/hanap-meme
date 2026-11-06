@@ -47,6 +47,9 @@ function createSchema(db: Database.Database) {
       ocr_text TEXT NOT NULL DEFAULT '',
       tags_emotion TEXT NOT NULL DEFAULT '[]',
       tags_situation TEXT NOT NULL DEFAULT '[]',
+      subjects TEXT NOT NULL DEFAULT '[]',
+      refs TEXT NOT NULL DEFAULT '[]',
+      context_note TEXT NOT NULL DEFAULT '',
       format TEXT NOT NULL DEFAULT 'reaction',
       language TEXT NOT NULL DEFAULT '',
       flags TEXT NOT NULL DEFAULT '{}',
@@ -65,6 +68,11 @@ function createSchema(db: Database.Database) {
       created_at TEXT NOT NULL
     );
   `);
+  // Databases made before the context fields existed get the new columns.
+  const cols = new Set((db.prepare("PRAGMA table_info(memes)").all() as { name: string }[]).map((c) => c.name));
+  if (!cols.has("subjects")) db.exec("ALTER TABLE memes ADD COLUMN subjects TEXT NOT NULL DEFAULT '[]'");
+  if (!cols.has("refs")) db.exec("ALTER TABLE memes ADD COLUMN refs TEXT NOT NULL DEFAULT '[]'");
+  if (!cols.has("context_note")) db.exec("ALTER TABLE memes ADD COLUMN context_note TEXT NOT NULL DEFAULT ''");
 }
 
 type Row = Record<string, unknown>;
@@ -74,12 +82,15 @@ function rowToMeme(r: Row): Meme {
     ...(r as unknown as Meme),
     tags_emotion: JSON.parse(r.tags_emotion as string),
     tags_situation: JSON.parse(r.tags_situation as string),
+    subjects: JSON.parse(r.subjects as string),
+    references: JSON.parse(r.refs as string),
     flags: JSON.parse(r.flags as string) as Flags,
   };
 }
 
 const COLS = `id, file, sha256, width, height, source_url, source_platform, original_author, retrieved_at,
-  rights_status, description_tl, description_en, ocr_text, tags_emotion, tags_situation, format, language, flags, status`;
+  rights_status, description_tl, description_en, ocr_text, tags_emotion, tags_situation, subjects, refs, context_note,
+  format, language, flags, status`;
 
 /** Every read the app serves goes through here, so only active memes ever leave the server. */
 export async function listActive(): Promise<Meme[]> {

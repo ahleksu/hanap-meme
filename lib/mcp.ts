@@ -10,7 +10,10 @@ function credit(m: Meme, site: string) {
   const who = m.original_author ? ` · Author: ${m.original_author}` : "";
   const lines = [
     `id: ${m.id}`,
+    m.subjects.length ? `who/what: ${m.subjects.join(", ")}` : "",
     `description: ${m.description_tl || m.description_en}`,
+    m.context_note ? `context: ${m.context_note}` : "",
+    m.references.length ? `references: ${m.references.join(", ")}` : "",
     m.description_tl && m.description_en ? `english: ${m.description_en}` : "",
     m.ocr_text ? `text in image: ${m.ocr_text}` : "",
     `source: ${m.source_platform} · ${m.source_url}${who}`,
@@ -33,7 +36,7 @@ export function createMcpServer(site: string) {
     {
       title: "Search Filipino memes",
       description:
-        "Search Filipino memes by feeling or situation in Taglish, Tagalog, or English, e.g. 'late na naman sa standup' or 'pagod na sa Monday'. Returns thumbnails with source credit.",
+        "Search Filipino memes by feeling, situation, person, show, or catchphrase in Taglish, Tagalog, or English, e.g. 'late na naman sa standup', 'pagod na sa Monday', or 'showtime'. Returns thumbnails with who/what, context, and source credit.",
       inputSchema: { query: z.string().min(1).max(200), limit: z.number().int().min(1).max(10).optional() },
       annotations: { readOnlyHint: true },
     },
